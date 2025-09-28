@@ -1,0 +1,40 @@
+# 🐍 Installing Python - Your First Step!
+#
+# Python is one of the most beginner-friendly and powerful programming languages.
+# Let’s learn how to install it on your system.
+
+# ------------------------------------------------
+# 🔹 Why Python?
+# ------------------------------------------------
+# - Beginner-friendly language
+# - Powerful for data science, AI, and web development
+# - Large community support
+
+# ------------------------------------------------
+# 💻 Installation Steps
+# ------------------------------------------------
+
+# 🪟 Windows:
+# 1. Visit: https://www.python.org/downloads/
+# 2. Download Python 3.11+ (latest stable version)
+# 3. Check the box: "Add Python to PATH"
+# 4. Click "Install Now" and finish setup
+
+# 🍏 Mac:
+# Using Homebrew (recommended):
+#   brew install python
+#
+# Or download directly from: https://www.python.org/downloads/
+
+# ------------------------------------------------
+# ✅ Verify Installation
+# ------------------------------------------------
+# Open terminal/command prompt and type:
+#   python --version
+#   # or
+#   python3 --version
+#
+# You should see something like:
+#   Python 3.11.4
+
+# 🎉 Congratulations! Python is installed and ready to use!
