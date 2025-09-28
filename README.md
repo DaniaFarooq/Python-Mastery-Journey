@@ -8,6 +8,9 @@ This repo is my complete guide and practice space for learning and mastering Pyt
 ## 🚀 What You’ll Find Here
 
 ### 🔹 Python Basics  
+- Installing Python 
+- Choosing Python Editor  
+- First Python Script
 - Introduction to Python  
 - Print Function in Python  
 - Comments in Python  
