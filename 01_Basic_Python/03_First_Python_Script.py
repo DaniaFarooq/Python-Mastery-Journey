@@ -1,0 +1,56 @@
+# 🎯 My First Python Script
+# Let's write and run our very first program step by step!
+
+# ------------------------------------------------
+# 1. Printing - Your First Command
+# ------------------------------------------------
+print("Hello, Python World! 🌍")
+print("I'm starting my data science journey!")
+
+# ------------------------------------------------
+# 2. Simple Calculations
+# ------------------------------------------------
+print("\n--- Let's do some math ---")
+print("2 + 3 =", 2 + 3)
+print("10 * 5 =", 10 * 5)
+
+# ------------------------------------------------
+# 3. Variables - Storing Information
+# ------------------------------------------------
+name = "Data Science Student"
+age = 25        # You can put your age here!
+temperature = 23.5
+
+print("\n--- About Me ---")
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"Today's temperature: {temperature}°C")
+
+# ------------------------------------------------
+# 4. Simple Input from User
+# ------------------------------------------------
+print("\n--- Let's Interact ---")
+user_name = input("What's your name? ")
+print(f"Nice to meet you, {user_name}! 👋")
+
+# ------------------------------------------------
+# 5. Fun with Strings
+# ------------------------------------------------
+message = "python is awesome!"
+print("\n--- Fun with Strings ---")
+print(f"Original: {message}")
+print(f"Uppercase: {message.upper()}")
+print(f"Title Case: {message.title()}")
+
+# ------------------------------------------------
+# 🎉 End of Script
+# ------------------------------------------------
+print("\n🎉 Congratulations! You've run your first Python script!")
+
+"""
+📌 How to Run This Script:
+1. Save this file as '01_First_Script.py'
+2. Open terminal in the same folder
+3. Type: python 01_First_Script.py
+4. Press Enter and watch the magic happen!
+"""
