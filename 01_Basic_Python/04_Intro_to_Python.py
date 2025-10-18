@@ -154,9 +154,4 @@ tips = [
 for tip in tips:
     print(f"   {tip}")
 
-# Bonus: Run this script to see Python in action!
-print("\n To run this script:")
-print("   1. Save as '04_Intro_to_Python.py'")
-print("   2. Open terminal in this folder") 
-print("   3. Type: python 04_Intro_to_Python.py")
-print("   4. Watch the magic happen! ✨")
+# Bonus: Run this script (as instructed in previous lesson) to see Python in action!
