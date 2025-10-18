@@ -49,8 +49,9 @@ print("\n🎉 Congratulations! You've run your first Python script!")
 
 """
 📌 How to Run This Script:
-1. Save this file as '01_First_Script.py'
+1. Save this file as '01_First_Python_Script.py'
 2. Open terminal in the same folder
-3. Type: python 01_First_Script.py
+3. Type: python 01_First_Python_Script.py
 4. Press Enter and watch the magic happen!
 """
+
