@@ -88,3 +88,18 @@ for i in range(3, 0, -1):
     print(i, end="... ")
 print("Go!")
 print()
+
+# =============================================
+# 7. MULTIPLE ITEMS AND FORMATTING
+# =============================================
+print("7. ADVANCED FORMATTING")
+
+# Multiple items with different types
+item = "Python Book"
+price = 29.99
+quantity = 3
+
+print("Item:", item, "| Price: $", price, "| Quantity:", quantity)
+print(f"Item: {item} | Price: ${price} | Quantity: {quantity}")
+print(f"Total: ${price * quantity:.2f}")  # 2 decimal places
+print()
