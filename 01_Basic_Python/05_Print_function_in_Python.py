@@ -69,3 +69,22 @@ print("Apple", "Banana", "Cherry", sep=" -> ")
 print("Apple", "Banana", "Cherry", sep="")
 print("2023", "12", "25", sep="-")
 print()
+
+# =============================================
+# 6. END PARAMETER
+# =============================================
+print("6. CUSTOM LINE ENDINGS")
+
+print("Hello", end=" ")      # No newline, just space
+print("World!", end="!!!")   # Custom ending
+print()  # Add a newline
+print("Loading", end="")
+print("...", end="")
+print(" Complete!")
+print()
+
+print("Countdown:", end=" ")
+for i in range(3, 0, -1):
+    print(i, end="... ")
+print("Go!")
+print()
