@@ -57,3 +57,15 @@ print(f"My rating: {rating}/10")
 print(f"Next year I'll be {age + 1} years old")
 print(f"Uppercase name: {name.upper()}")
 print()
+
+# =============================================
+# 5. SEPARATOR PARAMETER
+# =============================================
+print("5. CUSTOM SEPARATORS")
+
+print("Apple", "Banana", "Cherry")  # Default: space separator
+print("Apple", "Banana", "Cherry", sep=", ")
+print("Apple", "Banana", "Cherry", sep=" -> ")
+print("Apple", "Banana", "Cherry", sep="")
+print("2023", "12", "25", sep="-")
+print()
