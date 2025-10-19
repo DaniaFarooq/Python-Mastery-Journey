@@ -42,3 +42,18 @@ last_name = "Programmer"
 print("Full name: " + first_name + " " + last_name)
 print("I am " + str(age) + " years old")  # Note: convert numbers to string
 print()
+
+# =============================================
+# 4. F-STRINGS (MODERN WAY - RECOMMENDED!)
+# =============================================
+print("4. F-STRINGS (MODERN FORMATTING)")
+
+language = "Python"
+version = 3.11
+rating = 9.8
+
+print(f"I love {language} version {version}!")
+print(f"My rating: {rating}/10")
+print(f"Next year I'll be {age + 1} years old")
+print(f"Uppercase name: {name.upper()}")
+print()
