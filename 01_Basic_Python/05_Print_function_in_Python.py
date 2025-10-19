@@ -136,3 +136,33 @@ print("""- Apples
 # Method 3: Using \n
 print("\nDaily Routine:\n1. Wake up\n2. Code Python\n3. Learn Data Science\n4. Repeat!")
 print()
+
+# =============================================
+# 10. PRACTICAL EXAMPLES
+# =============================================
+print("10. PRACTICAL REAL-WORLD EXAMPLES")
+
+# Example 1: Calculator Output
+print("CALCULATOR DEMO")
+num1, num2 = 15, 4
+print(f"  {num1} + {num2} = {num1 + num2}")
+print(f"  {num1} - {num2} = {num1 - num2}")
+print(f"  {num1} * {num2} = {num1 * num2}")
+print(f"  {num1} / {num2} = {num1 / num2:.2f}")
+
+# Example 2: User Profile
+print(" USER PROFILE")
+print("=" * 30)
+print(f"Name: {name:>15}")      # Right aligned
+print(f"Age: {age:>16}")        # Right aligned  
+print(f"Language: {language:>11}") # Right aligned
+print("=" * 30)
+
+# Example 3: Progress Bar Simulation
+print(" PROGRESS SIMULATION")
+import time
+for i in range(1, 6):
+    print(f"Loading [{'█' * i}{'.' * (5-i)}] {i*20}%", end="\r")
+    time.sleep(0.5)
+print("\nComplete!")
+
