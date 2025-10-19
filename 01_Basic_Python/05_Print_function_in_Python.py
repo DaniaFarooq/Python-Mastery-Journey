@@ -30,3 +30,15 @@ print("Age:", age)
 print("Score:", score)
 print("Active:", is_active)
 print()
+
+# =============================================
+# 3. STRING CONCATENATION IN PRINT
+# =============================================
+print("3. STRING CONCATENATION")
+
+first_name = "Python"
+last_name = "Programmer"
+
+print("Full name: " + first_name + " " + last_name)
+print("I am " + str(age) + " years old")  # Note: convert numbers to string
+print()
