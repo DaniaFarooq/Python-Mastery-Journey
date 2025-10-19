@@ -103,3 +103,15 @@ print("Item:", item, "| Price: $", price, "| Quantity:", quantity)
 print(f"Item: {item} | Price: ${price} | Quantity: {quantity}")
 print(f"Total: ${price * quantity:.2f}")  # 2 decimal places
 print()
+
+# =============================================
+# 8. PRINTING SPECIAL CHARACTERS
+# =============================================
+print("8. SPECIAL CHARACTERS & ESCAPE SEQUENCES")
+
+print("This is a tab:\t-> See the space?")
+print("This is a newline:\n-> See the new line?")
+print("This shows quotes: \"Python\" is awesome!")
+print('This shows apostrophe: It\'s easy!')
+print("Backslash: C:\\Users\\Documents")
+print()
