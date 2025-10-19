@@ -166,3 +166,15 @@ for i in range(1, 6):
     time.sleep(0.5)
 print("\nComplete!")
 
+print("\n12. PRACTICE EXERCISES")
+print("Try these challenges:")
+print("1. Print your name and age on the same line")
+print("2. Create a formatted receipt with items and prices")
+print("3. Print a triangle pattern using stars (*)")
+print("4. Create a countdown timer output")
+print("5. Print a table with aligned columns")
+
+print("\n" + "="*50)
+print("🎉 CONGRATULATIONS!")
+print("You've mastered the print() function!")
+print("This is your foundation for all Python output.")
