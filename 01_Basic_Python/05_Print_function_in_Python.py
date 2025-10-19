@@ -115,3 +115,24 @@ print("This shows quotes: \"Python\" is awesome!")
 print('This shows apostrophe: It\'s easy!')
 print("Backslash: C:\\Users\\Documents")
 print()
+
+# =============================================
+# 9. MULTI-LINE PRINTING
+# =============================================
+print("9. MULTI-LINE OUTPUTS")
+
+# Method 1: Multiple print statements
+print("Line 1")
+print("Line 2")
+print("Line 3")
+
+# Method 2: Multi-line string
+print("\nShopping List:")
+print("""- Apples
+- Bananas
+- Milk
+- Bread""")
+
+# Method 3: Using \n
+print("\nDaily Routine:\n1. Wake up\n2. Code Python\n3. Learn Data Science\n4. Repeat!")
+print()
