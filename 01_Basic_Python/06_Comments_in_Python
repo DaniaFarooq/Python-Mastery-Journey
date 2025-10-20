@@ -154,3 +154,9 @@ best_practices = [
     "✓ Avoid obvious comments",
     "✓ Be consistent with style"
 ]
+
+for practice in best_practices:
+    print(f"   {practice}")
+
+print("🎉 EXCELLENT! You've mastered Python comments!")
+print("Your code is now more readable and maintainable.")
