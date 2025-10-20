@@ -139,3 +139,18 @@ threshold = 5  # Minimum score required to pass
 
 print("Keep comments relevant and helpful!")
 print()
+
+# =============================================
+# 8. SUMMARY & BEST PRACTICES
+# =============================================
+print("8. COMMENTING BEST PRACTICES SUMMARY")
+
+best_practices = [
+    "✓ Explain WHY, not WHAT",
+    "✓ Keep comments up-to-date",
+    "✓ Use docstrings for functions",
+    "✓ Write clear, concise comments",
+    "✓ Comment complex algorithms",
+    "✓ Avoid obvious comments",
+    "✓ Be consistent with style"
+]
