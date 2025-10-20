@@ -120,5 +120,22 @@ print(f"Filtered: {filtered_temps}")
 print(f"Average: {average_temp:.1f}°C")
 print()
 
+# =============================================
+# 7. COMMON COMMENTING MISTAKES
+# =============================================
+print("7. COMMON COMMENTING MISTAKES TO AVOID")
 
+# ❌ Bad: Obvious comments
+x = 5  # Set x to 5 (obvious!)
+
+# ✅ Good: Explains purpose
+threshold = 5  # Minimum score required to pass
+
+# ❌ Bad: Too many comments
+# Get user input
+# Process the input
+# Save to database
+# (The code should be self-explanatory!)
+
+print("Keep comments relevant and helpful!")
 print()
