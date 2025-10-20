@@ -37,3 +37,21 @@ Both work the same way!
 
 print("Multi-line comments are great for documentation")
 print()
+
+# =============================================
+# 3. WHY USE COMMENTS?
+# =============================================
+print("3. WHY USE COMMENTS?")
+
+# Without comments - confusing!
+x = 10
+y = 5
+z = (x * y) / 2
+
+# With comments - clear!
+base = 10        # Base of the triangle
+height = 5       # Height of the triangle
+area = (base * height) / 2  # Calculate triangle area
+
+print(f"Area of triangle: {area}")
+print()
