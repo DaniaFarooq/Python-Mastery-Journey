@@ -18,5 +18,22 @@ name = "Dania"  # This comment explains the variable
 # Comments can be on their own line
 # Or at the end of a code line
 
-print("Name:", name)
+# =============================================
+# 2. MULTI-LINE COMMENTS
+# =============================================
+print("2. MULTI-LINE COMMENTS")
+print("   Use triple quotes for multi-line comments")
+
+"""
+This is a multi-line comment.
+It can span across multiple lines.
+Perfect for explaining complex code sections.
+"""
+
+'''
+You can use single or double quotes.
+Both work the same way!
+'''
+
+print("Multi-line comments are great for documentation")
 print()
