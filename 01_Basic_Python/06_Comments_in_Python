@@ -74,3 +74,27 @@ amount = principal * (1 + rate/12) ** time
 
 print(f"Investment growth: ${amount:.2f}")
 print()
+
+# =============================================
+# 5. DOCSTRINGS - SPECIAL COMMENTS
+# =============================================
+print("5. DOCSTRINGS FOR FUNCTIONS")
+
+def calculate_bmi(weight, height):
+    """
+    Calculate Body Mass Index (BMI)
+    
+    Args:
+        weight (float): Weight in kilograms
+        height (float): Height in meters
+    
+    Returns:
+        float: BMI value
+    """
+    return weight / (height ** 2)
+
+# Using the function
+bmi = calculate_bmi(65, 1.65)
+print(f"BMI: {bmi:.2f}")
+print()
+
