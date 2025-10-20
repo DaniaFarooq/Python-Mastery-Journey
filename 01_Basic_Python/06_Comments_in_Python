@@ -55,3 +55,22 @@ area = (base * height) / 2  # Calculate triangle area
 
 print(f"Area of triangle: {area}")
 print()
+
+# =============================================
+# 4. COMMENTING BEST PRACTICES
+# =============================================
+print("4. COMMENTING BEST PRACTICES")
+
+# Good: Explains WHY, not WHAT
+# Calculate monthly compound interest
+principal = 1000
+rate = 0.05
+time = 12
+amount = principal * (1 + rate/12) ** time
+
+# Bad: Just repeats what code does
+# Multiply principal by 1 plus rate divided by 12 to the power of time
+# amount = principal * (1 + rate/12) ** time
+
+print(f"Investment growth: ${amount:.2f}")
+print()
