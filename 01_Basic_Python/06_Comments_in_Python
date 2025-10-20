@@ -98,3 +98,27 @@ bmi = calculate_bmi(65, 1.65)
 print(f"BMI: {bmi:.2f}")
 print()
 
+# =============================================
+# 6. PRACTICAL COMMENTING EXAMPLE
+# =============================================
+print("6. PRACTICAL COMMENTING EXAMPLE")
+
+# Data processing with comments
+print("DATA PROCESSING EXAMPLE")
+
+# Raw data from sensor
+raw_temperatures = [22.5, 23.1, 21.8, 24.5, 20.9]
+
+# Remove outliers (temperatures below 21 or above 24)
+filtered_temps = [temp for temp in raw_temperatures if 21 <= temp <= 24]
+
+# Calculate average temperature
+average_temp = sum(filtered_temps) / len(filtered_temps)
+
+print(f"Raw data: {raw_temperatures}")
+print(f"Filtered: {filtered_temps}")
+print(f"Average: {average_temp:.1f}°C")
+print()
+
+
+print()
