@@ -1,0 +1,22 @@
+"""
+MASTERING COMMENTS IN PYTHON
+Comments make your code readable and maintainable.
+They are notes for yourself and other developers.
+"""
+
+print("=== MASTERING COMMENTS IN PYTHON ===\n")
+
+# =============================================
+# 1. SINGLE-LINE COMMENTS
+# =============================================
+print("1. SINGLE-LINE COMMENTS")
+print("   Use # for single-line comments")
+
+# This is a single-line comment
+name = "Dania"  # This comment explains the variable
+
+# Comments can be on their own line
+# Or at the end of a code line
+
+print("Name:", name)
+print()
