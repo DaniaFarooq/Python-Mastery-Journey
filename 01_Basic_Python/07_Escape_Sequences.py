@@ -86,3 +86,14 @@ address = "123 Main Street\\nSuite 4B\\nPythonville, PY 12345"
 print("Formatted Address:")
 print(address)
 print()
+
+# =============================================
+# 5. ESCAPE SEQUENCES IN USER INPUT
+# =============================================
+print("5. HANDLING ESCAPE SEQUENCES IN INPUT")
+
+# Example: Processing user input with potential escapes
+user_input = "Hello\\nWorld\\tTabbed"
+print(f"User input: {user_input}")
+print(f"Interpreted: {user_input}")  # Shows as literal
+print()
