@@ -64,3 +64,25 @@ print()
 print("FORMATTED DATA OUTPUT:")
 print("{\n\t\"name\": \"Dania\",\n\t\"age\": 25,\n\t\"city\": \"Pythonville\"\n}")
 print()
+
+# =============================================
+# 4. COMBINING ESCAPE SEQUENCES
+# =============================================
+print("4. COMBINING MULTIPLE ESCAPE SEQUENCES")
+
+# Table formatting
+print("EMPLOYEE DIRECTORY")
+print("=" * 40)
+print("Name\t\tDepartment\t\tEmail")
+print("----\t\t----------\t\t-----")
+print("Alice\t\tEngineering\t\talice@company.com")
+print("Bob\t\tMarketing\t\tbob@company.com")
+print("Charlie\t\tSales\t\t\tcharlie@company.com")
+print()
+
+# Formatted address
+print("ADDRESS FORMATTING:")
+address = "123 Main Street\\nSuite 4B\\nPythonville, PY 12345"
+print("Formatted Address:")
+print(address)
+print()
