@@ -122,3 +122,6 @@ poem = """Roses are red,\nViolets are blue,\nPython is awesome,\nAnd so are you!
 print("📜 POEM:")
 print(poem)
 print()
+
+print("🎉 FANTASTIC! You've mastered Escape Sequences!")
+print("You can now format text like a pro!")
