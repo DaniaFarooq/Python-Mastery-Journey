@@ -97,3 +97,28 @@ user_input = "Hello\\nWorld\\tTabbed"
 print(f"User input: {user_input}")
 print(f"Interpreted: {user_input}")  # Shows as literal
 print()
+
+# =============================================
+# 6. INTERACTIVE EXERCISES
+# =============================================
+print("6. PRACTICE EXERCISES")
+
+print("Exercise 1: Create a formatted receipt")
+# Your code here:
+print("🛍️  SUPERMARKET RECEIPT")
+print("=" * 30)
+print("Item\t\tPrice\tQty\tTotal")
+print("----\t\t-----\t---\t-----")
+print("Apple\t\t$1.20\t3\t$3.60")
+print("Bread\t\t$2.50\t1\t$2.50")
+print("Milk\t\t$3.00\t2\t$6.00")
+print("=" * 30)
+print("Total:\t\t\t\t$12.10")
+print()
+
+print("Exercise 2: Display a multi-line poem")
+# Your code here:
+poem = """Roses are red,\nViolets are blue,\nPython is awesome,\nAnd so are you!"""
+print("📜 POEM:")
+print(poem)
+print()
