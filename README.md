@@ -63,7 +63,8 @@ This repository reflects my **step-by-step learning path** in Python, foundation
 
 ## 🔗 Connect With Me
 
-- [📌 LinkedIn](https://www.linkedin.com/in/daniafarooq/)  
+- [📌 LinkedIn](https://www.linkedin.com/in/daniafarooq/)
+ 
 - [🐙 GitHub — DaniaFarooq](https://github.com/DaniaFarooq)  
 
 ---
