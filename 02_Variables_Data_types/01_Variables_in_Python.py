@@ -52,3 +52,15 @@ total_score = 95
 print(" Valid: first_name, age2, _user_id, totalScore")
 print(" Invalid: 2nd_place, first-name, class (reserved word)")
 print()
+
+# =============================================
+# 4. PYTHON IS DYNAMICALLY TYPED
+# =============================================
+print("4. DYNAMIC TYPING - NO TYPE DECLARATIONS")
+
+# Python figures out the type automatically
+score = 95          # Integer
+score = 95.5        # Now it's a float!
+score = "A+"        # Now it's a string!
+
+print(f"Score: {score} (type: {type(score)})")
