@@ -153,3 +153,20 @@ print(f"Subtotal: ${subtotal:.2f}")
 print(f"Tax (8%): ${tax_amount:.2f}")
 print(f"Total: ${total:.2f}")
 print()
+
+# =============================================
+# 9. VARIABLE NAMING BEST PRACTICES
+# =============================================
+print("9. VARIABLE NAMING BEST PRACTICES")
+
+print(" DO:")
+print("   - Use descriptive names (user_age instead of ua)")
+print("   - Use snake_case (first_name instead of firstName)")
+print("   - Be consistent throughout your code")
+print("   - Use all caps for constants (MAX_USERS = 100)")
+
+print("\n DON'T:")
+print("   - Use single letters (except in loops)")
+print("   - Use reserved words (class, def, if)")
+print("   - Start with numbers (2nd_place)")
+print("   - Use special characters (@, -, space)")
