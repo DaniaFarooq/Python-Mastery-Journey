@@ -15,3 +15,19 @@ print("   - Like labeled boxes holding information")
 print("   - Can store different types of data")
 print("   - Values can be changed (they're variable!)\n")
 
+# =============================================
+# 2. BASIC VARIABLE ASSIGNMENT
+# =============================================
+print("2. BASIC VARIABLE ASSIGNMENT")
+
+# Creating variables
+name = "Dania"
+age = 25
+height = 5.6
+is_student = True
+
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"Height: {height} feet")
+print(f"Is student: {is_student}")
+print()
