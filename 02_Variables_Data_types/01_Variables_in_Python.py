@@ -101,3 +101,19 @@ print(f"Counter: {counter}")
 
 counter += 2       # Shortcut for counter = counter + 2
 print(f"Counter: {counter}")
+
+# =============================================
+# 7. VARIABLE SCOPE CONCEPT
+# =============================================
+print("7. VARIABLE SCOPE (BASIC CONCEPT)")
+
+# Global variables (accessible everywhere in the file)
+global_name = "Python"
+global_version = 3.11
+
+def show_global():
+    print(f"Inside function: {global_name} {global_version}")
+
+show_global()
+print(f"Outside function: {global_name} {global_version}")
+print()
