@@ -170,3 +170,35 @@ print("   - Use single letters (except in loops)")
 print("   - Use reserved words (class, def, if)")
 print("   - Start with numbers (2nd_place)")
 print("   - Use special characters (@, -, space)")
+
+# =============================================
+# 10. INTERACTIVE EXERCISES
+# =============================================
+print("10. PRACTICE EXERCISES")
+
+print("Exercise 1: Create a personal introduction")
+# Your variables here:
+my_name = "Dania"
+my_age = 25
+my_city = "Pythonville"
+my_hobby = "learning DS"
+
+# Your print statement here:
+print(f"Hi! I'm {my_name}, {my_age} years old from {my_city}. I love {my_hobby}!")
+print()
+
+print("Exercise 2: Track learning progress")
+# Your variables here:
+days_learning = 30
+hours_per_day = 2
+topics_covered = 8
+confidence_level = "high"
+
+# Your calculations here:
+total_hours = days_learning * hours_per_day
+average_topics = topics_covered / days_learning
+
+print(f"Total learning hours: {total_hours}")
+print(f"Average topics per day: {average_topics:.1f}")
+print(f"Confidence level: {confidence_level}")
+print()
