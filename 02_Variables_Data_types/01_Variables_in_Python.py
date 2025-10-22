@@ -64,3 +64,23 @@ score = 95.5        # Now it's a float!
 score = "A+"        # Now it's a string!
 
 print(f"Score: {score} (type: {type(score)})")
+
+# =============================================
+# 5. MULTIPLE ASSIGNMENT
+# =============================================
+print("5. MULTIPLE ASSIGNMENT TRICKS")
+
+# Assign multiple variables at once
+x, y, z = 10, 20, 30
+print(f"x = {x}, y = {y}, z = {z}")
+
+# Assign same value to multiple variables
+a = b = c = 100
+print(f"a = {a}, b = {b}, c = {c}")
+
+# Swap values easily
+name1, name2 = "Alice", "Bob"
+print(f"Before swap: name1 = {name1}, name2 = {name2}")
+name1, name2 = name2, name1  
+print(f"After swap: name1 = {name1}, name2 = {name2}")
+print()
