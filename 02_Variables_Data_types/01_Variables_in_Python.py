@@ -84,3 +84,20 @@ print(f"Before swap: name1 = {name1}, name2 = {name2}")
 name1, name2 = name2, name1  
 print(f"After swap: name1 = {name1}, name2 = {name2}")
 print()
+
+# =============================================
+# 6. VARIABLE REASSIGNMENT
+# =============================================
+print("6. CHANGING VARIABLE VALUES")
+
+counter = 0
+print(f"Counter: {counter}")
+
+counter = 5        # Change the value
+print(f"Counter: {counter}")
+
+counter = counter + 3  # Increase by 3
+print(f"Counter: {counter}")
+
+counter += 2       # Shortcut for counter = counter + 2
+print(f"Counter: {counter}")
