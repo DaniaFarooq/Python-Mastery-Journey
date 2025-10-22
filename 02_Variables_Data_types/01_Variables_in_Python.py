@@ -31,3 +31,24 @@ print(f"Age: {age}")
 print(f"Height: {height} feet")
 print(f"Is student: {is_student}")
 print()
+
+# =============================================
+# 3. VARIABLE NAMING RULES
+# =============================================
+print("3. VARIABLE NAMING RULES")
+
+#  Valid variable names
+first_name = "Alice"
+last_name = "Smith"
+age2 = 30
+_user_id = 12345
+total_score = 95
+
+#  Invalid variable names (commented out to avoid errors)
+# 2nd_place = "silver"    # Cannot start with number
+# first-name = "John"     # No hyphens allowed
+# class = "Python"        # Cannot use reserved words
+
+print(" Valid: first_name, age2, _user_id, totalScore")
+print(" Invalid: 2nd_place, first-name, class (reserved word)")
+print()
