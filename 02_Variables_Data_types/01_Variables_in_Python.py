@@ -117,3 +117,39 @@ def show_global():
 show_global()
 print(f"Outside function: {global_name} {global_version}")
 print()
+
+# =============================================
+# 8. PRACTICAL VARIABLE EXAMPLES
+# =============================================
+print("8. PRACTICAL REAL-WORLD EXAMPLES")
+
+# Example 1: User profile system
+print("USER PROFILE SYSTEM")
+username = "dania_data_scientist"
+email = "dania@email.com"
+posts_count = 42
+is_verified = True
+join_date = "2024-01-15"
+
+print(f"Username: @{username}")
+print(f"Email: {email}")
+print(f"Posts: {posts_count}")
+print(f"Verified: {is_verified}")
+print(f"Joined: {join_date}")
+print()
+
+# Example 2: Shopping cart
+print("SHOPPING CART CALCULATIONS")
+item1_price = 12.99
+item2_price = 8.49
+item3_price = 5.99
+tax_rate = 0.08  # 8%
+
+subtotal = item1_price + item2_price + item3_price
+tax_amount = subtotal * tax_rate
+total = subtotal + tax_amount
+
+print(f"Subtotal: ${subtotal:.2f}")
+print(f"Tax (8%): ${tax_amount:.2f}")
+print(f"Total: ${total:.2f}")
+print()
