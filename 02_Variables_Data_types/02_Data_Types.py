@@ -18,3 +18,22 @@ print("   - Mapping: dict")
 print("   - Set: set, frozenset")
 print("   - Binary: bytes, bytearray, memoryview")
 print("   - None: NoneType\n")
+
+# =============================================
+# 2. TEXT TYPE: STRINGS
+# =============================================
+print("2. STRINGS (str) - TEXT DATA")
+
+# Creating strings
+single_quotes = 'Hello'
+double_quotes = "World"
+triple_quotes = """This can span
+multiple lines"""
+f_string = f"Formatted: {single_quotes} {double_quotes}"
+
+print(f"Single quotes: {single_quotes}")
+print(f"Double quotes: {double_quotes}")
+print(f"Triple quotes: {triple_quotes}")
+print(f"F-string: {f_string}")
+print(f"Type: {type(single_quotes)}")
+print()
