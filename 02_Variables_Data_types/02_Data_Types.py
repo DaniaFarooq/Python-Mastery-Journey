@@ -93,3 +93,28 @@ print(f"bool('Hello'): {bool('Hello')}") # True (non-empty string)
 print(f"bool([]): {bool([])}")         # False (empty list)
 print(f"bool([1,2]): {bool([1,2])}")   # True (non-empty list)
 print()
+
+# =============================================
+# 5. SEQUENCE TYPES (INTRODUCTION)
+# =============================================
+print("5. SEQUENCE TYPES (BASIC INTRODUCTION)")
+
+# List - mutable, ordered collection
+fruits = ["apple", "banana", "cherry"]
+numbers = [1, 2, 3, 4, 5]
+mixed = [1, "hello", 3.14, True]
+
+print("→ Lists (list) - Mutable:")
+print(f"fruits: {fruits} (type: {type(fruits)})")
+print(f"numbers: {numbers} (type: {type(numbers)})")
+print(f"mixed: {mixed} (type: {type(mixed)})")
+
+# Tuple - immutable, ordered collection
+coordinates = (10, 20)
+colors = ("red", "green", "blue")
+single_item = (5,)  # Comma required for single item
+
+print("\n→ Tuples (tuple) - Immutable:")
+print(f"coordinates: {coordinates} (type: {type(coordinates)})")
+print(f"colors: {colors} (type: {type(colors)})")
+print(f"single_item: {single_item} (type: {type(single_item)})")
