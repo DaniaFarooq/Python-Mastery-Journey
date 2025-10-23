@@ -70,3 +70,26 @@ print(f"another_complex: {another_complex} (type: {type(another_complex)})")
 print(f"Real part: {complex_num.real}")
 print(f"Imaginary part: {complex_num.imag}")
 print()
+
+# =============================================
+# 4. BOOLEAN TYPE
+# =============================================
+print("4. BOOLEANS (bool) - TRUE/FALSE")
+
+is_python_fun = True
+is_learning = False
+result = 10 > 5  # This evaluates to True
+
+print(f"is_python_fun: {is_python_fun} (type: {type(is_python_fun)})")
+print(f"is_learning: {is_learning} (type: {type(is_learning)})")
+print(f"10 > 5: {result} (type: {type(result)})")
+
+# Boolean conversion
+print("\n→ Boolean Conversion:")
+print(f"bool(0): {bool(0)}")           # False
+print(f"bool(1): {bool(1)}")           # True
+print(f"bool(''): {bool('')}")         # False (empty string)
+print(f"bool('Hello'): {bool('Hello')}") # True (non-empty string)
+print(f"bool([]): {bool([])}")         # False (empty list)
+print(f"bool([1,2]): {bool([1,2])}")   # True (non-empty list)
+print()
