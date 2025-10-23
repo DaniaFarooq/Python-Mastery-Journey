@@ -118,3 +118,28 @@ print("\n→ Tuples (tuple) - Immutable:")
 print(f"coordinates: {coordinates} (type: {type(coordinates)})")
 print(f"colors: {colors} (type: {type(colors)})")
 print(f"single_item: {single_item} (type: {type(single_item)})")
+
+# =============================================
+# 6. MAPPING TYPE: DICTIONARY
+# =============================================
+print("6. DICTIONARIES (dict) - KEY-VALUE PAIRS")
+
+# Dictionary - unordered, key-value pairs
+person = {
+    "name": "Dania",
+    "age": 25,
+    "city": "Pythonville",
+    "is_student": True
+}
+
+scores = {
+    "math": 95,
+    "science": 88,
+    "english": 92
+}
+print("→ Dictionaries (dict):")
+print(f"person: {person} (type: {type(person)})")
+print(f"scores: {scores} (type: {type(scores)})")
+print(f"Person's name: {person['name']}")
+print(f"Math score: {scores['math']}")
+print()
