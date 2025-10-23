@@ -37,3 +37,36 @@ print(f"Triple quotes: {triple_quotes}")
 print(f"F-string: {f_string}")
 print(f"Type: {type(single_quotes)}")
 print()
+
+# =============================================
+# 3. NUMERIC TYPES
+# =============================================
+print("3. NUMERIC TYPES")
+
+# Integer (int) - whole numbers
+age = 25
+score = -100
+print("→ Integers (int):")
+print(f"age: {age} (type: {type(age)})")
+print(f"score: {score} (type: {type(score)})")
+
+# Float (float) - decimal numbers
+price = 19.99
+temperature = -5.5
+scientific = 2.5e3  # 2.5 × 10³ = 2500.0
+
+print("\n→ Floats (float):")
+print(f"price: {price} (type: {type(price)})")
+print(f"temperature: {temperature} (type: {type(temperature)})")
+print(f"scientific: {scientific} (type: {type(scientific)})")
+
+# Complex (complex) - imaginary numbers
+complex_num = 3 + 4j
+another_complex = 2j
+
+print("\n→ Complex (complex):")
+print(f"complex_num: {complex_num} (type: {type(complex_num)})")
+print(f"another_complex: {another_complex} (type: {type(another_complex)})")
+print(f"Real part: {complex_num.real}")
+print(f"Imaginary part: {complex_num.imag}")
+print()
