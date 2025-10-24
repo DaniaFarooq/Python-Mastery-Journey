@@ -184,3 +184,44 @@ def find_user(username):
 user = find_user("unknown")
 print(f"User found: {user is not None}")  # Check if not None
 print()
+
+# =============================================
+# 9. DATA TYPE EXERCISES
+# =============================================
+print("9. PRACTICE EXERCISES")
+
+print("Exercise 1: Identify the Data Types")
+# Look at these values and identify their types:
+values = [
+    100,                    # int
+    "Python",               # str  
+    3.14,                   # float
+    False,                  # bool
+    [1, 2, 3],              # list
+    ("a", "b"),             # tuple
+    {"key": "value"},       # dict
+    {1, 2, 3},              # set
+    None                    # NoneType
+]
+
+print("Exercise 2: Create a Student Profile")
+# Create variables with appropriate data types:
+student_name = "Alex"                           # str
+student_age = 20                                # int
+gpa = 3.8                                       # float
+is_graduating = True                            # bool
+courses = ["Math", "Science", "English"]        # list
+grades = {"Math": "A", "Science": "B+", "English": "A-"}  # dict
+
+print(f"Student: {student_name}")
+print(f"Age: {student_age}")
+print(f"GPA: {gpa}")
+print(f"Graduating: {is_graduating}")
+print(f"Courses: {courses}")
+print(f"Grades: {grades}")
+print()
+
+print("\n" + "="*50)
+print("🎉 FANTASTIC! You've mastered Python Data Types!")
+print("Understanding data types is crucial for effective programming.")
+print("\n💡 PRO TIP: Use type() and isinstance() to check data types in your programs!")
