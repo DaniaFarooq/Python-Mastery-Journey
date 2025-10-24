@@ -143,3 +143,23 @@ print(f"scores: {scores} (type: {type(scores)})")
 print(f"Person's name: {person['name']}")
 print(f"Math score: {scores['math']}")
 print()
+
+# =============================================
+# 7. SET TYPES
+# =============================================
+print("7. SET TYPES - UNIQUE COLLECTIONS")
+
+# Set - unordered, unique elements
+unique_numbers = {1, 2, 3, 3, 4, 4, 5}  # Duplicates removed
+fruits_set = {"apple", "banana", "cherry"}
+
+print("→ Sets (set):")
+print(f"unique_numbers: {unique_numbers} (type: {type(unique_numbers)})")
+print(f"fruits_set: {fruits_set} (type: {type(fruits_set)})")
+
+# Frozenset - immutable set
+frozen_numbers = frozenset([1, 2, 3, 3, 4])
+
+print("\n→ Frozenset (frozenset):")
+print(f"frozen_numbers: {frozen_numbers} (type: {type(frozen_numbers)})")
+print()
