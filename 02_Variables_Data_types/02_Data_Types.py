@@ -163,3 +163,24 @@ frozen_numbers = frozenset([1, 2, 3, 3, 4])
 print("\n→ Frozenset (frozenset):")
 print(f"frozen_numbers: {frozen_numbers} (type: {type(frozen_numbers)})")
 print()
+
+# =============================================
+# 8. NONE TYPE
+# =============================================
+print("8. NONE TYPE - ABSENCE OF VALUE")
+
+# None - represents no value
+empty_value = None
+result = None
+
+print(f"empty_value: {empty_value} (type: {type(empty_value)})")
+print(f"result: {result} (type: {type(result)})")
+
+# Common uses
+def find_user(username):
+    # If user not found, return None
+    return None
+
+user = find_user("unknown")
+print(f"User found: {user is not None}")  # Check if not None
+print()
