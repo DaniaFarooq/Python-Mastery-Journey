@@ -105,7 +105,7 @@ print("6. PRACTICE EXERCISES")
 
 print("Exercise 1: Create a formatted receipt")
 # Your code here:
-print("🛍️  SUPERMARKET RECEIPT")
+print("SUPERMARKET RECEIPT")
 print("=" * 30)
 print("Item\t\tPrice\tQty\tTotal")
 print("----\t\t-----\t---\t-----")
@@ -119,7 +119,7 @@ print()
 print("Exercise 2: Display a multi-line poem")
 # Your code here:
 poem = """Roses are red,\nViolets are blue,\nPython is awesome,\nAnd so are you!"""
-print("📜 POEM:")
+print("POEM:")
 print(poem)
 print()
 
