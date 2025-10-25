@@ -58,3 +58,26 @@ print("\n→ str() - Convert to String:")
 number = 100
 number_str = str(number)
 print(f"  str(100) = '{number_str}' (type: {type(number_str)})")
+
+# =============================================
+# 4. CONVERSION BETWEEN SEQUENCE TYPES
+# =============================================
+print("4. SEQUENCE TYPE CONVERSIONS")
+
+# list() - Convert to list
+print("→ list() - Convert to List:")
+tuple_data = (1, 2, 3, 4, 5)
+tuple_to_list = list(tuple_data)
+print(f"  list((1, 2, 3, 4, 5)) = {tuple_to_list}")
+
+# tuple() - Convert to tuple
+print("\n→ tuple() - Convert to Tuple:")
+list_data = [1, 2, 3, 4, 5]
+list_to_tuple = tuple(list_data)
+print(f"  tuple([1, 2, 3, 4, 5]) = {list_to_tuple}")
+
+# set() - Convert to set (removes duplicates)
+print("\n→ set() - Convert to Set:")
+list_with_duplicates = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+list_to_set = set(list_with_duplicates)
+print(f"  set([1, 2, 2, 3, 3, 3, 4, 4, 4, 4]) = {list_to_set}")
