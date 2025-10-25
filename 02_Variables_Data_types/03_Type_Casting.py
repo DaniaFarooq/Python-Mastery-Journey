@@ -35,3 +35,26 @@ result2 = num + false_value  # False becomes 0
 print(f"\nBoolean to Integer:")
 print(f"  10 + True = {result1}  (True → 1)")
 print(f"  10 + False = {result2} (False → 0)")
+
+# =============================================
+# 3. EXPLICIT CONVERSION (MANUAL)
+# =============================================
+print("3. EXPLICIT CONVERSION - WE DO IT MANUALLY")
+
+# int() - Convert to integer
+print("→ int() - Convert to Integer:")
+number_str = "123"
+number_int = int(number_str)
+print(f"  int('123') = {number_int} (type: {type(number_int)})")
+
+# float() - Convert to float
+print("\n→ float() - Convert to Float:")
+number_str = "3.14"
+number_float = float(number_str)
+print(f"  float('3.14') = {number_float} (type: {type(number_float)})")
+
+# str() - Convert to string
+print("\n→ str() - Convert to String:")
+number = 100
+number_str = str(number)
+print(f"  str(100) = '{number_str}' (type: {type(number_str)})")
