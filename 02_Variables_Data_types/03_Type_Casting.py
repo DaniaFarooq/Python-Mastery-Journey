@@ -140,3 +140,36 @@ print("❌ Error: Converting invalid string to number")
 print("\n❌ Error: Converting None or empty values")
 # int(None)  # TypeError
 # int("")    # ValueError
+
+# =============================================
+# 7. TYPE CONVERSION EXERCISES
+# =============================================
+print("7. PRACTICE EXERCISES")
+
+print("Exercise 1: Temperature Converter")
+# Convert Celsius to Fahrenheit
+celsius_str = "25"  # User input as string
+celsius = float(celsius_str)
+fahrenheit = (celsius * 9/5) + 32
+
+print(f"  TEMPERATURE CONVERSION")
+print(f"  Celsius: {celsius}°C")
+print(f"  Fahrenheit: {fahrenheit}°F")
+print(f"  Types: {type(celsius_str)} → {type(celsius)} → {type(fahrenheit)}")
+print()
+
+print("Exercise 2: String to List Processing")
+# Process a string of numbers
+numbers_str = "10,20,30,40,50"
+# Split into list of strings, then convert to integers
+numbers_list = numbers_str.split(",")
+numbers_int = [int(num) for num in numbers_list]
+total = sum(numbers_int)
+average = total / len(numbers_int)
+
+print(f" NUMBER PROCESSING")
+print(f"  Input string: '{numbers_str}'")
+print(f"  Split list: {numbers_list}")
+print(f"  Integer list: {numbers_int}")
+print(f"  Total: {total}, Average: {average:.1f}")
+print()
