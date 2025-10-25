@@ -76,6 +76,29 @@ list_data = [1, 2, 3, 4, 5]
 list_to_tuple = tuple(list_data)
 print(f"  tuple([1, 2, 3, 4, 5]) = {list_to_tuple}")
 
+# =============================================
+# 5. PRACTICAL CONVERSION EXAMPLES
+# =============================================
+print("5. PRACTICAL REAL-WORLD EXAMPLES")
+
+# Example 1: User Input Processing
+print("USER INPUT PROCESSING")
+# Simulating user input (usually comes as string)
+user_age = "25"           # From input field
+user_height = "5.6"       # From input field
+user_score = "95"         # From input field
+# Convert to appropriate types
+age_int = int(user_age)
+height_float = float(user_height)
+score_int = int(user_score)
+
+print(f"Raw input - Age: '{user_age}' (type: {type(user_age)})")
+print(f"Converted - Age: {age_int} (type: {type(age_int)})")
+print(f"Raw input - Height: '{user_height}' (type: {type(user_height)})")
+print(f"Converted - Height: {height_float} (type: {type(height_float)})")
+print(f"Can vote: {age_int >= 18}")
+print(f"Average: {(age_int + height_float + score_int) / 3:.2f}")
+print()
 # set() - Convert to set (removes duplicates)
 print("\n→ set() - Convert to Set:")
 list_with_duplicates = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
