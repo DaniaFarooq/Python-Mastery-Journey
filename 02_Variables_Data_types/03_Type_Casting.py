@@ -104,3 +104,27 @@ print("\n→ set() - Convert to Set:")
 list_with_duplicates = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
 list_to_set = set(list_with_duplicates)
 print(f"  set([1, 2, 2, 3, 3, 3, 4, 4, 4, 4]) = {list_to_set}")
+
+# Example 2: String Manipulation with Numbers
+print("STRING MANIPULATION WITH NUMBERS")
+product_price = 29.99
+quantity = 3
+tax_rate = 0.08  # 8%
+
+# Calculations with numbers
+subtotal = product_price * quantity
+tax_amount = subtotal * tax_rate
+total = subtotal + tax_amount
+# Convert to strings for display
+receipt = f"""
+ RECEIPT
+Item: Python Book
+Price: ${product_price}
+Quantity: {quantity}
+Subtotal: ${subtotal:.2f}
+Tax (8%): ${tax_amount:.2f}
+Total: ${total:.2f}
+"""
+
+print(receipt)
+print()
