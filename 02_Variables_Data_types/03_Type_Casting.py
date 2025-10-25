@@ -128,3 +128,15 @@ Total: ${total:.2f}
 
 print(receipt)
 print()
+
+# =============================================
+# 6. COMMON CONVERSION ERRORS
+# =============================================
+print("6. COMMON CONVERSION ERRORS")
+
+print("❌ Error: Converting invalid string to number")
+# int("hello")  # ValueError: invalid literal for int()
+
+print("\n❌ Error: Converting None or empty values")
+# int(None)  # TypeError
+# int("")    # ValueError
