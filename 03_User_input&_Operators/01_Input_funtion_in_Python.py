@@ -121,3 +121,17 @@ print("\nExercise 3: Story Maker")
 # Ask for a name, place, and animal
 # Create a simple story using them
 print()
+
+# =============================================
+# 6. QUICK TIPS
+# =============================================
+print("6. QUICK TIPS")
+
+print("✓ input() always returns a string")
+print("✓ Convert to int() for numbers") 
+print("✓ Convert to float() for decimals")
+print("✓ Use meaningful prompt messages")
+print("✓ Always validate user input")
+
+print("\n" + "="*40)
+print("Great! You learned input() function!")
