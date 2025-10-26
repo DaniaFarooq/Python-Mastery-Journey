@@ -103,3 +103,21 @@ if user_input.isdigit():
 else:
     print("Please enter a valid number")
 print()
+
+# =============================================
+# 5. SIMPLE EXERCISES
+# =============================================
+print("5. SIMPLE EXERCISES")
+
+print("Exercise 1: Greeting Program")
+# Get user's name and age
+# Print a personalized greeting
+
+print("\nExercise 2: Simple Math")
+# Ask for two numbers
+# Print their sum and product
+
+print("\nExercise 3: Story Maker")
+# Ask for a name, place, and animal
+# Create a simple story using them
+print()
