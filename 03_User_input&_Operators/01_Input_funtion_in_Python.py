@@ -33,6 +33,20 @@ number = input("Enter a number: ")
 number_int = int(number)
 print(f"Your number doubled: {number_int * 2}")
 
+# =============================================
+# 3. SIMPLE EXAMPLES
+# =============================================
+print("3. SIMPLE EXAMPLES")
+
+# Example 1: Personal info
+print("PERSONAL INFO:")
+user_name = input("What is your name? ")
+user_age = input("How old are you? ")
+user_city = input("Where do you live? ")
+
+print(f"\nHello {user_name}!")
+print(f"You are {user_age} years old.")
+print(f"You live in {user_city}.")
 # Decimal input - convert to float
 price = input("Enter a price: ")
 price_float = float(price)
