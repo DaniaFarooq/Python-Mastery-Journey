@@ -90,3 +90,16 @@ print("✅ Always convert numbers:")
 age = input("Enter age: ")
 age_int = int(age)
 print(f"In 5 years, you'll be {age_int + 5}")
+
+print("\n❌ No input validation:")
+# number = int(input("Enter number: ")) 
+# If user enters text, program crashes
+
+print("✅ Check if input is number:")
+user_input = input("Enter a number: ")
+if user_input.isdigit():
+    number = int(user_input)
+    print(f"Good! You entered: {number}")
+else:
+    print("Please enter a valid number")
+print()
