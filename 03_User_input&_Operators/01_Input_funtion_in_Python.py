@@ -76,3 +76,17 @@ print(f"\nYou love eating {food}!")
 print(f"You enjoy watching {movie}!")
 print(f"Your hobby is {hobby}!")
 print()
+
+# =============================================
+# 4. COMMON MISTAKES
+# =============================================
+print("4. COMMON MISTAKES")
+
+print("❌ Forgetting to convert numbers:")
+# age = input("Enter age: ")
+# print(age + 5)  # Error! Can't add string and number
+
+print("✅ Always convert numbers:")
+age = input("Enter age: ")
+age_int = int(age)
+print(f"In 5 years, you'll be {age_int + 5}")
