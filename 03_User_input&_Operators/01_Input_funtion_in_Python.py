@@ -19,3 +19,11 @@ age = input()
 print(f"You entered: {age}")
 print()
 
+# =============================================
+# 2. INPUT WITH DIFFERENT DATA TYPES
+# =============================================
+print("2. INPUT WITH CONVERSION")
+
+# String input (default)
+color = input("What's your favorite color? ")
+print(f"Nice! {color} is a great color!")
