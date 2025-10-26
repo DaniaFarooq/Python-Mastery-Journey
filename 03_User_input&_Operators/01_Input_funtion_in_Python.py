@@ -52,3 +52,16 @@ price = input("Enter a price: ")
 price_float = float(price)
 print(f"Price with tax: ${price_float * 1.1:.2f}")
 print()
+
+# Example 2: Simple calculator
+print("\nSIMPLE CALCULATOR:")
+num1 = input("Enter first number: ")
+num2 = input("Enter second number: ")
+
+# Convert to numbers
+n1 = int(num1)
+n2 = int(num2)
+
+print(f"{n1} + {n2} = {n1 + n2}")
+print(f"{n1} - {n2} = {n1 - n2}")
+print(f"{n1} * {n2} = {n1 * n2}")
