@@ -65,3 +65,14 @@ n2 = int(num2)
 print(f"{n1} + {n2} = {n1 + n2}")
 print(f"{n1} - {n2} = {n1 - n2}")
 print(f"{n1} * {n2} = {n1 * n2}")
+
+# Example 3: Favorite things
+print("\n⭐ FAVORITE THINGS:")
+food = input("What's your favorite food? ")
+movie = input("What's your favorite movie? ")
+hobby = input("What's your hobby? ")
+
+print(f"\nYou love eating {food}!")
+print(f"You enjoy watching {movie}!")
+print(f"Your hobby is {hobby}!")
+print()
