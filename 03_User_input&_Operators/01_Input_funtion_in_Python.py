@@ -27,3 +27,14 @@ print("2. INPUT WITH CONVERSION")
 # String input (default)
 color = input("What's your favorite color? ")
 print(f"Nice! {color} is a great color!")
+
+# Number input - convert to integer
+number = input("Enter a number: ")
+number_int = int(number)
+print(f"Your number doubled: {number_int * 2}")
+
+# Decimal input - convert to float
+price = input("Enter a price: ")
+price_float = float(price)
+print(f"Price with tax: ${price_float * 1.1:.2f}")
+print()
