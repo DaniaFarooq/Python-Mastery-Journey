@@ -39,3 +39,19 @@ print(f"Less Than: {x} < {y} → {x < y}")
 print(f"Greater or Equal: {x} >= {y} → {x >= y}")
 print(f"Less or Equal: {x} <= {y} → {x <= y}")
 print()
+
+# =============================================
+# 3. LOGICAL OPERATORS
+# =============================================
+print("3. LOGICAL OPERATORS")
+
+has_license = True
+has_car = False
+age = 25
+
+print(f"has_license = {has_license}, has_car = {has_car}, age = {age}")
+print(f"AND: has_license AND has_car → {has_license and has_car}")
+print(f"OR: has_license OR has_car → {has_license or has_car}")
+print(f"NOT: NOT has_car → {not has_car}")
+print(f"Combined: age >= 18 AND has_license → {age >= 18 and has_license}")
+print()
