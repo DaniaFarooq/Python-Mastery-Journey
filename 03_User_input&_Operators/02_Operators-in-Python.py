@@ -104,3 +104,20 @@ print(f"'mango' not in fruits → {'mango' not in fruits}")
 print(f"'P' in '{name}' → {'P' in name}")
 print(f"'z' not in '{name}' → {'z' not in name}")
 print()
+
+# =============================================
+# 7. PRACTICAL EXAMPLES
+# =============================================
+print("7. PRACTICAL EXAMPLES")
+
+# Example 1: Age verification
+print("AGE VERIFICATION:")
+user_age = 20
+can_vote = user_age >= 18
+can_drive = user_age >= 16
+is_senior = user_age >= 65
+
+print(f"Age: {user_age}")
+print(f"Can vote: {can_vote}")
+print(f"Can drive: {can_drive}")
+print(f"Is senior: {is_senior}")
