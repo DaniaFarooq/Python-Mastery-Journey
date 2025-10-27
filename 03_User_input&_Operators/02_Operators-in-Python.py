@@ -147,3 +147,18 @@ print(f"10 + 3 * 2 = {result1}")
 print(f"(10 + 3) * 2 = {result2}")
 print("Order: Parentheses → Exponents → Multiply/Divide → Add/Subtract")
 print()
+
+# =============================================
+# 10. QUICK REFERENCE
+# =============================================
+print("10. QUICK REFERENCE")
+
+print("Arithmetic: + - * / // % **")
+print("Comparison: == != > < >= <=")
+print("Logical: and or not")
+print("Assignment: = += -= *= /=")
+print("Identity: is is not")
+print("Membership: in not in")
+
+print("\n" + "="*50)
+print("Complete! You learned Python Operators.")
