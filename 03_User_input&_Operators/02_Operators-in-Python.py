@@ -134,3 +134,16 @@ print(f"Is even: {is_even}")
 print(f"Is positive: {is_positive}")
 print(f"Between 10 and 20: {in_range}")
 print()
+
+# =============================================
+# 9. OPERATOR PRECEDENCE
+# =============================================
+print("9. OPERATOR PRECEDENCE")
+
+result1 = 10 + 3 * 2      # Multiplication first
+result2 = (10 + 3) * 2    # Parentheses first
+
+print(f"10 + 3 * 2 = {result1}")
+print(f"(10 + 3) * 2 = {result2}")
+print("Order: Parentheses → Exponents → Multiply/Divide → Add/Subtract")
+print()
