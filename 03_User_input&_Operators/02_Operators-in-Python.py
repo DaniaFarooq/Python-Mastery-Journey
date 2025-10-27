@@ -75,3 +75,17 @@ print(f"OR: has_license OR has_car → {has_license or has_car}")
 print(f"NOT: NOT has_car → {not has_car}")
 print(f"Combined: age >= 18 AND has_license → {age >= 18 and has_license}")
 print()
+
+# =============================================
+# 5. IDENTITY OPERATORS
+# =============================================
+print("5. IDENTITY OPERATORS")
+
+list1 = [1, 2, 3]
+list2 = [1, 2, 3]
+list3 = list1
+
+print(f"list1 is list2 → {list1 is list2}")  # Different objects
+print(f"list1 is list3 → {list1 is list3}")  # Same object
+print(f"list1 is not list2 → {list1 is not list2}")
+print()
