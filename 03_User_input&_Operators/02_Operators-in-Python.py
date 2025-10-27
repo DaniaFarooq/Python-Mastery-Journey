@@ -24,6 +24,26 @@ print(f"Exponent: {a} ** {b} = {a ** b}")
 print()
 
 # =============================================
+# 4. ASSIGNMENT OPERATORS
+# =============================================
+print("4. ASSIGNMENT OPERATORS")
+
+count = 5
+print(f"Initial count = {count}")
+
+count += 3  # count = count + 3
+print(f"After count += 3 → {count}")
+
+count -= 2  # count = count - 2
+print(f"After count -= 2 → {count}")
+
+count *= 4  # count = count * 4
+print(f"After count *= 4 → {count}")
+
+count /= 2  # count = count / 2
+print(f"After count /= 2 → {count}")
+print()
+# =============================================
 # 2. COMPARISON OPERATORS
 # =============================================
 print("2. COMPARISON OPERATORS")
