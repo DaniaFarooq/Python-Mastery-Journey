@@ -121,3 +121,16 @@ print(f"Age: {user_age}")
 print(f"Can vote: {can_vote}")
 print(f"Can drive: {can_drive}")
 print(f"Is senior: {is_senior}")
+
+# Example 3: Number checking
+print("\nNUMBER PROPERTIES:")
+number = 15
+is_even = number % 2 == 0
+is_positive = number > 0
+in_range = 10 <= number <= 20
+
+print(f"Number: {number}")
+print(f"Is even: {is_even}")
+print(f"Is positive: {is_positive}")
+print(f"Between 10 and 20: {in_range}")
+print()
