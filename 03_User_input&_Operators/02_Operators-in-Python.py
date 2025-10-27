@@ -89,3 +89,18 @@ print(f"list1 is list2 → {list1 is list2}")  # Different objects
 print(f"list1 is list3 → {list1 is list3}")  # Same object
 print(f"list1 is not list2 → {list1 is not list2}")
 print()
+
+# =============================================
+# 6. MEMBERSHIP OPERATORS
+# =============================================
+print("6. MEMBERSHIP OPERATORS")
+
+fruits = ["apple", "banana", "cherry"]
+name = "Python"
+
+print(f"fruits = {fruits}")
+print(f"'apple' in fruits → {'apple' in fruits}")
+print(f"'mango' not in fruits → {'mango' not in fruits}")
+print(f"'P' in '{name}' → {'P' in name}")
+print(f"'z' not in '{name}' → {'z' not in name}")
+print()
