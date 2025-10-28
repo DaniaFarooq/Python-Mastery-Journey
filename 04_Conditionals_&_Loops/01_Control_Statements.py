@@ -141,3 +141,25 @@ if not is_raining:
 else:
     print("Better stay inside")
 print()
+
+# =============================================
+# 7. TRUTHY AND FALSY VALUES
+# =============================================
+print("7. TRUTHY AND FALSY VALUES")
+
+name = "Python"
+empty_string = ""
+number = 10
+zero = 0
+if name:
+    print("Non-empty string is True")
+
+if not empty_string:
+    print("Empty string is False")
+
+if number:
+    print("Non-zero number is True")
+
+if not zero:
+    print("Zero is False")
+print()
