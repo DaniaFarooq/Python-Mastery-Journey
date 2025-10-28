@@ -123,3 +123,21 @@ if age >= 18 and has_id:
     print("You can enter the club")
 else:
     print("You cannot enter")
+
+# OR operator
+is_weekend = True
+is_holiday = False
+
+if is_weekend or is_holiday:
+    print("No work today!")
+else:
+    print("Work day")
+
+# NOT operator
+is_raining = False
+
+if not is_raining:
+    print("Perfect weather for a walk")
+else:
+    print("Better stay inside")
+print()
