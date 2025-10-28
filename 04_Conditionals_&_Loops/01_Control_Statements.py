@@ -163,3 +163,18 @@ if number:
 if not zero:
     print("Zero is False")
 print()
+
+# =============================================
+# 8. KEY POINTS
+# =============================================
+print("8. KEY POINTS")
+
+print("✓ Use if for single conditions")
+print("✓ Use if-else for two outcomes")
+print("✓ Use if-elif-else for multiple conditions")
+print("✓ Indentation is crucial")
+print("✓ Conditions can be combined with and, or, not")
+print("✓ Empty values are False in conditions")
+
+print("\n" + "="*50)
+print("Complete! You learned Control Statements.")
