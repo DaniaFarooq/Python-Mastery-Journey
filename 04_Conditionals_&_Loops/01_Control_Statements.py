@@ -18,3 +18,17 @@ if age >= 18:
 
 print("This always executes")
 print()
+
+# =============================================
+# 2. IF-ELSE STATEMENT
+# =============================================
+print("2. IF-ELSE STATEMENT")
+
+temperature = 25
+print(f"Temperature: {temperature}°C")
+
+if temperature > 30:
+    print("It's hot outside")
+else:
+    print("It's not too hot")
+print()
