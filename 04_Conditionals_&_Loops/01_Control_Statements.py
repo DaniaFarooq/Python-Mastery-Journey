@@ -109,3 +109,17 @@ elif number < 0:
 else:
     print("Number is zero")
 print()
+
+# =============================================
+# 6. MULTIPLE CONDITIONS
+# =============================================
+print("6. MULTIPLE CONDITIONS")
+
+# AND operator
+age = 25
+has_id = True
+
+if age >= 18 and has_id:
+    print("You can enter the club")
+else:
+    print("You cannot enter")
