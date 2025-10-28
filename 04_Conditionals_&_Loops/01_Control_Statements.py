@@ -72,3 +72,22 @@ if age >= 18:
 else:
     print("You are too young to drive")
 print()
+
+# =============================================
+# 5. PRACTICAL EXAMPLES
+# =============================================
+print("5. PRACTICAL EXAMPLES")
+
+# Example 1: Login System
+print("LOGIN SYSTEM:")
+username = "admin"
+password = "12345"
+input_username = "admin"
+input_password = "12345"
+
+if input_username == username and input_password == password:
+    print("Login successful!")
+    print("Welcome to the system")
+else:
+    print("Invalid username or password")
+    print("Please try again")
