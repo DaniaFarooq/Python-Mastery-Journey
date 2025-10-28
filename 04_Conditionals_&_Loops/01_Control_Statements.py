@@ -52,3 +52,23 @@ elif score >= 60:
 else:
     print("Grade: F")
 print()
+
+# =============================================
+# 4. NESTED IF STATEMENTS
+# =============================================
+print("4. NESTED IF STATEMENTS")
+
+age = 25
+has_license = True
+
+print(f"Age: {age}, Has license: {has_license}")
+
+if age >= 18:
+    print("You are old enough to drive")
+    if has_license:
+        print("You can drive legally")
+    else:
+        print("You need to get a license")
+else:
+    print("You are too young to drive")
+print()
