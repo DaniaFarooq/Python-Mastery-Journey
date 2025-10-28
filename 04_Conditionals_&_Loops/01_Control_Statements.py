@@ -91,3 +91,21 @@ if input_username == username and input_password == password:
 else:
     print("Invalid username or password")
     print("Please try again")
+
+# Example 2: Number Checker
+print("\nNUMBER CHECKER:")
+number = 15
+
+print(f"Number: {number}")
+
+if number > 0:
+    print("Positive number")
+    if number % 2 == 0:
+        print("Even number")
+    else:
+        print("Odd number")
+elif number < 0:
+    print("Negative number")
+else:
+    print("Number is zero")
+print()
