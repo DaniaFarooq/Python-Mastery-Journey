@@ -10,3 +10,12 @@ print("=== CONDITIONAL STATEMENTS IN PYTHON ===\n")
 # =============================================
 print("1. BASIC IF STATEMENT")
 
+number = 10
+print(f"Number: {number}")
+
+if number > 0:
+    print("The number is positive")
+    print("This is inside the if block")
+
+print("This is outside the if block")
+print()
