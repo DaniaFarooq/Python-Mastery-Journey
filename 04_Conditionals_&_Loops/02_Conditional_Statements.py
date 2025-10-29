@@ -57,3 +57,18 @@ elif marks >= 50:
 else:
     print("Fail! Grade: F")
 print()
+
+# =============================================
+# 4. MULTIPLE CONDITIONS
+# =============================================
+print("4. MULTIPLE CONDITIONS")
+
+# Using AND
+temperature = 25
+is_sunny = True
+print(f"Temperature: {temperature}°C, Sunny: {is_sunny}")
+
+if temperature > 20 and is_sunny:
+    print("Perfect weather for picnic")
+else:
+    print("Maybe stay indoors today")
