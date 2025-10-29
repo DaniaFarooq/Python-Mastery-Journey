@@ -92,3 +92,28 @@ if not is_raining:
 else:
     print("Take an umbrella")
 print()
+
+# =============================================
+# 5. NESTED CONDITIONALS
+# =============================================
+print("5. NESTED CONDITIONALS")
+
+age = 22
+has_license = True
+has_car = False
+
+print(f"Age: {age}, License: {has_license}, Car: {has_car}")
+
+if age >= 18:
+    print("You are old enough to drive")
+    if has_license:
+        print("You have a valid license")
+        if has_car:
+            print("You can drive your car")
+        else:
+            print("You need to get a car")
+    else:
+        print("You need to get a driving license")
+else:
+    print("You are too young to drive")
+print()
