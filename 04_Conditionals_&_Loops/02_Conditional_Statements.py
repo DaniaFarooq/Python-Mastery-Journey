@@ -35,3 +35,25 @@ else:
     print("You are not eligible to vote")
     print("Wait until you are 18 years old")
 print()
+
+# =============================================
+# 3. IF-ELIF-ELSE CHAIN
+# =============================================
+print("3. IF-ELIF-ELSE CHAIN")
+
+marks = 78
+print(f"Marks: {marks}")
+
+if marks >= 90:
+    print("Excellent! Grade: A+")
+elif marks >= 80:
+    print("Very Good! Grade: A")
+elif marks >= 70:
+    print("Good! Grade: B")
+elif marks >= 60:
+    print("Average! Grade: C")
+elif marks >= 50:
+    print("Pass! Grade: D")
+else:
+    print("Fail! Grade: F")
+print()
