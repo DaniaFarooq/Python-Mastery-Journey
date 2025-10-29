@@ -169,3 +169,25 @@ else:
     ticket_price = 20
 
 print(f"Ticket price: ${ticket_price}")
+
+# Example 3: Weather Advisor
+print("\nWEATHER ADVISOR:")
+temperature = 28
+is_raining = False
+wind_speed = 15
+
+print(f"Temperature: {temperature}°C, Raining: {is_raining}, Wind: {wind_speed} km/h")
+
+if temperature > 30:
+    if is_raining:
+        print("Hot and rainy - stay indoors")
+    else:
+        print("Very hot - drink plenty of water")
+elif 20 <= temperature <= 30:
+    if not is_raining and wind_speed < 20:
+        print("Perfect weather for outdoor activities")
+    else:
+        print("Weather is okay but not perfect")
+else:
+    print("Cool weather - wear warm clothes")
+print()
