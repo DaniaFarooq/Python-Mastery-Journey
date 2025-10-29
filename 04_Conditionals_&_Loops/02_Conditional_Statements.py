@@ -119,9 +119,9 @@ else:
 print()
 
 # =============================================
-# 7. COMPARISON OPERATORS IN CONDITIONS
+# 6. COMPARISON OPERATORS IN CONDITIONS
 # =============================================
-print("7. COMPARISON OPERATORS")
+print("6. COMPARISON OPERATORS")
 
 a = 15
 b = 10
@@ -144,3 +144,28 @@ if a >= b:
 if a <= b:
     print("a is less than or equal to b")
 print()
+
+# =============================================
+# 7. PRACTICAL EXAMPLES
+# =============================================
+print("7. PRACTICAL EXAMPLES")
+
+# Example 1: Ticket Pricing
+print("TICKET PRICING:")
+age = 65
+is_student = False
+
+print(f"Age: {age}, Student: {is_student}")
+
+if age < 3:
+    ticket_price = 0
+elif age <= 12:
+    ticket_price = 10
+elif age >= 65:
+    ticket_price = 15
+elif is_student:
+    ticket_price = 12
+else:
+    ticket_price = 20
+
+print(f"Ticket price: ${ticket_price}")
