@@ -72,3 +72,23 @@ if temperature > 20 and is_sunny:
     print("Perfect weather for picnic")
 else:
     print("Maybe stay indoors today")
+
+# Using OR
+has_coupon = False
+is_member = True
+print(f"\nHas coupon: {has_coupon}, Is member: {is_member}")
+
+if has_coupon or is_member:
+    print("You qualify for discount")
+else:
+    print("No discount available")
+
+# Using NOT
+is_raining = False
+print(f"\nIs raining: {is_raining}")
+
+if not is_raining:
+    print("No umbrella needed")
+else:
+    print("Take an umbrella")
+print()
