@@ -170,7 +170,7 @@ else:
 
 print(f"Ticket price: ${ticket_price}")
 
-# Example 3: Weather Advisor
+# Example 2: Weather Advisor
 print("\nWEATHER ADVISOR:")
 temperature = 28
 is_raining = False
@@ -191,3 +191,18 @@ elif 20 <= temperature <= 30:
 else:
     print("Cool weather - wear warm clothes")
 print()
+
+# =============================================
+# 8. BEST PRACTICES
+# =============================================
+print("8. BEST PRACTICES")
+
+print("✓ Use clear and descriptive condition names")
+print("✓ Avoid deeply nested conditionals when possible")
+print("✓ Use parentheses for complex conditions")
+print("✓ Keep conditions simple and readable")
+print("✓ Use consistent indentation")
+print("✓ Test all possible branches")
+
+print("\n" + "="*50)
+print("Complete! You mastered Conditional Statements.")
