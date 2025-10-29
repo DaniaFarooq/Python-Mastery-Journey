@@ -19,3 +19,19 @@ if number > 0:
 
 print("This is outside the if block")
 print()
+
+# =============================================
+# 2. IF-ELSE STATEMENT
+# =============================================
+print("2. IF-ELSE STATEMENT")
+
+age = 16
+print(f"Age: {age}")
+
+if age >= 18:
+    print("You are eligible to vote")
+    print("You can participate in elections")
+else:
+    print("You are not eligible to vote")
+    print("Wait until you are 18 years old")
+print()
