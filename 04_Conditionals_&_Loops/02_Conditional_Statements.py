@@ -117,3 +117,30 @@ if age >= 18:
 else:
     print("You are too young to drive")
 print()
+
+# =============================================
+# 7. COMPARISON OPERATORS IN CONDITIONS
+# =============================================
+print("7. COMPARISON OPERATORS")
+
+a = 15
+b = 10
+
+print(f"a = {a}, b = {b}")
+
+if a == b:
+    print("a equals b")
+elif a != b:
+    print("a does not equal b")
+
+if a > b:
+    print("a is greater than b")
+
+if a < b:
+    print("a is less than b")
+if a >= b:
+    print("a is greater than or equal to b")
+
+if a <= b:
+    print("a is less than or equal to b")
+print()
