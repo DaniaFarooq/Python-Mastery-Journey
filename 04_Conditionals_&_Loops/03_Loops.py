@@ -64,3 +64,28 @@ print("\n→ Counting backwards:")
 for i in range(5, 0, -1):
     print(f"  i = {i}")
 print()
+
+# =============================================
+# 4. LOOP CONTROL STATEMENTS
+# =============================================
+print("4. LOOP CONTROL STATEMENTS")
+
+print("→ break - exit loop early:")
+for i in range(10):
+    if i == 5:
+        break
+    print(f"  i = {i}")
+    
+print("\n→ continue - skip current iteration:")
+for i in range(5):
+    if i == 2:
+        continue
+
+print("\n→ pass - placeholder:")
+for i in range(3):
+    if i == 1:
+        pass  # Do nothing
+    print(f"  i = {i}")
+print()
+
+    print(f"  i = {i}")
