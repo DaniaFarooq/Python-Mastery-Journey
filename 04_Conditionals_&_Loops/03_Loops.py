@@ -24,3 +24,21 @@ print("\n→ Looping with range():")
 for i in range(5):
     print(f"  Number: {i}")
 print()
+
+# =============================================
+# 2. WHILE LOOP BASICS
+# =============================================
+print("2. WHILE LOOP BASICS")
+
+print("→ Basic while loop:")
+count = 1
+while count <= 5:
+    print(f"  Count: {count}")
+    count += 1
+
+print("\n→ While loop with condition:")
+temperature = 30
+while temperature > 20:
+    print(f"  Temperature: {temperature}°C")
+    temperature -= 2
+print()
