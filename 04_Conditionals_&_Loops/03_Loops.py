@@ -80,7 +80,8 @@ print("\n→ continue - skip current iteration:")
 for i in range(5):
     if i == 2:
         continue
-
+    print(f"  i = {i}")
+    
 print("\n→ pass - placeholder:")
 for i in range(3):
     if i == 1:
@@ -88,4 +89,14 @@ for i in range(3):
     print(f"  i = {i}")
 print()
 
-    print(f"  i = {i}")
+# =============================================
+# 5. NESTED LOOPS
+# =============================================
+print("5. NESTED LOOPS")
+
+print("→ Multiplication table:")
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(f"  {i} x {j} = {i * j}")
+    print("  ---")
+print()
