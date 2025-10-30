@@ -100,3 +100,23 @@ for i in range(1, 4):
         print(f"  {i} x {j} = {i * j}")
     print("  ---")
 print()
+
+# =============================================
+# 6. PRACTICAL EXAMPLES
+# =============================================
+print("6. PRACTICAL EXAMPLES")
+
+# Example 1: Number operations
+print("NUMBER OPERATIONS:")
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+print("Even numbers:")
+for num in numbers:
+    if num % 2 == 0:
+        print(f"  {num}")
+
+print("\nSum of numbers:")
+total = 0
+for num in numbers:
+    total += num
+print(f"  Total: {total}")
