@@ -134,3 +134,28 @@ for i in range(len(items)):
 
 print(f"Total: ${total_cost}")
 print()
+
+# =============================================
+# 7. LOOPING THROUGH DICTIONARIES
+# =============================================
+print("7. LOOPING THROUGH DICTIONARIES")
+
+student = {
+    "name": "Alice",
+    "age": 20,
+    "grade": "A",
+    "subjects": ["Math", "Science", "English"]
+}
+
+print("→ Looping through keys:")
+for key in student:
+    print(f"  Key: {key}")
+
+print("\n→ Looping through values:")
+for value in student.values():
+    print(f"  Value: {value}")
+
+print("\n→ Looping through items:")
+for key, value in student.items():
+    print(f"  {key}: {value}")
+print()
