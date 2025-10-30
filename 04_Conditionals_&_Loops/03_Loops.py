@@ -42,3 +42,25 @@ while temperature > 20:
     print(f"  Temperature: {temperature}°C")
     temperature -= 2
 print()
+
+# =============================================
+# 3. RANGE() FUNCTION
+# =============================================
+print("3. RANGE() FUNCTION")
+
+print("→ range(stop):")
+for i in range(5):
+    print(f"  i = {i}")
+
+print("\n→ range(start, stop):")
+for i in range(2, 6):
+    print(f"  i = {i}")
+
+print("\n→ range(start, stop, step):")
+for i in range(0, 10, 2):
+    print(f"  i = {i}")
+
+print("\n→ Counting backwards:")
+for i in range(5, 0, -1):
+    print(f"  i = {i}")
+print()
