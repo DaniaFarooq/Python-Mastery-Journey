@@ -120,3 +120,17 @@ total = 0
 for num in numbers:
     total += num
 print(f"  Total: {total}")
+
+# Example 2: Shopping cart
+print("\nSHOPPING CART:")
+items = ["Laptop", "Mouse", "Keyboard", "Monitor"]
+prices = [1000, 25, 75, 300]
+
+print("Shopping list:")
+total_cost = 0
+for i in range(len(items)):
+    print(f"  {items[i]} - ${prices[i]}")
+    total_cost += prices[i]
+
+print(f"Total: ${total_cost}")
+print()
