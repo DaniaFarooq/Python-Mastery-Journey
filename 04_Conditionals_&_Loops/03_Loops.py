@@ -159,3 +159,35 @@ print("\n→ Looping through items:")
 for key, value in student.items():
     print(f"  {key}: {value}")
 print()
+
+# =============================================
+# 10. COMMON LOOP PATTERNS
+# =============================================
+print("10. COMMON LOOP PATTERNS")
+
+print("→ Accumulator pattern:")
+numbers = [1, 2, 3, 4, 5]
+sum_result = 0
+for num in numbers:
+    sum_result += num
+print(f"  Sum: {sum_result}")
+
+print("\n→ Search pattern:")
+names = ["Alice", "Bob", "Charlie", "Diana"]
+search_name = "Bob"
+found = False
+for name in names:
+    if name == search_name:
+        found = True
+        break
+
+print(f"  Found {search_name}: {found}")
+
+print("\n→ Counter pattern:")
+grades = ["A", "B", "A", "C", "B", "A"]
+count_a = 0
+for grade in grades:
+    if grade == "A":
+        count_a += 1
+print(f"  Number of A grades: {count_a}")
+print()
