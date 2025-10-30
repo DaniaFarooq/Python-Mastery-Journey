@@ -161,9 +161,9 @@ for key, value in student.items():
 print()
 
 # =============================================
-# 10. COMMON LOOP PATTERNS
+# 8. COMMON LOOP PATTERNS
 # =============================================
-print("10. COMMON LOOP PATTERNS")
+print("8. COMMON LOOP PATTERNS")
 
 print("→ Accumulator pattern:")
 numbers = [1, 2, 3, 4, 5]
@@ -191,3 +191,18 @@ for grade in grades:
         count_a += 1
 print(f"  Number of A grades: {count_a}")
 print()
+
+# =============================================
+# 9. LOOP BEST PRACTICES
+# =============================================
+print("9. LOOP BEST PRACTICES")
+
+print("✓ Use for loops when you know iteration count")
+print("✓ Use while loops for conditional repetition")
+print("✓ Avoid infinite loops with proper exit conditions")
+print("✓ Use meaningful variable names in loops")
+print("✓ Keep loop bodies focused and readable")
+print("✓ Use break and continue sparingly")
+
+print("\n" + "="*50)
+print("Congrats! You mastered Loops in Python.")
