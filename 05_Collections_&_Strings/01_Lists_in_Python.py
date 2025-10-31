@@ -79,3 +79,27 @@ print(f"After pop(): {numbers}, popped: {popped}")
 del numbers[0]
 print(f"After del numbers[0]: {numbers}")
 print()
+
+# =============================================
+# 4. LIST OPERATIONS
+# =============================================
+print("4. LIST OPERATIONS")
+
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+
+# Concatenation
+combined = list1 + list2
+print(f"list1 + list2: {combined}")
+
+# Repetition
+repeated = list1 * 3
+print(f"list1 * 3: {repeated}")
+
+# Membership
+print(f"2 in list1: {2 in list1}")
+print(f"7 in list1: {7 in list1}")
+
+# Length
+print(f"Length of list1: {len(list1)}")
+print()
