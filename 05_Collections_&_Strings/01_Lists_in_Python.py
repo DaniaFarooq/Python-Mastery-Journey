@@ -103,3 +103,32 @@ print(f"7 in list1: {7 in list1}")
 # Length
 print(f"Length of list1: {len(list1)}")
 print()
+
+# =============================================
+# 5. LIST METHODS
+# =============================================
+print("5. LIST METHODS")
+
+numbers = [3, 1, 4, 1, 5, 9, 2]
+print(f"Original: {numbers}")
+
+# Sort
+numbers.sort()
+print(f"After sort(): {numbers}")
+
+# Reverse
+numbers.reverse()
+print(f"After reverse(): {numbers}")
+
+# Count
+count_1 = numbers.count(1)
+print(f"Count of 1: {count_1}")
+
+# Index
+index_4 = numbers.index(4)
+print(f"Index of 4: {index_4}")
+
+# Clear
+numbers.clear()
+print(f"After clear(): {numbers}")
+print()
