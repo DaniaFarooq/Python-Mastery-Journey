@@ -202,3 +202,17 @@ copy2 = original[:]
 print(f"Original: {original}")
 print(f"Copy: {copy1}")
 print()
+
+# =============================================
+# 9. LIST PROPERTIES
+# =============================================
+print("9. LIST PROPERTIES")
+
+print("✓ Ordered - items maintain their position")
+print("✓ Mutable - can change after creation")
+print("✓ Allows duplicates")
+print("✓ Can contain different data types")
+print("✓ Dynamic size - grows and shrinks as needed")
+
+print("\n" + "="*50)
+print("Congratulations, Your Python foundation is getting stronger every day!")
