@@ -181,3 +181,24 @@ print(f"After adding cheese: {shopping_list}")
 shopping_list.remove("eggs")
 print(f"After removing eggs: {shopping_list}")
 
+# =============================================
+# 8. COMMON LIST OPERATIONS
+# =============================================
+print("8. COMMON LIST OPERATIONS")
+
+data = [5, 2, 8, 1, 9]
+print(f"Original data: {data}")
+
+print(f"Sorted: {sorted(data)}")
+print(f"Sum: {sum(data)}")
+print(f"Maximum: {max(data)}")
+print(f"Minimum: {min(data)}")
+
+# Copying lists
+original = [1, 2, 3]
+copy1 = original.copy()
+copy2 = original[:]
+
+print(f"Original: {original}")
+print(f"Copy: {copy1}")
+print()
