@@ -128,6 +128,25 @@ print(f"Count of 1: {count_1}")
 index_4 = numbers.index(4)
 print(f"Index of 4: {index_4}")
 
+# =============================================
+# 6. LIST COMPREHENSIONS
+# =============================================
+print("6. LIST COMPREHENSIONS")
+
+# Create list of squares
+squares = [x**2 for x in range(1, 6)]
+print(f"Squares: {squares}")
+
+# Even numbers
+evens = [x for x in range(10) if x % 2 == 0]
+print(f"Even numbers: {evens}")
+
+# Convert to uppercase
+words = ["hello", "world", "python"]
+uppercase = [word.upper() for word in words]
+print(f"Uppercase words: {uppercase}")
+print()
+
 # Clear
 numbers.clear()
 print(f"After clear(): {numbers}")
