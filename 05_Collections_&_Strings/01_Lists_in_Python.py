@@ -169,3 +169,15 @@ lowest = min(grades)
 print(f"Average: {average:.1f}")
 print(f"Highest: {highest}")
 print(f"Lowest: {lowest}")
+
+# Example 2: Shopping List
+print("\nSHOPPING LIST:")
+shopping_list = ["milk", "bread", "eggs", "butter"]
+print(f"Shopping list: {shopping_list}")
+
+shopping_list.append("cheese")
+print(f"After adding cheese: {shopping_list}")
+
+shopping_list.remove("eggs")
+print(f"After removing eggs: {shopping_list}")
+
