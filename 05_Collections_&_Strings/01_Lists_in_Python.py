@@ -151,3 +151,21 @@ print()
 numbers.clear()
 print(f"After clear(): {numbers}")
 print()
+
+# =============================================
+# 7. PRACTICAL EXAMPLES
+# =============================================
+print("7. PRACTICAL EXAMPLES")
+
+# Example 1: Student Grades
+print("STUDENT GRADES:")
+grades = [85, 92, 78, 96, 88]
+print(f"Grades: {grades}")
+
+average = sum(grades) / len(grades)
+highest = max(grades)
+lowest = min(grades)
+
+print(f"Average: {average:.1f}")
+print(f"Highest: {highest}")
+print(f"Lowest: {lowest}")
