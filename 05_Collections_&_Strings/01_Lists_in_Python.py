@@ -39,3 +39,13 @@ print(f"Colors: {colors}")
 print(f"First color: {colors[0]}")
 print(f"Second color: {colors[1]}")
 print(f"Third color: {colors[2]}")
+
+# Negative indexing
+print(f"Last color: {colors[-1]}")
+print(f"Second last: {colors[-2]}")
+
+# Slicing
+print(f"First three: {colors[0:3]}")
+print(f"From index 2: {colors[2:]}")
+print(f"Last two: {colors[-2:]}")
+print()
