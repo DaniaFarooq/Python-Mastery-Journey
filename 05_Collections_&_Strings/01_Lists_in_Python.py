@@ -68,3 +68,14 @@ print(f"After append(6): {numbers}")
 
 numbers.insert(1, 15)
 print(f"After insert(1, 15): {numbers}")
+
+# Remove items
+numbers.remove(15)
+print(f"After remove(15): {numbers}")
+
+popped = numbers.pop()
+print(f"After pop(): {numbers}, popped: {popped}")
+
+del numbers[0]
+print(f"After del numbers[0]: {numbers}")
+print()
