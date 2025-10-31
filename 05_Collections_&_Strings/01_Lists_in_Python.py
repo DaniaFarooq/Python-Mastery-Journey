@@ -49,3 +49,22 @@ print(f"First three: {colors[0:3]}")
 print(f"From index 2: {colors[2:]}")
 print(f"Last two: {colors[-2:]}")
 print()
+
+# =============================================
+# 3. MODIFYING LISTS
+# =============================================
+print("3. MODIFYING LISTS")
+
+numbers = [1, 2, 3, 4, 5]
+print(f"Original: {numbers}")
+
+# Change item
+numbers[2] = 10
+print(f"After numbers[2] = 10: {numbers}")
+
+# Add items
+numbers.append(6)
+print(f"After append(6): {numbers}")
+
+numbers.insert(1, 15)
+print(f"After insert(1, 15): {numbers}")
