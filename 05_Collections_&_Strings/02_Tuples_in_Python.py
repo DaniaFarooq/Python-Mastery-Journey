@@ -98,3 +98,24 @@ print(f"7 in tuple1: {7 in tuple1}")
 # Length
 print(f"Length of tuple1: {len(tuple1)}")
 print()
+
+# =============================================
+# 5. TUPLE METHODS
+# =============================================
+print("5. TUPLE METHODS")
+
+numbers = (3, 1, 4, 1, 5, 9, 2, 1)
+print(f"Numbers: {numbers}")
+
+# Count
+count_1 = numbers.count(1)
+print(f"Count of 1: {count_1}")
+
+# Index
+index_4 = numbers.index(4)
+print(f"Index of 4: {index_4}")
+
+# Index with start position
+index_1_after_2 = numbers.index(1, 2)
+print(f"Index of 1 after position 2: {index_1_after_2}")
+print()
