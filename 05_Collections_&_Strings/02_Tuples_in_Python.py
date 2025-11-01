@@ -119,3 +119,18 @@ print(f"Index of 4: {index_4}")
 index_1_after_2 = numbers.index(1, 2)
 print(f"Index of 1 after position 2: {index_1_after_2}")
 print()
+
+# =============================================
+# 6. PRACTICAL EXAMPLES
+# =============================================
+print("6. PRACTICAL EXAMPLES")
+
+# Example 1: RGB Colors
+print("RGB COLORS:")
+red = (255, 0, 0)
+green = (0, 255, 0)
+blue = (0, 0, 255)
+
+print(f"Red: {red}")
+print(f"Green: {green}")
+print(f"Blue: {blue}")
