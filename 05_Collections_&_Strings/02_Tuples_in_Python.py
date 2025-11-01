@@ -149,9 +149,9 @@ print(f"Distance between points: {distance:.2f}")
 print()
 
 # =============================================
-# 8. TUPLES VS LISTS
+# 7. TUPLES VS LISTS
 # =============================================
-print("8. TUPLES VS LISTS")
+print("7. TUPLES VS LISTS")
 
 my_list = [1, 2, 3]
 my_tuple = (1, 2, 3)
@@ -164,3 +164,9 @@ print("✓ For fixed collections of items")
 print("✓ When data shouldn't be modified")
 print("✓ As dictionary keys")
 print("✓ For multiple return values from functions")
+
+print("\nWhen to use lists:")
+print("✓ When you need to modify the collection")
+print("✓ For dynamic data that changes often")
+print("✓ When you need list-specific methods")
+print()
