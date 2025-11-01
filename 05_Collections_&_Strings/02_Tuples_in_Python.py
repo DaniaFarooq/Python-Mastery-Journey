@@ -74,3 +74,27 @@ mixed_tuple = ([1, 2], [3, 4])
 mixed_tuple[0].append(3)
 print(f"Modified inner list: {mixed_tuple}")
 print()
+
+# =============================================
+# 4. TUPLE OPERATIONS
+# =============================================
+print("4. TUPLE OPERATIONS")
+
+tuple1 = (1, 2, 3)
+tuple2 = (4, 5, 6)
+
+# Concatenation
+combined = tuple1 + tuple2
+print(f"tuple1 + tuple2: {combined}")
+
+# Repetition
+repeated = tuple1 * 2
+print(f"tuple1 * 2: {repeated}")
+
+# Membership
+print(f"2 in tuple1: {2 in tuple1}")
+print(f"7 in tuple1: {7 in tuple1}")
+
+# Length
+print(f"Length of tuple1: {len(tuple1)}")
+print()
