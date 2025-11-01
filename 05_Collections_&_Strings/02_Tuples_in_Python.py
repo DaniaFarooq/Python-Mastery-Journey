@@ -189,3 +189,18 @@ student = ("Charlie", 21, [85, 90, 78])
 name, age, grades = student
 average = sum(grades) / len(grades)
 print(f"{name}'s average: {average:.1f}"
+
+# =============================================
+# 10. TUPLE ADVANTAGES
+# =============================================
+print("10. TUPLE ADVANTAGES")
+
+print("✓ Faster than lists")
+print("✓ Safer for constant data")
+print("✓ Can be used as dictionary keys")
+print("✓ Thread-safe")
+print("✓ Memory efficient")
+
+print("\n" + "="*50)
+print("INCREDIBLE! You've conquered Tuples in Python! 🎉")
+print("You now understand immutable sequences like a pro!")
