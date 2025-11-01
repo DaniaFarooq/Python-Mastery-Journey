@@ -52,3 +52,25 @@ print(f"First three: {colors[0:3]}")
 print(f"From index 2: {colors[2:]}")
 print(f"Last two: {colors[-2:]}")
 print()
+
+# =============================================
+# 3. TUPLE PROPERTIES
+# =============================================
+print("3. TUPLE PROPERTIES")
+
+# Tuples are immutable
+coordinates = (10, 20)
+print(f"Coordinates: {coordinates}")
+
+# This would cause an error:
+# coordinates[0] = 15  # TypeError!
+
+# But you can create new tuples
+new_coordinates = (15, coordinates[1])
+print(f"New coordinates: {new_coordinates}")
+
+# Tuples can contain mutable objects
+mixed_tuple = ([1, 2], [3, 4])
+mixed_tuple[0].append(3)
+print(f"Modified inner list: {mixed_tuple}")
+print()
