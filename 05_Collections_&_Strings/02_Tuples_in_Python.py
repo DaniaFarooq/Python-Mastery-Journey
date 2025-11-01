@@ -134,3 +134,16 @@ blue = (0, 0, 255)
 print(f"Red: {red}")
 print(f"Green: {green}")
 print(f"Blue: {blue}")
+
+# Example 2: Coordinate System
+print("\nCOORDINATE SYSTEM:")
+point1 = (3, 4)
+point2 = (7, 2)
+
+print(f"Point 1: {point1}")
+print(f"Point 2: {point2}")
+
+# Calculate distance
+distance = ((point2[0] - point1[0])**2 + (point2[1] - point1[1])**2)**0.5
+print(f"Distance between points: {distance:.2f}")
+print()
