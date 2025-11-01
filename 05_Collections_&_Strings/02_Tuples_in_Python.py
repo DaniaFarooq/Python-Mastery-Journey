@@ -147,3 +147,20 @@ print(f"Point 2: {point2}")
 distance = ((point2[0] - point1[0])**2 + (point2[1] - point1[1])**2)**0.5
 print(f"Distance between points: {distance:.2f}")
 print()
+
+# =============================================
+# 8. TUPLES VS LISTS
+# =============================================
+print("8. TUPLES VS LISTS")
+
+my_list = [1, 2, 3]
+my_tuple = (1, 2, 3)
+
+print(f"List: {my_list} (type: {type(my_list)})")
+print(f"Tuple: {my_tuple} (type: {type(my_tuple)})")
+
+print("\nWhen to use tuples:")
+print("✓ For fixed collections of items")
+print("✓ When data shouldn't be modified")
+print("✓ As dictionary keys")
+print("✓ For multiple return values from functions")
