@@ -30,3 +30,25 @@ print(f"Without parentheses: {numbers}")
 mixed = (1, "hello", 3.14, True)
 print(f"Mixed tuple: {mixed}")
 print()
+
+# =============================================
+# 2. ACCESSING TUPLE ITEMS
+# =============================================
+print("2. ACCESSING TUPLE ITEMS")
+
+colors = ("red", "green", "blue", "yellow", "purple")
+print(f"Colors: {colors}")
+
+# Positive indexing
+print(f"First color: {colors[0]}")
+print(f"Second color: {colors[1]}")
+
+# Negative indexing
+print(f"Last color: {colors[-1]}")
+print(f"Second last: {colors[-2]}")
+
+# Slicing
+print(f"First three: {colors[0:3]}")
+print(f"From index 2: {colors[2:]}")
+print(f"Last two: {colors[-2:]}")
+print()
