@@ -170,3 +170,22 @@ print("✓ When you need to modify the collection")
 print("✓ For dynamic data that changes often")
 print("✓ When you need list-specific methods")
 print()
+
+# =============================================
+# 8. EXERCISES
+# =============================================
+print("8. EXERCISES")
+
+print("Exercise 1: Color Mixer")
+color1 = (255, 0, 0)  # Red
+color2 = (0, 0, 255)  # Blue
+mixed = ((color1[0] + color2[0]) // 2, 
+         (color1[1] + color2[1]) // 2, 
+         (color1[2] + color2[2]) // 2)
+print(f"Red + Blue = {mixed} (Purple)")
+
+print("\nExercise 2: Student Average")
+student = ("Charlie", 21, [85, 90, 78])
+name, age, grades = student
+average = sum(grades) / len(grades)
+print(f"{name}'s average: {average:.1f}"
