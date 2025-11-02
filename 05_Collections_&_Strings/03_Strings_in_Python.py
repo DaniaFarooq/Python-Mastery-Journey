@@ -162,3 +162,19 @@ print("Backslash: C:\\\\Users")
 print("Quote: She said, \\\"Hello!\\\"")
 print("Raw string: r\"C:\\\\Users\"")
 print()
+
+# =============================================
+# 9. EXERCISES
+# =============================================
+print("9. EXERCISES")
+
+print("Exercise 1: Name Formatter")
+name = "john doe"
+formatted = name.title()
+print(f"Original: {name}")
+print(f"Formatted: {formatted}")
+
+print("\nExercise 2: Palindrome Checker")
+word = "radar"
+is_palindrome = word == word[::-1]
+print(f"'{word}' is palindrome: {is_palindrome}")
