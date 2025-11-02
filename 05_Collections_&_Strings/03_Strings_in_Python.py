@@ -23,3 +23,8 @@ multi_line = """This is a
 multi-line
 string"""
 print(f"Multi-line:\n{multi_line}")
+
+# Escape sequences
+escaped = "Line 1\nLine 2\tTabbed"
+print(f"With escapes: {escaped}")
+print()
