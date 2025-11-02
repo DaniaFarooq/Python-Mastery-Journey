@@ -178,3 +178,21 @@ print("\nExercise 2: Palindrome Checker")
 word = "radar"
 is_palindrome = word == word[::-1]
 print(f"'{word}' is palindrome: {is_palindrome}")
+
+# =============================================
+# 10. ADVANCED STRING OPERATIONS
+# =============================================
+print("10. ADVANCED STRING OPERATIONS")
+
+# String reversal
+text = "Python"
+reversed_text = text[::-1]
+print(f"Original: {text}")
+print(f"Reversed: {reversed_text}")
+
+# Checking prefixes/suffixes
+filename = "document.pdf"
+print(f"Filename: {filename}")
+print(f"Is PDF: {filename.endswith('.pdf')}")
+print(f"Is document: {filename.startswith('document')}")
+
