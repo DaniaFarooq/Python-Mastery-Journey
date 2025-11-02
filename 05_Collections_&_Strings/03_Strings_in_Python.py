@@ -114,3 +114,20 @@ print(f"Is alphanumeric: {'Python123'.isalnum()}")
 # Finding and counting
 print(f"Find 'is': {text.find('is')}")
 print(f"Count 'o': {text.count('o')}")
+
+# =============================================
+# 6. STRING FORMATTING
+# =============================================
+print("6. STRING FORMATTING")
+
+name = "Alice"
+age = 25
+score = 95.5
+
+# f-strings (Python 3.6+)
+message1 = f"{name} is {age} years old and scored {score}"
+print(f"f-string: {message1}")
+
+# format() method
+message2 = "{} is {} years old and scored {}".format(name, age, score)
+print(f"format(): {message2}")
