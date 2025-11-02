@@ -131,3 +131,22 @@ print(f"f-string: {message1}")
 # format() method
 message2 = "{} is {} years old and scored {}".format(name, age, score)
 print(f"format(): {message2}")
+
+# =============================================
+# 7. PRACTICAL EXAMPLES
+# =============================================
+print("7. PRACTICAL EXAMPLES")
+
+# Example 1: User Input Processing
+print("USER INPUT PROCESSING:")
+username = "  python_user  "
+clean_username = username.strip().lower()
+print(f"Original: '{username}'")
+print(f"Cleaned: '{clean_username}'")
+
+# Example 2: Email Validation
+print("\nEMAIL VALIDATION:")
+email = "user@example.com"
+print(f"Email: {email}")
+print(f"Valid email: {'@' in email and '.' in email}")
+print(f"Domain: {email.split('@')[1]}")
