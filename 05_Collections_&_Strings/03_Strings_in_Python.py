@@ -95,3 +95,22 @@ print(f"Right stripped: '{sample.rstrip()}'")
 # Replacement
 print(f"Replace 'python' with 'Java': '{sample.replace('python', 'Java')}'")
 print()
+
+# =============================================
+# 5. MORE STRING METHODS
+# =============================================
+print("5. MORE STRING METHODS")
+
+text = "Python is awesome!"
+print(f"Text: '{text}'")
+
+# Checking methods
+print(f"Starts with 'Python': {text.startswith('Python')}")
+print(f"Ends with 'awesome!': {text.endswith('awesome!')}")
+print(f"Is alphabetic: {'Python'.isalpha()}")
+print(f"Is numeric: {'123'.isdigit()}")
+print(f"Is alphanumeric: {'Python123'.isalnum()}")
+
+# Finding and counting
+print(f"Find 'is': {text.find('is')}")
+print(f"Count 'o': {text.count('o')}")
