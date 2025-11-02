@@ -48,3 +48,23 @@ print(f"From index 2: {text[2:]}")
 print(f"Last three: {text[-3:]}")
 print(f"Every second character: {text[::2]}")
 print()
+
+# =============================================
+# 3. STRING OPERATIONS
+# =============================================
+print("3. STRING OPERATIONS")
+
+str1 = "Hello"
+str2 = "World"
+
+# Concatenation
+combined = str1 + " " + str2
+print(f"Concatenation: {combined}")
+
+# Repetition
+repeated = "Python " * 3
+print(f"Repetition: {repeated}")
+
+# Membership
+print(f"'Hello' in '{combined}': {'Hello' in combined}")
+print(f"'Python' in '{combined}': {'Python' in combined}")
