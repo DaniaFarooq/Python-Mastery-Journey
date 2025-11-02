@@ -196,3 +196,16 @@ print(f"Filename: {filename}")
 print(f"Is PDF: {filename.endswith('.pdf')}")
 print(f"Is document: {filename.startswith('document')}")
 
+# =============================================
+# 11. STRING PROPERTIES
+# =============================================
+print("11. STRING PROPERTIES")
+
+print("✓ Immutable - cannot be changed after creation")
+print("✓ Ordered - characters maintain their position")
+print("✓ Indexable - can access characters by position")
+print("✓ Iterable - can loop through characters")
+print("✓ Supports slicing - extract substrings easily")
+
+print("\n" + "="*65)
+print("PHENOMENAL! You've mastered Strings in Python!")
