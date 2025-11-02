@@ -68,3 +68,30 @@ print(f"Repetition: {repeated}")
 # Membership
 print(f"'Hello' in '{combined}': {'Hello' in combined}")
 print(f"'Python' in '{combined}': {'Python' in combined}")
+
+# Length
+print(f"Length of '{text}': {len(text)}")
+print()
+
+# =============================================
+# 4. STRING METHODS
+# =============================================
+print("4. STRING METHODS")
+
+sample = "  python programming  "
+print(f"Original: '{sample}'")
+
+# Case conversion
+print(f"Upper: '{sample.upper()}'")
+print(f"Lower: '{sample.lower()}'")
+print(f"Title: '{sample.title()}'")
+print(f"Capitalize: '{sample.capitalize()}'")
+
+# Whitespace handling
+print(f"Stripped: '{sample.strip()}'")
+print(f"Left stripped: '{sample.lstrip()}'")
+print(f"Right stripped: '{sample.rstrip()}'")
+
+# Replacement
+print(f"Replace 'python' with 'Java': '{sample.replace('python', 'Java')}'")
+print()
