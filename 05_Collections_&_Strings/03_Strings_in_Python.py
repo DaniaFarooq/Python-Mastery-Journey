@@ -150,3 +150,15 @@ email = "user@example.com"
 print(f"Email: {email}")
 print(f"Valid email: {'@' in email and '.' in email}")
 print(f"Domain: {email.split('@')[1]}")
+
+# =============================================
+# 8. STRING ESCAPE SEQUENCES
+# =============================================
+print("8. STRING ESCAPE SEQUENCES")
+
+print("Newline: Line 1\\nLine 2")
+print("Tab: Name\\tAge")
+print("Backslash: C:\\\\Users")
+print("Quote: She said, \\\"Hello!\\\"")
+print("Raw string: r\"C:\\\\Users\"")
+print()
