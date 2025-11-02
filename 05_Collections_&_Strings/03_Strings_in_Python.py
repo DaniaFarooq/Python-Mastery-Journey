@@ -28,3 +28,23 @@ print(f"Multi-line:\n{multi_line}")
 escaped = "Line 1\nLine 2\tTabbed"
 print(f"With escapes: {escaped}")
 print()
+
+# =============================================
+# 2. STRING INDEXING
+# =============================================
+print("2. STRING INDEXING")
+
+text = "Python"
+print(f"Text: {text}")
+
+print(f"First character: {text[0]}")
+print(f"Second character: {text[1]}")
+print(f"Last character: {text[-1]}")
+print(f"Second last: {text[-2]}")
+
+# Slicing
+print(f"First three: {text[0:3]}")
+print(f"From index 2: {text[2:]}")
+print(f"Last three: {text[-3:]}")
+print(f"Every second character: {text[::2]}")
+print()
