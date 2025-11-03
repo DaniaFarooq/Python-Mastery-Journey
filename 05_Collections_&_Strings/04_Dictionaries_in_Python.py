@@ -99,3 +99,28 @@ print(f"After del car['color']: {car}")
 car.clear()
 print(f"After clear(): {car}")
 print()
+
+# =============================================
+# 4. DICTIONARY OPERATIONS
+# =============================================
+print("4. DICTIONARY OPERATIONS")
+
+dict1 = {"a": 1, "b": 2}
+dict2 = {"c": 3, "d": 4}
+
+# Copy dictionary
+dict_copy = dict1.copy()
+print(f"Original: {dict1}")
+print(f"Copy: {dict_copy}")
+
+# Merge dictionaries
+dict1.update(dict2)
+print(f"After update with dict2: {dict1}")
+
+# Membership testing
+print(f"'a' in dict1: {'a' in dict1}")
+print(f"'z' in dict1: {'z' in dict1}")
+
+# Length
+print(f"Length of dict1: {len(dict1)}")
+print()
