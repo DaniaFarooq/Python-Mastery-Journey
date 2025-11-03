@@ -149,3 +149,32 @@ print("\nLoop through items:")
 for key, value in inventory.items():
     print(f"  {key}: {value}")
 print()
+
+# =============================================
+# 6. NESTED DICTIONARIES
+# =============================================
+print("6. NESTED DICTIONARIES")
+
+company = {
+    "employee1": {
+        "name": "Alice",
+        "age": 30,
+        "position": "Developer"
+    },
+    "employee2": {
+        "name": "Bob",
+        "age": 25,
+        "position": "Designer"
+    }
+}
+print("Company employees:")
+for emp_id, details in company.items():
+    print(f"  {emp_id}:")
+    print(f"    Name: {details['name']}")
+    print(f"    Age: {details['age']}")
+    print(f"    Position: {details['position']}")
+
+# Access nested values
+print(f"Employee1 name: {company['employee1']['name']}")
+print(f"Employee2 position: {company['employee2']['position']}")
+print()
