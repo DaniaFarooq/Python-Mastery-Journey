@@ -50,6 +50,15 @@ book = {
 
 print(f"Book: {book}")
 
+# Access with get() method
+print(f"Year: {book.get('year')}")
+print(f"Publisher: {book.get('publisher', 'Not specified')}")
+
+# Get all keys and values
+print(f"Keys: {list(book.keys())}")
+print(f"Values: {list(book.values())}")
+print(f"Items: {list(book.items())}")
+print()
 # Access with square brackets
 print(f"Title: {book['title']}")
 print(f"Author: {book['author']}")
