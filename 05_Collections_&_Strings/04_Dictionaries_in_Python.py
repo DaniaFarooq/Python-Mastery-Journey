@@ -144,3 +144,8 @@ for key in inventory:
 print("\nLoop through values:")
 for value in inventory.values():
     print(f"  {value}")
+
+print("\nLoop through items:")
+for key, value in inventory.items():
+    print(f"  {key}: {value}")
+print()
