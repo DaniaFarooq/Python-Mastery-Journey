@@ -21,3 +21,17 @@ person = {
     "city": "New York"
 }
 print(f"Person: {person}")
+
+# Using dict() constructor
+student = dict(name="Bob", age=22, grade="A")
+print(f"Student: {student}")
+
+# Mixed data types
+mixed_dict = {
+    "string": "hello",
+    "number": 42,
+    "boolean": True,
+    "list": [1, 2, 3]
+}
+print(f"Mixed dictionary: {mixed_dict}")
+print()
