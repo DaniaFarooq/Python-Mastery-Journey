@@ -59,6 +59,43 @@ print(f"Keys: {list(book.keys())}")
 print(f"Values: {list(book.values())}")
 print(f"Items: {list(book.items())}")
 print()
+
 # Access with square brackets
 print(f"Title: {book['title']}")
 print(f"Author: {book['author']}")
+
+# =============================================
+# 3. MODIFYING DICTIONARIES
+# =============================================
+print("3. MODIFYING DICTIONARIES")
+
+car = {
+    "brand": "Toyota",
+    "model": "Camry",
+    "year": 2022
+}
+print(f"Original car: {car}")
+
+# Add new key-value pair
+car["color"] = "blue"
+print(f"After adding color: {car}")
+
+# Update existing value
+car["year"] = 2023
+print(f"After updating year: {car}")
+
+# Update multiple values
+car.update({"model": "Corolla", "price": 25000})
+print(f"After update: {car}")
+
+# Remove items
+removed_value = car.pop("price")
+print(f"After pop('price'): {car}, removed: {removed_value}")
+
+del car["color"]
+print(f"After del car['color']: {car}")
+
+# Clear dictionary
+car.clear()
+print(f"After clear(): {car}")
+print()
