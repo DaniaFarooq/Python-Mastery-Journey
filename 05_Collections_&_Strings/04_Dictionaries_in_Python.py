@@ -35,3 +35,21 @@ mixed_dict = {
 }
 print(f"Mixed dictionary: {mixed_dict}")
 print()
+
+# =============================================
+# 2. ACCESSING VALUES
+# =============================================
+print("2. ACCESSING VALUES")
+
+book = {
+    "title": "Python Basics",
+    "author": "John Doe",
+    "year": 2024,
+    "pages": 350
+}
+
+print(f"Book: {book}")
+
+# Access with square brackets
+print(f"Title: {book['title']}")
+print(f"Author: {book['author']}")
