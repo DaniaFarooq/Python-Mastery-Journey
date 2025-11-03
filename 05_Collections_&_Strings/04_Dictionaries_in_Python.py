@@ -124,3 +124,23 @@ print(f"'z' in dict1: {'z' in dict1}")
 # Length
 print(f"Length of dict1: {len(dict1)}")
 print()
+
+# =============================================
+# 5. LOOPING THROUGH DICTIONARIES
+# =============================================
+print("5. LOOPING THROUGH DICTIONARIES")
+
+inventory = {
+    "apples": 10,
+    "bananas": 15,
+    "oranges": 8,
+    "grapes": 20
+}
+
+print("Loop through keys:")
+for key in inventory:
+    print(f"  {key}: {inventory[key]}")
+
+print("\nLoop through values:")
+for value in inventory.values():
+    print(f"  {value}")
