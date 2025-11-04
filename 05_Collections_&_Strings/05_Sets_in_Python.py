@@ -113,3 +113,22 @@ print(f"After pop(): {numbers}, popped: {popped}")
 numbers.clear()
 print(f"After clear(): {numbers}")
 print()
+
+# =============================================
+# 5. SET COMPARISONS
+# =============================================
+print("5. SET COMPARISONS")
+
+set_x = {1, 2, 3}
+set_y = {1, 2, 3, 4, 5}
+set_z = {1, 2, 3}
+
+print(f"Set X: {set_x}")
+print(f"Set Y: {set_y}")
+print(f"Set Z: {set_z}")
+
+print(f"X is subset of Y: {set_x.issubset(set_y)}")
+print(f"Y is superset of X: {set_y.issuperset(set_x)}")
+print(f"X equals Z: {set_x == set_z}")
+print(f"X is disjoint with {{6,7}}: {set_x.isdisjoint({6, 7})}")
+print()
