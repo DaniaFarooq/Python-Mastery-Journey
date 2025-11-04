@@ -132,3 +132,25 @@ print(f"Y is superset of X: {set_y.issuperset(set_x)}")
 print(f"X equals Z: {set_x == set_z}")
 print(f"X is disjoint with {{6,7}}: {set_x.isdisjoint({6, 7})}")
 print()
+
+# =============================================
+# 6. PRACTICAL EXAMPLES
+# =============================================
+print("6. PRACTICAL EXAMPLES")
+
+# Example 1: Removing Duplicates
+print("REMOVING DUPLICATES:")
+names_list = ["Alice", "Bob", "Alice", "Charlie", "Bob", "David"]
+unique_names = set(names_list)
+print(f"Original list: {names_list}")
+print(f"Unique names: {unique_names}")
+print(f"Back to list: {list(unique_names)}")
+
+# Example 2: Common Interests
+print("\nCOMMON INTERESTS:")
+alice_interests = {"reading", "hiking", "coding", "music"}
+bob_interests = {"gaming", "coding", "music", "sports"}
+common = alice_interests & bob_interests
+print(f"Alice: {alice_interests}")
+print(f"Bob: {bob_interests}")
+print(f"Common interests: {common}")
