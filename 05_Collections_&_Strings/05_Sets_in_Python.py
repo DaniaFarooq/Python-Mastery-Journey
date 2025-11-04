@@ -30,3 +30,28 @@ print(f"Mixed set: {mixed_set}")
 word_set = set("programming")
 print(f"String to set: {word_set}")
 print()
+
+# =============================================
+# 2. SET PROPERTIES
+# =============================================
+print("2. SET PROPERTIES")
+
+# Sets are unordered
+random_set = {"a", "b", "c", "d", "e"}
+print(f"Set (unordered): {random_set}")
+
+# Sets contain unique elements
+duplicates = {1, 2, 2, 3, 3, 3, 4, 4, 4, 4}
+print(f"With duplicates: {duplicates}")
+
+# Sets are mutable
+colors = {"red", "green", "blue"}
+colors.add("yellow")
+print(f"After adding yellow: {colors}")
+
+# But sets can only contain immutable elements
+# This would cause an error:
+# invalid_set = {[1, 2], [3, 4]}  # TypeError!
+valid_set = {(1, 2), (3, 4)}  # Tuples are allowed
+print(f"Set with tuples: {valid_set}")
+print()
