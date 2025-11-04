@@ -234,3 +234,14 @@ grades = {
 average = sum(grades.values()) / len(grades)
 print(f"Grades: {grades}")
 print(f"Average: {average:.1f}")
+
+print("\nExercise 2: Word Counter")
+sentence = "hello world hello python world python python"
+words = sentence.split()
+word_count = {}
+
+for word in words:
+    word_count[word] = word_count.get(word, 0) + 1
+
+print(f"Sentence: {sentence}")
+print(f"Word count: {word_count}")
