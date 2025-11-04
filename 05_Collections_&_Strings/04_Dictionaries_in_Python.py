@@ -199,3 +199,21 @@ user = {
         "followers": 120,
         "joined": "2024-01-15"
     }
+}
+
+print(f"Username: {user['username']}")
+print(f"Email: {user['email']}")
+print(f"Theme: {user['preferences']['theme']}")
+print(f"Posts: {user['stats']['posts']}")
+
+# Example 2: Product Catalog
+print("\nPRODUCT CATALOG:")
+products = {
+    "laptop": {"price": 999, "stock": 5},
+    "mouse": {"price": 25, "stock": 20},
+    "keyboard": {"price": 75, "stock": 10}
+}
+
+print("Available products:")
+for product, details in products.items():
+    print(f"  {product.title()}: ${details['price']} (Stock: {details['stock']})")
