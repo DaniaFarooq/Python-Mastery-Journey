@@ -217,3 +217,20 @@ products = {
 print("Available products:")
 for product, details in products.items():
     print(f"  {product.title()}: ${details['price']} (Stock: {details['stock']})")
+
+# =============================================
+# 8. EXERCISES
+# =============================================
+print("8. EXERCISES")
+
+print("Exercise 1: Student Grades")
+grades = {
+    "math": 85,
+    "science": 92,
+    "english": 78,
+    "history": 88
+}
+
+average = sum(grades.values()) / len(grades)
+print(f"Grades: {grades}")
+print(f"Average: {average:.1f}")
