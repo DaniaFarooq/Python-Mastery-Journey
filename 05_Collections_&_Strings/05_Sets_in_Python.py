@@ -55,3 +55,31 @@ print(f"After adding yellow: {colors}")
 valid_set = {(1, 2), (3, 4)}  # Tuples are allowed
 print(f"Set with tuples: {valid_set}")
 print()
+
+# =============================================
+# 3. SET OPERATIONS
+# =============================================
+print("3. SET OPERATIONS")
+
+set_a = {1, 2, 3, 4, 5}
+set_b = {4, 5, 6, 7, 8}
+
+print(f"Set A: {set_a}")
+print(f"Set B: {set_b}")
+
+# Union
+union_set = set_a | set_b
+print(f"Union (A | B): {union_set}")
+
+# Intersection
+intersection_set = set_a & set_b
+print(f"Intersection (A & B): {intersection_set}")
+
+# Difference
+difference_set = set_a - set_b
+print(f"Difference (A - B): {difference_set}")
+
+# Symmetric Difference
+symmetric_diff = set_a ^ set_b
+print(f"Symmetric Difference (A ^ B): {symmetric_diff}")
+print()
