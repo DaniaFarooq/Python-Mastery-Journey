@@ -178,3 +178,24 @@ for emp_id, details in company.items():
 print(f"Employee1 name: {company['employee1']['name']}")
 print(f"Employee2 position: {company['employee2']['position']}")
 print()
+
+# =============================================
+# 7. PRACTICAL EXAMPLES
+# =============================================
+print("7. PRACTICAL EXAMPLES")
+
+# Example 1: User Profile
+print("USER PROFILE:")
+user = {
+    "username": "python_dev",
+    "email": "dev@example.com",
+    "preferences": {
+        "theme": "dark",
+        "language": "en",
+        "notifications": True
+    },
+    "stats": {
+        "posts": 45,
+        "followers": 120,
+        "joined": "2024-01-15"
+    }
