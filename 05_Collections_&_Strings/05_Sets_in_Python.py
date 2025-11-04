@@ -83,3 +83,33 @@ print(f"Difference (A - B): {difference_set}")
 symmetric_diff = set_a ^ set_b
 print(f"Symmetric Difference (A ^ B): {symmetric_diff}")
 print()
+
+# =============================================
+# 4. SET METHODS
+# =============================================
+print("4. SET METHODS")
+
+numbers = {1, 2, 3, 4, 5}
+print(f"Original set: {numbers}")
+
+# Adding elements
+numbers.add(6)
+print(f"After add(6): {numbers}")
+
+numbers.update([7, 8, 9])
+print(f"After update([7,8,9]): {numbers}")
+
+# Removing elements
+numbers.remove(9)
+print(f"After remove(9): {numbers}")
+
+numbers.discard(8)  # Safe remove (no error if not found)
+print(f"After discard(8): {numbers}")
+
+popped = numbers.pop()  # Remove random element
+print(f"After pop(): {numbers}, popped: {popped}")
+
+# Clear set
+numbers.clear()
+print(f"After clear(): {numbers}")
+print()
