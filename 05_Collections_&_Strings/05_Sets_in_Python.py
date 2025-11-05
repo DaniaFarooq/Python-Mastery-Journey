@@ -154,3 +154,24 @@ common = alice_interests & bob_interests
 print(f"Alice: {alice_interests}")
 print(f"Bob: {bob_interests}")
 print(f"Common interests: {common}")
+
+# =============================================
+# 7. FROZENSET - IMMUTABLE SETS
+# =============================================
+print("7. FROZENSET - IMMUTABLE SETS")
+
+# Create frozenset
+frozen_numbers = frozenset([1, 2, 3, 4, 5])
+print(f"Frozenset: {frozen_numbers}")
+print(f"Type: {type(frozen_numbers)}")
+
+# Frozenset operations (read-only)
+set1 = frozenset([1, 2, 3])
+set2 = frozenset([3, 4, 5])
+union_frozen = set1 | set2
+print(f"Frozenset union: {union_frozen}")
+
+# Frozenset can be dictionary key
+frozen_dict = {frozen_numbers: "This is a frozenset key"}
+print(f"Dictionary with frozenset key: {frozen_dict}")
+print()
