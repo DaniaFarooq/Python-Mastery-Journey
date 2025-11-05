@@ -215,3 +215,19 @@ odds = numbers - evens
 print(f"All numbers: {numbers}")
 print(f"Even numbers: {evens}")
 print(f"Odd numbers: {odds}")
+
+# =============================================
+# 10. SET ADVANTAGES
+# =============================================
+print("10. SET ADVANTAGES")
+
+print("✓ Fast membership testing")
+print("✓ Automatic duplicate removal")
+print("✓ Mathematical set operations")
+print("✓ Efficient for large collections")
+print("✓ Useful for comparisons")
+print("✓ Memory efficient for unique data")
+
+print("\n" + "="*50)
+print("FANTASTIC! You've mastered Sets in Python!")
+print("You now wield the power of unique collections like a pro!")
