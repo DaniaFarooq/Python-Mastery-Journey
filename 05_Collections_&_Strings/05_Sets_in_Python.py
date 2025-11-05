@@ -194,3 +194,24 @@ word = "programming"
 vowels = {char for char in word if char in "aeiou"}
 print(f"Vowels in 'programming': {vowels}")
 print()
+
+# =============================================
+# 9. EXERCISES
+# =============================================
+print("9. EXERCISES")
+
+print("Exercise 1: Unique Words Counter")
+sentence = "the quick brown fox jumps over the lazy dog"
+words = sentence.split()
+unique_words = set(words)
+print(f"Sentence: {sentence}")
+print(f"Unique words: {unique_words}")
+print(f"Count: {len(unique_words)}")
+
+print("\nExercise 2: Number Classifier")
+numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+evens = {x for x in numbers if x % 2 == 0}
+odds = numbers - evens
+print(f"All numbers: {numbers}")
+print(f"Even numbers: {evens}")
+print(f"Odd numbers: {odds}")
