@@ -175,3 +175,22 @@ print(f"Frozenset union: {union_frozen}")
 frozen_dict = {frozen_numbers: "This is a frozenset key"}
 print(f"Dictionary with frozenset key: {frozen_dict}")
 print()
+
+# =============================================
+# 8. SET COMPREHENSIONS
+# =============================================
+print("8. SET COMPREHENSIONS")
+
+# Create set of squares
+squares = {x**2 for x in range(1, 6)}
+print(f"Squares: {squares}")
+
+# Create set of even numbers
+evens = {x for x in range(10) if x % 2 == 0}
+print(f"Even numbers: {evens}")
+
+# Create set from string with condition
+word = "programming"
+vowels = {char for char in word if char in "aeiou"}
+print(f"Vowels in 'programming': {vowels}")
+print()
