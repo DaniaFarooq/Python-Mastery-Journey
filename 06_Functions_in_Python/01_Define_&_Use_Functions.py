@@ -121,3 +121,18 @@ room_volume = calculate_volume(10, 8, 3)
 
 print(f"Room area: {room_area} sq ft")
 print(f"Room volume: {room_volume} cubic ft")
+
+# Example 2: Data Validation
+print("\nDATA VALIDATION:")
+
+def is_valid_age(age):
+    return 0 <= age <= 120
+
+def can_vote(age, is_citizen=True):
+    return age >= 18 and is_citizen
+
+print(f"Age 25 valid: {is_valid_age(25)}")
+print(f"Age 150 valid: {is_valid_age(150)}")
+print(f"Can 20-year-old citizen vote: {can_vote(20)}")
+print(f"Can 16-year-old vote: {can_vote(16)}")
+print()
