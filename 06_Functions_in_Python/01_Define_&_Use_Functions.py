@@ -83,3 +83,21 @@ create_profile("Diana")
 create_profile("Eve", 30)
 create_profile("Frank", 35, "New York")
 print()
+
+# =============================================
+# 5. KEYWORD ARGUMENTS
+# =============================================
+print("5. KEYWORD ARGUMENTS")
+
+def describe_pet(animal_type, pet_name):
+    print(f"I have a {animal_type} named {pet_name}.")
+
+# Positional arguments
+describe_pet("dog", "Buddy")
+
+# Keyword arguments (order doesn't matter)
+describe_pet(pet_name="Whiskers", animal_type="cat")
+
+# Mix of positional and keyword
+describe_pet("hamster", pet_name="Nibbles")
+print()
