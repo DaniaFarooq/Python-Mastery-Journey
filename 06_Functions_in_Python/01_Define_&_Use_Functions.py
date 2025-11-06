@@ -101,3 +101,23 @@ describe_pet(pet_name="Whiskers", animal_type="cat")
 # Mix of positional and keyword
 describe_pet("hamster", pet_name="Nibbles")
 print()
+
+# =============================================
+# 6. PRACTICAL FUNCTION EXAMPLES
+# =============================================
+print("6. PRACTICAL FUNCTION EXAMPLES")
+
+# Example 1: Calculator Functions
+print("CALCULATOR FUNCTIONS:")
+
+def calculate_area(length, width):
+    return length * width
+
+def calculate_volume(length, width, height):
+    return length * width * height
+
+room_area = calculate_area(10, 8)
+room_volume = calculate_volume(10, 8, 3)
+
+print(f"Room area: {room_area} sq ft")
+print(f"Room volume: {room_volume} cubic ft")
