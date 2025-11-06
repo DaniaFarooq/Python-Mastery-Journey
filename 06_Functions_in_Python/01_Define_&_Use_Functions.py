@@ -181,3 +181,23 @@ print(f"Circle area with radius 5: {area:.2f}")
 print("Function docstring:")
 print(calculate_circle_area.__doc__)
 print()
+
+# =============================================
+# 9. LAMBDA FUNCTIONS
+# =============================================
+print("9. LAMBDA FUNCTIONS")
+
+# Simple lambda function
+square = lambda x: x ** 2
+print(f"Square of 5: {square(5)}")
+
+# Lambda with multiple parameters
+multiply = lambda a, b: a * b
+print(f"3 * 4 = {multiply(3, 4)}")
+
+# Using lambda with built-in functions
+numbers = [1, 2, 3, 4, 5]
+squared = list(map(lambda x: x ** 2, numbers))
+print(f"Numbers: {numbers}")
+print(f"Squared: {squared}")
+print()
