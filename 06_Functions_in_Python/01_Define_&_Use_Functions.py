@@ -155,3 +155,29 @@ demonstrate_scope()
 print(f"Global outside function: {global_var}")
 # print(local_var)  # This would cause an error!
 print()
+
+# =============================================
+# 8. DOCSTRINGS
+# =============================================
+print("8. DOCSTRINGS")
+
+def calculate_circle_area(radius):
+    """
+    Calculate the area of a circle.
+    
+    Args:
+        radius (float): The radius of the circle
+        
+    Returns:
+        float: The area of the circle
+    """
+    return 3.14159 * radius ** 2
+    
+ # Using the function
+area = calculate_circle_area(5)
+print(f"Circle area with radius 5: {area:.2f}")
+
+# View docstring
+print("Function docstring:")
+print(calculate_circle_area.__doc__)
+print()
