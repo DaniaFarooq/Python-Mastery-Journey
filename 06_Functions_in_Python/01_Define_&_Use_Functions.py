@@ -201,3 +201,25 @@ squared = list(map(lambda x: x ** 2, numbers))
 print(f"Numbers: {numbers}")
 print(f"Squared: {squared}")
 print()
+
+# =============================================
+# 10. EXERCISES
+# =============================================
+print("10. EXERCISES")
+
+print("Exercise 1: Temperature Converter")
+def celsius_to_fahrenheit(celsius):
+    return (celsius * 9/5) + 32
+
+temp_c = 25
+temp_f = celsius_to_fahrenheit(temp_c)
+print(f"{temp_c}°C = {temp_f}°F")
+
+print("\nExercise 2: String Reverser")
+def reverse_string(text):
+    return text[::-1]
+
+original = "Python"
+reversed_text = reverse_string(original)
+print(f"'{original}' reversed is '{reversed_text}'")
+print()
