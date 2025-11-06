@@ -62,3 +62,24 @@ print(f"10 is {check_number(10)}")
 print(f"-5 is {check_number(-5)}")
 print(f"0 is {check_number(0)}")
 print()
+
+# =============================================
+# 4. DEFAULT PARAMETERS
+# =============================================
+print("4. DEFAULT PARAMETERS")
+
+def greet_person(name, message="Hello"):
+    print(f"{message}, {name}!")
+
+greet_person("Alice")                    # Uses default message
+greet_person("Bob", "Good morning")      # Uses custom message
+greet_person("Charlie", "Welcome")       # Uses custom message
+
+# Multiple default parameters
+def create_profile(name, age=25, city="Unknown"):
+    print(f"Name: {name}, Age: {age}, City: {city}")
+
+create_profile("Diana")
+create_profile("Eve", 30)
+create_profile("Frank", 35, "New York")
+print()
