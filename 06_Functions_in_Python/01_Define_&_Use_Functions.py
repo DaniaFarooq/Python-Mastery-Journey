@@ -136,3 +136,22 @@ print(f"Age 150 valid: {is_valid_age(150)}")
 print(f"Can 20-year-old citizen vote: {can_vote(20)}")
 print(f"Can 16-year-old vote: {can_vote(16)}")
 print()
+
+# =============================================
+# 7. VARIABLE SCOPE
+# =============================================
+print("7. VARIABLE SCOPE")
+
+# Global variable
+global_var = "I'm global"
+
+def demonstrate_scope():
+    # Local variable
+    local_var = "I'm local"
+    print(f"Inside function: {local_var}")
+    print(f"Global inside function: {global_var}")
+    
+demonstrate_scope()
+print(f"Global outside function: {global_var}")
+# print(local_var)  # This would cause an error!
+print()
