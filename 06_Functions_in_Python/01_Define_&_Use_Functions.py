@@ -178,3 +178,19 @@ def introduce_yourself():
 
 introduce_yourself()
 print()
+
+# =============================================
+# 8. FUNCTION BENEFITS
+# =============================================
+print("8. WHY USE FUNCTIONS?")
+
+print("✓ Code Reusability - Write once, use many times")
+print("✓ Organization - Break code into logical parts")
+print("✓ Readability - Descriptive names explain purpose")
+print("✓ Debugging - Isolate and fix issues easily")
+print("✓ Collaboration - Others can use your functions")
+print("✓ Maintenance - Update in one place")
+
+print("\n" + "="*60)
+print("🎉 EXCELLENT! You've learned Function Definition & Usage!")
+print("You can now create organized, reusable code blocks!")
