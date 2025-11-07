@@ -117,3 +117,13 @@ def study_session():
     print("  - Review Python concepts")
     print("  - Practice coding exercises")
     print("  - Work on projects")
+def evening_routine():
+    print("Evening:")
+    print("  - Relax and unwind")
+    print("  - Plan tomorrow's tasks")
+    print("  - Read before bed")
+
+# Execute daily plan
+morning_routine()
+study_session()
+evening_routine()
