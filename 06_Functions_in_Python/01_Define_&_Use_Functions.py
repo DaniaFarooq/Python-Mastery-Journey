@@ -146,3 +146,35 @@ def show_division():
 show_addition()
 show_multiplication()
 show_division()
+
+# =============================================
+# 7. EXERCISES
+# =============================================
+print("7. PRACTICE EXERCISES")
+
+print("Exercise 1: Create a function that displays your learning goals")
+def show_learning_goals():
+    print(" My Learning Goals:")
+    print("   - Master Python fundamentals")
+    print("   - Build data science projects")
+    print("   - Contribute to open source")
+
+show_learning_goals()
+
+print("\nExercise 2: Create a function that shows your daily study plan")
+def daily_study_plan():
+    print(" Today's Study Plan:")
+    print("   - 1 hour Python practice")
+    print("   - 30 minutes reading documentation")
+    print("   - Work on one coding challenge")
+
+daily_study_plan()
+
+print("\nExercise 3: Create a function that introduces yourself")
+def introduce_yourself():
+    print("   Hello! I'm a Python learner.")
+    print("   I'm passionate about programming.")
+    print("   Currently learning functions!")
+
+introduce_yourself()
+print()
