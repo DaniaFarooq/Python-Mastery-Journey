@@ -53,3 +53,20 @@ print("\n→ Calling student_info():")
 student_info("Dania", 20, "Data Science")
 student_info("Yasir", 22, "AI Engineering")
 print()
+
+# =============================================
+# 4. FUNCTION STRUCTURE
+# =============================================
+print("4. FUNCTION STRUCTURE")
+
+def demonstrate_structure():
+    """
+    This function shows the basic structure of a Python function.
+    It has a docstring, function body, and print statements.
+    """
+    print("1. Function definition starts with 'def'")
+    print("2. Function name follows naming conventions")
+    print("3. Parentheses for parameters")
+    print("4. Colon to start the function body")
+    print("5. Indented code block")
+    print("6. Optional docstring for documentation")
