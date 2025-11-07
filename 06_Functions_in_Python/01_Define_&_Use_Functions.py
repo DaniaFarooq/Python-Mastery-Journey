@@ -91,4 +91,9 @@ def calculate_average():
 
 def get_user_input():
     pass
+    
+def validate_email():
+    pass
 
+print("Good examples: calculate_average, get_user_input, validate_email")
+print()
