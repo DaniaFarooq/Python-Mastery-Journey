@@ -74,3 +74,21 @@ def demonstrate_structure():
 # Call the function
 demonstrate_structure()
 print()
+
+# =============================================
+# 5. FUNCTION NAMING RULES
+# =============================================
+print("5. FUNCTION NAMING RULES")
+
+print("✓ Use descriptive names")
+print("✓ Use lowercase with underscores")
+print("✓ Be consistent with naming style")
+print("✓ Avoid reserved keywords")
+
+# Good function names
+def calculate_average():
+    pass  # placeholder
+
+def get_user_input():
+    pass
+
