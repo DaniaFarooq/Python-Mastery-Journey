@@ -97,3 +97,23 @@ def validate_email():
 
 print("Good examples: calculate_average, get_user_input, validate_email")
 print()
+
+# =============================================
+# 6. PRACTICAL EXAMPLES
+# =============================================
+print("6. PRACTICAL EXAMPLES")
+
+# Example 1: Daily Routine
+print("DAILY ROUTINE FUNCTIONS:")
+
+def morning_routine():
+    print("Morning:")
+    print("  - Wake up at 7:00 AM")
+    print("  - Exercise for 30 minutes")
+    print("  - Healthy breakfast")
+
+def study_session():
+    print("Study Session:")
+    print("  - Review Python concepts")
+    print("  - Practice coding exercises")
+    print("  - Work on projects")
