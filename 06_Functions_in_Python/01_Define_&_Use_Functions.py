@@ -70,3 +70,7 @@ def demonstrate_structure():
     print("4. Colon to start the function body")
     print("5. Indented code block")
     print("6. Optional docstring for documentation")
+    
+# Call the function
+demonstrate_structure()
+print()
