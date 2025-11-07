@@ -36,3 +36,20 @@ def student_info(name, age, course):
     print(f"Age: {age}")
     print(f"Course: {course}")
 print()
+
+# =============================================
+# 3. CALLING FUNCTIONS
+# =============================================
+print("3. CALLING FUNCTIONS")
+
+print("→ Calling welcome_message():")
+welcome_message()
+
+print("\n→ Calling greet_student():")
+greet_student("Alice")
+greet_student("Bob")
+
+print("\n→ Calling student_info():")
+student_info("Dania", 20, "Data Science")
+student_info("Yasir", 22, "AI Engineering")
+print()
