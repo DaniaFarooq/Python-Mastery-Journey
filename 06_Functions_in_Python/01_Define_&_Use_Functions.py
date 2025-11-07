@@ -127,3 +127,22 @@ def evening_routine():
 morning_routine()
 study_session()
 evening_routine()
+
+# Example 2: Math Operations
+print("\nMATH OPERATION FUNCTIONS:")
+
+def show_addition():
+    result = 5 + 3
+    print(f"5 + 3 = {result}")
+
+def show_multiplication():
+    result = 4 * 7
+    print(f"4 × 7 = {result}")
+
+def show_division():
+    result = 15 / 3
+    print(f"15 ÷ 3 = {result}")
+
+show_addition()
+show_multiplication()
+show_division()
