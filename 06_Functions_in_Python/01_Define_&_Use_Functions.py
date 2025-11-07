@@ -15,3 +15,24 @@ print("✓ Perform specific tasks")
 print("✓ Make code organized and readable")
 print("✓ Avoid repetition")
 print()
+
+# =============================================
+# 2. DEFINING FUNCTIONS
+# =============================================
+print("2. DEFINING FUNCTIONS")
+
+# Basic function definition
+def welcome_message():
+    print("Welcome to Python Programming!")
+    print("Let's learn about functions!")
+
+# Function with one parameter
+def greet_student(name):
+    print(f"Hello, {name}! Ready to learn Python?")
+
+# Function with multiple parameters
+def student_info(name, age, course):
+    print(f"Student: {name}")
+    print(f"Age: {age}")
+    print(f"Course: {course}")
+print()
