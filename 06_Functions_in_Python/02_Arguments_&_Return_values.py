@@ -140,3 +140,34 @@ print(f"\nStudent: {student_name}, Age: {student_age}")
 print(f"Grades: {student_grades}")
 print()
 
+# =============================================
+# 7. PRACTICAL EXAMPLES
+# =============================================
+print("7. PRACTICAL EXAMPLES")
+
+# Example 1: Grade Calculator
+print("📊 GRADE CALCULATOR:")
+
+def calculate_grade(score, max_score=100):
+    percentage = (score / max_score) * 100
+    return percentage
+def get_grade_letter(percentage):
+    if percentage >= 90:
+        return "A"
+    elif percentage >= 80:
+        return "B"
+    elif percentage >= 70:
+        return "C"
+    elif percentage >= 60:
+        return "D"
+    else:
+        return "F"
+
+student_score = 85
+percent = calculate_grade(student_score)
+grade_letter = get_grade_letter(percent)
+
+print(f"Score: {student_score}/100")
+print(f"Percentage: {percent:.1f}%")
+print(f"Grade: {grade_letter}")
+
