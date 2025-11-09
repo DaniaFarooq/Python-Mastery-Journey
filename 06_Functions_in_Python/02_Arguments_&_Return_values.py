@@ -59,3 +59,23 @@ print("\n✓ Specify parameter names")
 print("✓ Order doesn't matter")
 print("✓ Makes code more readable")
 print()
+
+# =============================================
+# 4. DEFAULT ARGUMENTS
+# =============================================
+print("4. DEFAULT ARGUMENTS")
+
+def enroll_student(name, course="Python Basics", status="Active"):
+    print(f"Student: {name}")
+    print(f"Course: {course}")
+    print(f"Status: {status}")
+
+print("→ With default values:")
+enroll_student("Alice")                           # Uses defaults
+enroll_student("Bob", "Data Science")            # Override course
+enroll_student("Charlie", "Web Dev", "Pending")  # Override both
+
+print("\n✓ Provide fallback values")
+print("✓ Make parameters optional")
+print("✓ Must come after required parameters")
+print()
