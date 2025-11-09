@@ -79,3 +79,20 @@ print("\n✓ Provide fallback values")
 print("✓ Make parameters optional")
 print("✓ Must come after required parameters")
 print()
+
+# =============================================
+# 5. RETURN STATEMENTS
+# =============================================
+print("5. RETURN STATEMENTS")
+
+def add_numbers(a, b):
+    return a + b
+
+def multiply_numbers(a, b):
+    return a * b
+
+def find_maximum(a, b):
+    if a > b:
+        return a
+    else:
+        return b
