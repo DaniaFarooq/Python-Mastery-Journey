@@ -120,3 +120,23 @@ def calculate_statistics(numbers):
     minimum = min(numbers)
     return total, average, maximum, minimum
 
+def get_student_data():
+    name = "Alex"
+    age = 20
+    grades = [85, 92, 78]
+    return name, age, grades
+
+# Using multiple returns
+scores = [10, 20, 30, 40, 50]
+stats_total, stats_avg, stats_max, stats_min = calculate_statistics(scores)
+
+student_name, student_age, student_grades = get_student_data()
+
+print(f"Scores: {scores}")
+print(f"Total: {stats_total}, Average: {stats_avg:.1f}")
+print(f"Max: {stats_max}, Min: {stats_min}")
+
+print(f"\nStudent: {student_name}, Age: {student_age}")
+print(f"Grades: {student_grades}")
+print()
+
