@@ -171,3 +171,27 @@ print(f"Score: {student_score}/100")
 print(f"Percentage: {percent:.1f}%")
 print(f"Grade: {grade_letter}")
 
+# Example 2: Shopping Cart
+print("\n🛒 SHOPPING CART:")
+
+def calculate_total(items, tax_rate=0.08):
+    subtotal = sum(items)
+    tax_amount = subtotal * tax_rate
+    total = subtotal + tax_amount
+    return subtotal, tax_amount, total
+
+def apply_discount(total, discount_percent):
+    discount = total * (discount_percent / 100)
+    final_total = total - discount
+    return discount, final_total
+
+prices = [25.99, 15.50, 8.75]
+subtotal, tax, total = calculate_total(prices)
+discount_amount, final_total = apply_discount(total, 10)
+
+print(f"Prices: ${sum(prices):.2f}")
+print(f"Subtotal: ${subtotal:.2f}")
+print(f"Tax: ${tax:.2f}")
+print(f"Total: ${total:.2f}")
+print(f"Discount: ${discount_amount:.2f}")
+print(f"Final Total: ${final_total:.2f}")
