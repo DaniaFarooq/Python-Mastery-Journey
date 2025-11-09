@@ -41,3 +41,21 @@ print("\n✓ Values assigned based on position")
 print("✓ Order must match parameter order")
 print()
 
+# =============================================
+# 3. KEYWORD ARGUMENTS
+# =============================================
+print("3. KEYWORD ARGUMENTS")
+
+def course_details(name, duration, level):
+    print(f"Course: {name}")
+    print(f"Duration: {duration} weeks")
+    print(f"Level: {level}")
+
+print("→ Using keyword arguments:")
+course_details(name="Python", duration=8, level="Beginner")
+course_details(level="Advanced", name="Machine Learning", duration=12)
+
+print("\n✓ Specify parameter names")
+print("✓ Order doesn't matter")
+print("✓ Makes code more readable")
+print()
