@@ -227,3 +227,18 @@ full1 = format_name("john", "doe")
 full2 = format_name("mary", "smith", "anne")
 print(f"Formatted: {full1}")
 print(f"Formatted: {full2}")
+
+# =============================================
+# 9. BEST PRACTICES
+# =============================================
+print("9. BEST PRACTICES")
+
+print("✓ Use descriptive parameter names")
+print("✓ Provide default values for optional parameters")
+print("✓ Use return to send data back")
+print("✓ Keep functions focused on one task")
+print("✓ Document your functions with docstrings")
+print("✓ Use keyword arguments for clarity")
+
+print("\n" + "="*65)
+print("PHENOMENAL! You've mastered Arguments & Return Values!")
