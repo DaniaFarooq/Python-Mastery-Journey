@@ -106,3 +106,17 @@ print(f"5 + 3 = {sum_result}")
 print(f"4 × 7 = {product_result}")
 print(f"Maximum of 10 and 15: {max_result}")
 print()
+
+# =============================================
+# 6. MULTIPLE RETURN VALUES
+# =============================================
+print("6. MULTIPLE RETURN VALUES")
+
+def calculate_statistics(numbers):
+    total = sum(numbers)
+    count = len(numbers)
+    average = total / count
+    maximum = max(numbers)
+    minimum = min(numbers)
+    return total, average, maximum, minimum
+
