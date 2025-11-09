@@ -22,3 +22,22 @@ student_profile("Bob", "B+", "Science")    # Arguments
 print("\n✓ Parameters: Variables in function definition")
 print("✓ Arguments: Actual values passed to function")
 print()
+
+# =============================================
+# 2. POSITIONAL ARGUMENTS
+# =============================================
+print("2. POSITIONAL ARGUMENTS")
+
+def book_info(title, author, year):
+    print(f"Title: {title}")
+    print(f"Author: {author}")
+    print(f"Year: {year}")
+
+print("→ Position matters:")
+book_info("Python Basics", "John Smith", 2024)
+book_info("Data Science", "Jane Doe", 2023)
+
+print("\n✓ Values assigned based on position")
+print("✓ Order must match parameter order")
+print()
+
