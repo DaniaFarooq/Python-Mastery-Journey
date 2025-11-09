@@ -96,3 +96,13 @@ def find_maximum(a, b):
         return a
     else:
         return b
+        
+# Using return values
+sum_result = add_numbers(5, 3)
+product_result = multiply_numbers(4, 7)
+max_result = find_maximum(10, 15)
+
+print(f"5 + 3 = {sum_result}")
+print(f"4 × 7 = {product_result}")
+print(f"Maximum of 10 and 15: {max_result}")
+print()
