@@ -195,3 +195,35 @@ print(f"Tax: ${tax:.2f}")
 print(f"Total: ${total:.2f}")
 print(f"Discount: ${discount_amount:.2f}")
 print(f"Final Total: ${final_total:.2f}")
+
+# =============================================
+# 8. EXERCISES
+# =============================================
+print("8. PRACTICE EXERCISES")
+
+print("Exercise 1: Temperature Converter")
+def celsius_to_fahrenheit(celsius):
+    return (celsius * 9/5) + 32
+
+def fahrenheit_to_celsius(fahrenheit):
+    return (fahrenheit - 32) * 5/9
+
+c_temp = 25
+f_temp = celsius_to_fahrenheit(c_temp)
+print(f"{c_temp}°C = {f_temp}°F")
+
+f_temp2 = 77
+c_temp2 = fahrenheit_to_celsius(f_temp2)
+print(f"{f_temp2}°F = {c_temp2:.1f}°C")
+
+print("\nExercise 2: String Formatter")
+def format_name(first, last, middle=""):
+    if middle:
+        return f"{first} {middle} {last}".title()
+    else:
+        return f"{first} {last}".title()
+
+full1 = format_name("john", "doe")
+full2 = format_name("mary", "smith", "anne")
+print(f"Formatted: {full1}")
+print(f"Formatted: {full2}")
