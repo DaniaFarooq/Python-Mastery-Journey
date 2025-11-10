@@ -17,3 +17,12 @@ with open("learning_journal.txt", "w") as file:
     file.write("Today I learned about file handling!\n")
    
 print("✓ Created 'learning_journal.txt' with content")
+
+# Append to existing file
+print("\n→ Appending to the file:")
+with open("learning_journal.txt", "a") as file:
+    file.write("Appended: Practice makes perfect!\n")
+    file.write("Next goal: Master data structures.\n")
+
+print("✓ Appended new content to the file")
+print()
