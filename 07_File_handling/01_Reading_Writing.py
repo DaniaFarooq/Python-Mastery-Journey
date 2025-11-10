@@ -26,3 +26,15 @@ with open("learning_journal.txt", "a") as file:
 
 print("✓ Appended new content to the file")
 print()
+
+# =============================================
+# 2. READING FROM FILES
+# =============================================
+print("2. READING FROM FILES")
+
+# Read entire file
+print("→ Reading entire file:")
+with open("learning_journal.txt", "r") as file:
+    content = file.read()
+    print("File content:")
+    print(content)
