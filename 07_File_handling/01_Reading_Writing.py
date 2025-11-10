@@ -112,3 +112,35 @@ result2 = read_safe("nonexistent.txt")
 print("Existing file: Read successfully!")
 print("Non-existing file: Handled gracefully")
 print()
+
+# =============================================
+# 6. WORKING WITH MULTIPLE FILES
+# =============================================
+print("6. WORKING WITH MULTIPLE FILES")
+
+# Create multiple data files
+print("→ Creating project structure:")
+
+# Data file 1: Courses
+courses = ["Python Basics", "Data Science", "Web Development", "Machine Learning"]
+with open("courses.txt", "w") as file:
+    for course in courses:
+        file.write(course + "\n")
+
+# Data file 2: Skills  
+skills = ["Programming", "Problem Solving", "Data Analysis", "Communication"]
+with open("skills.txt", "w") as file:
+    for skill in skills:
+        file.write(skill + "\n")
+
+print("✓ Created courses.txt and skills.txt")
+
+# Read and combine data from multiple files
+print("\n→ Combined learning plan:")
+with open("courses.txt", "r") as courses_file, open("skills.txt", "r") as skills_file:
+    courses = [line.strip() for line in courses_file]
+    skills = [line.strip() for line in skills_file]
+    
+    for i, (course, skill) in enumerate(zip(courses, skills), 1):
+        print(f"  {i}. Learn {course} → Develop {skill}")
+print()
