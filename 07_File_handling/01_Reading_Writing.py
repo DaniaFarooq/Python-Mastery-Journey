@@ -46,3 +46,16 @@ with open("learning_journal.txt", "r") as file:
     for line in file:
         print(f"  {line.strip()}")
 print()
+
+# =============================================
+# 3. FILE MODES EXPLAINED
+# =============================================
+print("3. FILE MODES")
+
+print("✓ 'r' - Read mode (default)")
+print("✓ 'w' - Write mode (creates new file)")
+print("✓ 'a' - Append mode (adds to existing)")
+print("✓ 'x' - Create mode (fails if file exists)")
+print("✓ 'b' - Binary mode (for images, etc.)")
+print("✓ 't' - Text mode (default)")
+print()
