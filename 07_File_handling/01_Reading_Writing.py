@@ -144,3 +144,51 @@ with open("courses.txt", "r") as courses_file, open("skills.txt", "r") as skills
     for i, (course, skill) in enumerate(zip(courses, skills), 1):
         print(f"  {i}. Learn {course} → Develop {skill}")
 print()
+
+# =============================================
+# 7. EXERCISES
+# =============================================
+print("7. PRACTICE EXERCISES")
+
+print("Exercise 1: Create a Personal Notes File")
+notes = [
+    "Python is versatile and powerful",
+    "File handling is essential for data persistence", 
+    "Practice regularly to improve skills",
+    "Build projects to apply knowledge"
+]
+
+with open("my_notes.txt", "w") as file:
+    file.write("MY PROGRAMMING NOTES\n")
+    file.write("=" * 20 + "\n")
+    for note in notes:
+        file.write(f"• {note}\n")
+
+print("✓ Created personal notes file")
+
+print("\nExercise 2: Read and Analyze File")
+with open("my_notes.txt", "r") as file:
+    content = file.read()
+    word_count = len(content.split())
+    line_count = content.count('\n') + 1
+    
+print(f"File analysis:")
+print(f"  Words: {word_count}")
+print(f"  Lines: {line_count}")
+
+print("\nExercise 3: Update Learning Goals")
+new_goals = [
+    "Master Python OOP concepts",
+    "Learn web framework (Django/Flask)",
+    "Build a portfolio project",
+    "Contribute to open source"
+]
+
+with open("goals.txt", "w") as file:
+    file.write("FUTURE LEARNING GOALS\n")
+    file.write("=" * 25 + "\n")
+    for i, goal in enumerate(new_goals, 1):
+        file.write(f"{i}. {goal}\n")
+
+print("✓ Created learning goals file")
+print()
