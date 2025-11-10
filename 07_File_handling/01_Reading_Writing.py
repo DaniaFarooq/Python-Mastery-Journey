@@ -87,3 +87,28 @@ with open("students.csv", "r") as file:
     for line in file:
         name, age, major = line.strip().split(",")
         print(f"  {name}: {age} years, {major}")
+
+# =============================================
+# 5. ERROR HANDLING WITH FILES
+# =============================================
+print("5. ERROR HANDLING")
+
+# Safe file reading with try-except
+print("→ Safe file operations:")
+
+def read_safe(filename):
+    try:
+        with open(filename, "r") as file:
+            return file.read()
+    except FileNotFoundError:
+        return f"Error: File '{filename}' not found"
+    except Exception as e:
+        return f"Error: {str(e)}"
+
+# Test with existing and non-existing files
+result1 = read_safe("learning_journal.txt")
+result2 = read_safe("nonexistent.txt")
+
+print("Existing file: Read successfully!")
+print("Non-existing file: Handled gracefully")
+print()
