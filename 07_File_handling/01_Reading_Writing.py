@@ -59,3 +59,23 @@ print("✓ 'x' - Create mode (fails if file exists)")
 print("✓ 'b' - Binary mode (for images, etc.)")
 print("✓ 't' - Text mode (default)")
 print()
+
+# =============================================
+# 4. PRACTICAL EXAMPLES
+# =============================================
+print("4. PRACTICAL EXAMPLES")
+
+# Example 1: Student Records
+print("STUDENT RECORDS SYSTEM:")
+
+# Write student data
+students = [
+    "Alice,20,Computer Science",
+    "Bob,22,Data Science", 
+    "Charlie,21,AI Engineering"
+]
+
+with open("students.csv", "w") as file:
+    file.write("Name,Age,Major\n")
+    for student in students:
+        file.write(student + "\n")
