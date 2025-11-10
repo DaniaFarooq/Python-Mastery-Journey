@@ -61,11 +61,11 @@ print("✓ 't' - Text mode (default)")
 print()
 
 # =============================================
-# 4. PRACTICAL EXAMPLES
+# 4. PRACTICAL EXAMPLE
 # =============================================
-print("4. PRACTICAL EXAMPLES")
+print("4. PRACTICAL EXAMPLE")
 
-# Example 1: Student Records
+# Example : Student Records
 print("STUDENT RECORDS SYSTEM:")
 
 # Write student data
@@ -79,3 +79,11 @@ with open("students.csv", "w") as file:
     file.write("Name,Age,Major\n")
     for student in students:
         file.write(student + "\n")
+print("✓ Created students.csv file")
+
+# Read and display student data
+print("\n→ Student records:")
+with open("students.csv", "r") as file:
+    for line in file:
+        name, age, major = line.strip().split(",")
+        print(f"  {name}: {age} years, {major}")
