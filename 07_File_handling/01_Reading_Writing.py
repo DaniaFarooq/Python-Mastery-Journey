@@ -38,3 +38,11 @@ with open("learning_journal.txt", "r") as file:
     content = file.read()
     print("File content:")
     print(content)
+
+# Read line by line
+print("→ Reading line by line:")
+with open("learning_journal.txt", "r") as file:
+    print("Each line:")
+    for line in file:
+        print(f"  {line.strip()}")
+print()
