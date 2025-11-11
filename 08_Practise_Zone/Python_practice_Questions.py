@@ -21,3 +21,8 @@ print( 'C:\\Users\\John\\Desktop\\File.txt')
 # Q2: Print a message containing double quotes: He said, "Hello!".
 
 print( 'He said, "Hello!".')    
+
+# Q3: Print a message containing both single and double quotes:
+# She said, 'It's cold'.
+
+print("She said, 'It's cold'.")
