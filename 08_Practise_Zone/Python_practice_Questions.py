@@ -17,3 +17,7 @@
 #     C:\Users\John\Desktop\File.txt
 
 print( 'C:\\Users\\John\\Desktop\\File.txt')    
+
+# Q2: Print a message containing double quotes: He said, "Hello!".
+
+print( 'He said, "Hello!".')    
