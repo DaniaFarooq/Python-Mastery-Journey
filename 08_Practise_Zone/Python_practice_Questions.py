@@ -7,3 +7,13 @@
 # ==============================================
 # Python Practice Questions and Solutions:
 # ==============================================
+
+
+# ==============================================
+# Print statement and Escape sequences
+# ==============================================
+
+# Q1: Print the following path using escape sequences:
+#     C:\Users\John\Desktop\File.txt
+
+print( 'C:\\Users\\John\\Desktop\\File.txt')    
