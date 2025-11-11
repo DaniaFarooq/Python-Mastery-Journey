@@ -26,3 +26,14 @@ print( 'He said, "Hello!".')
 # She said, 'It's cold'.
 
 print("She said, 'It's cold'.")
+
+# ===============================================
+# Input function and Type conversions
+# ===============================================
+
+# Q4: Add two numbers entered by the user.
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+added = num1 + num2
+print(f'Sum of both numbers is : {added}')
