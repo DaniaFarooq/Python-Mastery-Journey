@@ -8,4 +8,4 @@
 
 # Q1: Print the following path using escape sequences:
 #     C:\Users\John\Desktop\File.txt
-print("C:", "Users", "John", "Desktop", "File.txt", sep="\\")
+print("C:\\Users\\John\\Desktop\\File.txt")
