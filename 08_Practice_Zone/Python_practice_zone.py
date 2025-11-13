@@ -1,6 +1,7 @@
 # This file contains python practice questions from all the topics that we have learned in this repo.
-# For your convenience, Questions are organized seperately for each topic.
 # Solutions are the code lines without # symbol. 
+# ⭐ Don't forget to star this repo if you find it helpful! Your support keeps the code flowing!
+
 # =======================================
 # Escape characters and Print statement
 # =======================================
