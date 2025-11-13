@@ -9,3 +9,7 @@
 # Q1: Print the following path using escape sequences:
 #     C:\Users\John\Desktop\File.txt
 print("C:\\Users\\John\\Desktop\\File.txt")
+
+# Q2: Print a message: He said, "Hello!".
+msg = 'He said, "Hello!"'
+print(msg)
