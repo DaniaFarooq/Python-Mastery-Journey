@@ -13,3 +13,8 @@ print("C:\\Users\\John\\Desktop\\File.txt")
 # Q2: Print a message: He said, "Hello!".
 msg = 'He said, "Hello!"'
 print(msg)
+
+# Q3: Print a message containing both single and double quotes:
+# She said, 'It's cold'.
+msg2 = "She said, 'It's cold'."
+print(msg2)
