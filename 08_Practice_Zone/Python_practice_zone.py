@@ -10,7 +10,8 @@
 # C:\Users\John\Desktop\File.txt using the appropriate escape sequences.
 print("C:\\Users\\John\\Desktop\\File.txt")
 
-# Q2: Print a message: He said, "Hello!".
+# Q2: Write a Python program that prints a message with a double-quote character inside it.
+# For example: He said, "Hello!".
 msg = 'He said, "Hello!"'
 print(msg)
 
