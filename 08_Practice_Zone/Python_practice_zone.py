@@ -26,7 +26,7 @@ print(msg2)
 # Type Casting or Conversions
 # ========================================
 
-# Q4: Add two numbers entered by the user.
+# Q4: Write a Python program to add two numbers entered by the user.
 
 num1 = int(input("Enter 1st number: "))
 num2 = int(input("Enter 2nd number: "))
