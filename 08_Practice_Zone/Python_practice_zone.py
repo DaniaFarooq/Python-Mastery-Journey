@@ -6,8 +6,8 @@
 # Escape characters and Print statement
 # =======================================
 
-# Q1: Print the following path using escape sequences:
-#     C:\Users\John\Desktop\File.txt
+# Q1: Write a program that prints a path like this:
+# C:\Users\John\Desktop\File.txt using the appropriate escape sequences.
 print("C:\\Users\\John\\Desktop\\File.txt")
 
 # Q2: Print a message: He said, "Hello!".
