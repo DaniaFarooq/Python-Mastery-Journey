@@ -23,7 +23,7 @@ msg2 = "She said, 'It's cold'."
 print(msg2)
 
 # ========================================
-# Type Casting or Conversions
+# User input and Type casting
 # ========================================
 
 # Q4: Write a Python program to add two numbers entered by the user.
