@@ -39,3 +39,10 @@ str_num = "786"
 print(int(str_num))  # String to integer
 int_num = 786
 print(str(int_num))  # Integer to string
+
+# Q6: Calculate the area of a rectangle using user input.
+
+length = int(input("Enter the length: "))
+width = int(input("Enter the width: "))
+area = length * width
+print(f"The area of the rectangle is: {area}")
