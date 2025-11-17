@@ -54,3 +54,10 @@ num2 = int(input("Enter second number: "))
 num3 = int(input("Enter third number: "))
 average = (num1 + num2 + num3) / 3
 print(f"The average is: {average}")
+
+# Q8: Convert between float and integer.
+
+f_value = 123.45
+print(int(f_value))  # Float to int
+int_val = 8097
+print(float(int_val))  # Int to float
