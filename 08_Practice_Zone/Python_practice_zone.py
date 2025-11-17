@@ -34,3 +34,8 @@ result = num1 + num2
 print(f"The sum of both numbers is: {result}")
 
 # Q5. Convert a string to an integer and vice versa.
+
+str_num = "786"
+print(int(str_num))  # String to integer
+int_num = 786
+print(str(int_num))  # Integer to string
