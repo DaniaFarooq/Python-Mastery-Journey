@@ -46,3 +46,11 @@ length = int(input("Enter the length: "))
 width = int(input("Enter the width: "))
 area = length * width
 print(f"The area of the rectangle is: {area}")
+
+# Q7: Calculate the average of three numbers entered by the user.
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+num3 = int(input("Enter third number: "))
+average = (num1 + num2 + num3) / 3
+print(f"The average is: {average}")
