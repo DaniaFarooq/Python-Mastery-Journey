@@ -67,3 +67,10 @@ print(float(int_value))  # Integer to float
 fahrenheit = float(input("Enter temperature in Fahrenheit: "))
 celsius = (fahrenheit - 32) * 5 / 9
 print(f"Temperature in Celsius: {celsius}")
+
+# Q10: Calculate sum of 5 subjects and Find percentage.
+
+marks = [78, 65, 54, 87, 31]
+total = sum(marks)
+percentage = (total / 500) * 100  
+print("Percentage =", percentage)
