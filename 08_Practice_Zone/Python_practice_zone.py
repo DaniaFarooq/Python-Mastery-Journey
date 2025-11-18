@@ -58,6 +58,12 @@ print(f"The average is: {average}")
 # Q8: Convert between float and integer.
 
 f_value = 123.45
-print(int(f_value))  # Float to int
-int_val = 8097
-print(float(int_val))  # Int to float
+print(int(f_value))  # Float to integer
+int_value = 8097
+print(float(int_value))  # Integer to float
+
+# Q9: Write a program that converts a temperature in Fahrenheit to Celsius.
+
+fahrenheit = float(input("Enter temperature in Fahrenheit: "))
+celsius = (fahrenheit - 32) * 5 / 9
+print(f"Temperature in Celsius: {celsius}")
