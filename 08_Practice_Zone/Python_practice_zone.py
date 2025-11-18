@@ -74,3 +74,14 @@ marks = [78, 65, 54, 87, 31]
 total = sum(marks)
 percentage = (total / 500) * 100  
 print("Percentage =", percentage)
+
+# Q11: Ask number of games played in a tournament. Ask the user number of games won and number of games loss.
+# Calculate number of tie and total points. (1 win= 4 points, 1 tie =2 points)
+
+total = int(input("Enter total number of games: "))
+won = int(input("Enter number of games won: "))
+lost = int(input("Enter number of games lost: "))
+ties = total - (won + lost)
+points = (won * 4) + (ties * 2)
+print(f"Tied games: {ties}")
+print(f"Total points: {points}")
