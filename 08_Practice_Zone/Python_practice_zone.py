@@ -86,9 +86,9 @@ points = (won * 4) + (ties * 2)
 print(f"Tied games: {ties}")
 print(f"Total points: {points}")
 
-# ============================================
+# =========================================
 # Arithematic and Assignment Operators
-# ============================================
+# =========================================
 
 # Q12. Write a Python program that takes two numbers as input and performs the following operations: addition, subtraction, multiplication,
 # division, and modulus. Display the results.
@@ -111,3 +111,9 @@ print("b =", b)
 
 # Q14. Write a Python program to calculate the compound interest for a given principal, rate of interest, and time period. 
 # Ask everything from the user.
+
+P = float(input("Enter the principal amount: "))
+R = float(input("Enter the rate of interest: "))
+T = float(input("Enter the time (in years): "))
+A = P * (1 + R / 100) ** T
+print("Compound Interest Amount:", A)
