@@ -102,3 +102,10 @@ print("Division:", a / b)
 print("Modulus:", a % b)
 
 # Q13. Write a Python program to swap the values of two variables without using a temporary variable.
+
+a = 6
+b = 12
+a, b = b, a
+print("a =", a)
+print("b =", b)
+
