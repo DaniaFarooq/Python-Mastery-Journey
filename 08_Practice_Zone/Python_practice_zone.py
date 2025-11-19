@@ -119,3 +119,7 @@ A = P * (1 + R / 100) ** T
 print("Compound Interest Amount:", A)
 
 # Q15. Write a Python program that takes the radius of a circle as input and calculates its area. 
+
+radius = float(input("Enter the radius: "))
+circle_area = 3.14 * radius ** 2
+print("Area of the circle =", circle_area)
