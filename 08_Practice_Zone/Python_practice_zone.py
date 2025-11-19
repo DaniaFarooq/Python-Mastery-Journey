@@ -85,3 +85,8 @@ ties = total - (won + lost)
 points = (won * 4) + (ties * 2)
 print(f"Tied games: {ties}")
 print(f"Total points: {points}")
+
+# ============================================
+# Arithematic and Assignment Operators
+# ============================================
+
