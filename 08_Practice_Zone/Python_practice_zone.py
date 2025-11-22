@@ -127,3 +127,9 @@ print("Area of the circle =", circle_area)
 # =========================================
 # Comparison and Logical operators
 # =========================================
+
+# Q16. Guess the output.
+
+x = 5
+y = 3
+print(x > y)  # True
