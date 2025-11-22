@@ -147,3 +147,9 @@ p = True
 q = False
 print(not p or q)  # False
 
+# Q19. Guess the output.
+
+num1 = 15
+num2 = 10
+print(num1 == num2 or num1 > num2)  # True
+
