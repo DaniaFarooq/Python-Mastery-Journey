@@ -165,3 +165,8 @@ a = 5
 b = 5
 c = 10
 print(a <= b and b != c)  # True
+
+# Q22. Guess the output.
+
+num = 25
+print(num % 2 == 0)  # False 
