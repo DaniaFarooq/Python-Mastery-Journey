@@ -133,3 +133,9 @@ print("Area of the circle =", circle_area)
 x = 5
 y = 3
 print(x > y)  # True
+
+# Q17. Guess the output. 
+a = 10
+b = 20
+c = 30
+print(a < b and b < c)  # True
