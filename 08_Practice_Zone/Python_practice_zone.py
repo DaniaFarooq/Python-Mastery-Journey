@@ -153,3 +153,8 @@ num1 = 15
 num2 = 10
 print(num1 == num2 or num1 > num2)  # True
 
+# Q20. Guess the output.
+
+m = 8
+n = 6
+print(m >= n and n != m)  # True
