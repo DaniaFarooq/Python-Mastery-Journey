@@ -201,3 +201,17 @@ elif num1 % num2 == 0:
     print(f"{num1} is divisible by {num2}")
 else:
     print(f"{num1} is not divisible by {num2}")
+
+# Q26. A student will not be allowed to sit in exam if his/her attendance is less than 75%. Take following input from user:
+# Number of classes held, Number of classes attended.
+
+classes_held = int(input("Enter the total number of classes held: "))
+classes_attended = int(input("Enter the number of classes attended: "))
+
+attendance_percentage = (classes_attended / classes_held) * 100
+print(f"Attendance Percentage: {attendance_percentage:.2f}%")
+
+if attendance_percentage >= 75:
+    print(" The student is allowed to sit in the exam.")
+else:
+    print(" The student is NOT allowed to sit in the exam.")
