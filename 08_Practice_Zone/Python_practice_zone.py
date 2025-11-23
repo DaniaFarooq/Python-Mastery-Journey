@@ -182,3 +182,11 @@ if num >= 0:
     print("The number is positive.")
 else:
     print("The number is negative.")
+
+# Q24. Write a program that takes a character as input and prints whether it's a vowel or a consonant. (Multiple OR will be used)
+
+char = input("Enter a single character: ").lower()
+if char in 'aeiou':
+    print("The character is a vowel.")
+else:
+    print("The character is a consonant.")
