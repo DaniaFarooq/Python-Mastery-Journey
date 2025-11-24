@@ -238,3 +238,13 @@ if Num % 2 == 0 and Num % 3 == 0 and Num % 8 != 0:
 else:
     print("Condition unsatisfied.")
 
+# Q29. Write a program to print the last digit of a number. (NOT A IF ELSE QUESTION)
+# Example  Input: 45321  Output: 1
+
+numinput = 13283429
+num = numinput % 10
+print(num)
+# second method
+a = numinput[-1]
+print(a)
+
