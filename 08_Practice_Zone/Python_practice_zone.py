@@ -219,3 +219,14 @@ else:
 # =======================================
 # If Elif Else Statements
 # =======================================
+
+# Q27. Write a program to check if the number is ODD, EVEN or Equal to Zero.
+
+number = int(input("enter the number = "))
+
+if number == 0:
+    print("The number is zero.")
+elif number % 2 == 0:
+    print("The number is even.")
+else:
+    print("The number is odd.")
