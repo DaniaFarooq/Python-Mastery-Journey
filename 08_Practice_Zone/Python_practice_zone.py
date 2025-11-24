@@ -223,10 +223,18 @@ else:
 # Q27. Write a program to check if the number is ODD, EVEN or Equal to Zero.
 
 number = int(input("enter the number = "))
-
 if number == 0:
     print("The number is zero.")
 elif number % 2 == 0:
     print("The number is even.")
 else:
     print("The number is odd.")
+
+# Q28. Write a program to check if number is divisible by 2 and 3 but not 8.
+
+Num = int(input("Enter the number = "))
+if Num % 2 == 0 and Num % 3 == 0 and Num % 8 != 0:
+    print("The number is divisible by 2 and 3 but NOT by 8.")
+else:
+    print("Condition unsatisfied.")
+
