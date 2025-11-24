@@ -215,3 +215,7 @@ if attendance_percentage >= 75:
     print(" The student is allowed to sit in the exam.")
 else:
     print(" The student is NOT allowed to sit in the exam.")
+
+# =======================================
+# If Elif Else Statements
+# =======================================
