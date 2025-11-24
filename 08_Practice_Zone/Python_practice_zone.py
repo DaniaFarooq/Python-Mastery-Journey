@@ -245,3 +245,12 @@ number = 6789989
 last = number % 10
 print(last)
 
+# Q30. Write a program to check if the last digit of a number is divisible by 5 or not.
+
+num = 865433235
+num1 = num % 10
+print(num1)
+if num1 % 5 == 0:
+    print("the num is divible by 5")
+else:
+    print("number is not divible by 5")
