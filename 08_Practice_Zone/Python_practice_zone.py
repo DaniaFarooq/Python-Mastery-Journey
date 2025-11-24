@@ -251,6 +251,6 @@ num = 865433235
 num1 = num % 10
 print(num1)
 if num1 % 5 == 0:
-    print("the num is divible by 5")
+    print("number is divible by 5")
 else:
     print("number is not divible by 5")
