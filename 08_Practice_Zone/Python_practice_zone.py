@@ -297,3 +297,19 @@ while True:
         break
     else:
         print("Error: All numbers must be different. Please try again.\n")
+
+# Q33 Ask a number from a user:
+# print 'fizz' if number is divisble by 3.
+# print 'buzz' if number is divisble by 5.
+# print 'fizzbuzz' if number is divisble by 3 and 5.
+# print the number itself if none of the conditions are true.
+
+num = int(input("Enter the number = "))
+if num % 3 == 0 and num % 5 == 0:
+    print("fizzbuzz")
+elif num % 3 == 0 :
+    print("fizz")
+elif num % 5 == 0:
+    print("buzz")
+else:
+    print(num)
