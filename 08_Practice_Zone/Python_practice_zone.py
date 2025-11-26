@@ -262,3 +262,23 @@ else:
 # 10000 - 29999 - 10% discount
 # 1 - 9999 - No discount
 # Print the discount and the final amount to be paid.
+
+amount = float(input("Enter bill amount: Rs. "))
+if amount >= 50000:
+    discount = 30
+elif amount >= 40000:
+    discount = 25
+elif amount >= 30000:
+    discount = 20
+elif amount >= 10000:
+    discount = 10
+elif amount >= 1:
+    discount = 0
+else:
+    print("Invalid amount!")
+    discount = None    
+if discount is not None:
+    discount_amount = (discount / 100) * amount
+    final_bill = amount - discount_amount
+    print(f"You got {discount}% discount")
+    print(f"Your final bill is Rs. {final_bill:.2f}")
