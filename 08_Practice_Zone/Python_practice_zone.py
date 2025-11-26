@@ -282,3 +282,18 @@ if discount is not None:
     final_bill = amount - discount_amount
     print(f"You got {discount}% discount")
     print(f"Your final bill is Rs. {final_bill:.2f}")
+
+# Q32. Ask 4 numbers from user. Make sure all the numbers entered by user are different. Print which number is the smallest.
+
+print("Enter 4 different numbers:")
+while True:
+    a = int(input("Number 1: "))
+    b = int(input("Number 2: "))
+    c = int(input("Number 3: "))
+    d = int(input("Number 4: "))
+    if len({a, b, c, d}) == 4:
+        smallest = min(a, b, c, d)
+        print(f"The smallest number is: {smallest}")
+        break
+    else:
+        print("Error: All numbers must be different. Please try again.\n")
