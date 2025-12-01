@@ -347,3 +347,23 @@ elif num2 >= num1 and num2 >= num3:
     print("Number 2 is greatest.")
 else:
     print("Number 3 is greatest.")
+
+# Q36 Take Salary as input from User and Update the salary of an employee.
+# salary less than 10,000, 5 % increment
+# salary between 10,000 and 20, 000, 10 % increment
+# salary between 20,000 and 50,000, 15 % increment
+# salary more than 50,000, 20 % increment
+input_salary = int(input("Enter the current salary: "))
+
+if input_salary < 10000: # less than 10000
+    increment = 0.05 * input_salary
+elif 10000 <= input_salary <= 20000:
+    increment = 0.10 * input_salary
+elif 20001 <= input_salary <= 50000:
+    increment = 0.15 * input_salary
+else:
+    increment = 0.20 * input_salary
+
+updated_salary = input_salary + increment
+print(f"Increment: {increment}")
+print(f"Updated Salary: {updated_salary}")
