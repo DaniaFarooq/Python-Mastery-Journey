@@ -406,3 +406,17 @@ if input_1 != input_2 and input_1 != input_3 and input_2 != input_3:
             print("Third number is the greatest.")
 else:
     print("Please enter three different numbers. They must be unique.")
+
+# Q39. Write a program that checks if a given year is a leap year. Leap years are divisible by 4, but not by 100 unless they are also divisible by 400.
+
+enter_year = int(input("Enter the year = "))
+if enter_year % 4 == 0:
+    if enter_year % 100 == 0:
+        if enter_year % 400 == 0:
+            print("It is a leap year")  # divisible by 400
+        else:
+            print("It is not a leap year")  # divisible by 100 but not 400
+    else:
+        print("It is a leap year")  # divisible by 4 but not by 100
+else:
+    print("It is not a leap year")  # not divisible by 4
