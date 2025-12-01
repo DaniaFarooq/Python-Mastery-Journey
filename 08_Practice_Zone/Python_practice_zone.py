@@ -386,3 +386,23 @@ else:
 # ========================================
 # Nested If-Else Statements
 # ========================================
+
+# Q38. Write a program that takes three numbers as input and determines the largest one using nested if-else statements. Make sure all 3 numbers entered by user are different
+
+input_1 = int(input("enter the first number = "))
+input_2 = int(input("enter the second number = "))
+input_3 = int(input("enter the third number = "))
+# Check if all numbers are different
+if input_1 != input_2 and input_1 != input_3 and input_2 != input_3:
+    if input_1 > input_2:
+        if input_1 > input_3:
+            print("First number is the greatest.")
+        else:
+            print("Third number is the greatest.")
+    else:
+        if input_2 > input_3:
+            print("Second number is the greatest.")
+        else:
+            print("Third number is the greatest.")
+else:
+    print("Please enter three different numbers. They must be unique.")
