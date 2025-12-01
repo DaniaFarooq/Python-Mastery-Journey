@@ -353,8 +353,8 @@ else:
 # salary between 10,000 and 20, 000, 10 % increment
 # salary between 20,000 and 50,000, 15 % increment
 # salary more than 50,000, 20 % increment
-input_salary = int(input("Enter the current salary: "))
 
+input_salary = int(input("Enter the current salary: "))
 if input_salary < 10000: # less than 10000
     increment = 0.05 * input_salary
 elif 10000 <= input_salary <= 20000:
@@ -363,7 +363,22 @@ elif 20001 <= input_salary <= 50000:
     increment = 0.15 * input_salary
 else:
     increment = 0.20 * input_salary
-
 updated_salary = input_salary + increment
 print(f"Increment: {increment}")
 print(f"Updated Salary: {updated_salary}")
+
+# Q37: An extra day is added to the calendar almost every four years as February 29, and the day is called a leap day. 
+# A leap year contains a leap day. These are the conditions used to identify leap years:
+# if the year can be evenly divided by 4, it is then a leap year but if the year is evenly divided by 4 and also by 100, then it is NOT a leap year but if the year is evenly divided by 4 and also by 400, then it is a leap year. This means the years 2000 and 2400 are leap years, while 1800, 1900, 2100, 2200, 2300 and 2500 are NOT leap years.Ask a year input from user. And tell if the year entered by user is leap or not
+
+input_Year = int(input("Enter the year: "))
+if input_Year % 4 == 0:
+    if input_Year % 100 == 0:
+        if input_Year % 400 == 0:
+            print("It is a leap year.")
+        else:
+            print("It is not a leap year.")
+    else:
+        print("It is a leap year.")
+else:
+    print("It is not a leap year.")
