@@ -453,3 +453,7 @@ else:
             print("You are overweight.")
         else:
             print("You are obese.")
+
+# ========================================
+#  Basic While loop
+# ========================================
