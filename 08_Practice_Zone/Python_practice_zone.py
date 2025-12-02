@@ -420,3 +420,15 @@ if enter_year % 4 == 0:
         print("It is a leap year")  # divisible by 4 but not by 100
 else:
     print("It is not a leap year")  # not divisible by 4
+
+# Q40. Create a program that calculates the price of a movie ticket based on the age of the customer.
+#If the customer is under 12, the ticket costs $5; if they are between 12 and 65, the ticket costs $10; otherwise, it's $7.
+
+Age = int(input("Age of the customer = "))
+if Age > 12:
+    print("Ticket price is 5")
+else:
+    if Age <= 65:
+        print("Ticket price is 10")
+    else:
+        print("Ticket price is 7")
