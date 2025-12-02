@@ -465,3 +465,10 @@ while i <= Num:
     print(i)
     i  = i + 1
     
+# Q43. Ask a number (N) from user. Print all the numbers from N to 1.
+
+entered_number = int(input("Enter the number = "))
+i = entered_number
+while i >= 1:
+    print(i)
+    i = i - 1
