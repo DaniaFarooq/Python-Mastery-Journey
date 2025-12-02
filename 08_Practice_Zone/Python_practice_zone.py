@@ -216,7 +216,7 @@ else:
     print(" The student is NOT allowed to sit in the exam.")
 
 # =======================================
-# If Elif Else Statements
+# If-Elif-Else Statements
 # =======================================
 
 # Q27. Write a program to check if the number is ODD, EVEN or Equal to Zero.
@@ -323,11 +323,9 @@ else:
 # a. Take input from user
 classes_held = int(input("Enter the number of classes held: "))
 classes_attended = int(input("Enter the number of classes attended: "))
-
 # b. Calculate percentage
 attendance_percentage = (classes_attended / classes_held) * 100
 print(f"Attendance Percentage: {attendance_percentage:.2f}%")
-
 # c. Check eligibility
 if attendance_percentage >= 75:
     print(" Student is allowed to sit in the exam.")
@@ -354,16 +352,16 @@ else:
 # salary between 20,000 and 50,000, 15 % increment
 # salary more than 50,000, 20 % increment
 
-input_salary = int(input("Enter the current salary: "))
-if input_salary < 10000: # less than 10000
-    increment = 0.05 * input_salary
-elif 10000 <= input_salary <= 20000:
-    increment = 0.10 * input_salary
-elif 20001 <= input_salary <= 50000:
-    increment = 0.15 * input_salary
+Current_salary = int(input("Enter the current salary: "))
+if Current_salary < 10000: # less than 10000
+    increment = 0.05 * Current_salary
+elif 10000 <= Current_salary <= 20000:
+    increment = 0.10 * Current_salary
+elif 20001 <= Current_salary <= 50000:
+    increment = 0.15 * Current_salary
 else:
-    increment = 0.20 * input_salary
-updated_salary = input_salary + increment
+    increment = 0.20 * Current_salary
+updated_salary = Current_salary + increment
 print(f"Increment: {increment}")
 print(f"Updated Salary: {updated_salary}")
 
@@ -407,12 +405,13 @@ if input_1 != input_2 and input_1 != input_3 and input_2 != input_3:
 else:
     print("Please enter three different numbers. They must be unique.")
 
-# Q39. Write a program that checks if a given year is a leap year. Leap years are divisible by 4, but not by 100 unless they are also divisible by 400.
+# Q39. Write a program that checks if a given year is a leap year. 
+# Leap years are divisible by 4, but not by 100 unless they are also divisible by 400.
 
-enter_year = int(input("Enter the year = "))
-if enter_year % 4 == 0:
-    if enter_year % 100 == 0:
-        if enter_year % 400 == 0:
+Year = int(input("Enter the year = "))
+if Year % 4 == 0:
+    if Year % 100 == 0:
+        if Year % 400 == 0:
             print("It is a leap year")  # divisible by 400
         else:
             print("It is not a leap year")  # divisible by 100 but not 400
@@ -457,3 +456,12 @@ else:
 # ========================================
 #  Basic While loop
 # ========================================
+
+# Q42. Ask a number from user. Print all the numbers from 1 to that number.
+
+Num = int(input("Enter the number = "))
+i = 1
+while i <= Num:
+    print(i)
+    i  = i + 1
+    
