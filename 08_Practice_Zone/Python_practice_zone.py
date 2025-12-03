@@ -472,3 +472,12 @@ i = entered_number
 while i >= 1:
     print(i)
     i = i - 1
+
+# Q44. Ask start number and end number from user. Print all the numbers from start to end using while loop.
+
+start = int(input("Enter the first number "))
+end = int(input("Enter the last number "))
+i = start
+while i <= end:
+    print(i)
+    i = i + 1
