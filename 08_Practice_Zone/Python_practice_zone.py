@@ -519,3 +519,13 @@ while i <= 200:
         count = count + 1
     i = i + 1
 print(f"the total count is {count}")
+
+# Q49. Write a program to calculate the sum of all the numbers divisible by 4 from 20 to 50.
+
+num = 0
+i = 20
+while i <= 50:
+    if i % 4 == 0:
+        num = num + i
+    i = i + 1
+print(f"the sum is {num}")
