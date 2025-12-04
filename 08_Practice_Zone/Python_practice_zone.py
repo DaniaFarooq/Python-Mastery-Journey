@@ -544,10 +544,24 @@ print(f"the count is {count}")
 
 table_of = int(input("Enter the number = "))
 i = 1
-
 table = 1
 while i <= 10:
     table = table_of * i 
     print(f"the table is {table_of} *{ i }= {table}")
     i = i + 1
     
+# Q52. Calculate factorial of a number entered by user.
+# Example:
+# Enter a number = 5
+# Factorial of a number means product of all the numbers from 1 to that
+# number.
+# 5 factorial = 5 x 4 x 3 x 2 x 1
+# Output = 120
+
+number = int(input("enter the number = "))
+i = 1
+factorial = 1
+while i <= number:
+    factorial = factorial * i
+    i = i + 1
+print(f"the factorial is {factorial}")
