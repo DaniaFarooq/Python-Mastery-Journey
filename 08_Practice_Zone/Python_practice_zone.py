@@ -565,3 +565,19 @@ while i <= number:
     factorial = factorial * i
     i = i + 1
 print(f"the factorial is {factorial}")
+
+# Q53. Ask to numbers x and y from the user. If x < y then print all the numbers from x to y, 
+# but if y  <x then print all the numbers from y to x.
+
+x = int(input("Enter the number x = "))
+y = int(input("Enter the number y = "))
+if x < y:
+    i = x
+    while i <= y:
+        print(i)
+        i += 1
+else:
+    i = y
+    while i <= x:
+        print(i)
+        i += 1
