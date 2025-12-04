@@ -539,3 +539,15 @@ while i <= 200:
         count = count + 1
     i = i + 1
 print(f"the count is {count}")
+
+# Q51. Ask a number from user. Print the multiplication table of that number.
+
+table_of = int(input("Enter the number = "))
+i = 1
+
+table = 1
+while i <= 10:
+    table = table_of * i 
+    print(f"the table is {table_of} *{ i }= {table}")
+    i = i + 1
+    
