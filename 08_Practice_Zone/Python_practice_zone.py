@@ -604,3 +604,10 @@ start = int(input("Enter the first number "))
 end = int(input("Enter the last number "))
 for i in range(start, end + 1):
     print(i)
+
+# Q57. Calculate the sum of all the numbers from 1 to 10.
+
+count = 0
+for i in range(1, 10):
+    count = count + 1
+print(count)
