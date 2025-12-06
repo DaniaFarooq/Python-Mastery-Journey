@@ -597,3 +597,10 @@ for i in range(1, num + 1):
 Num = int(input("Enter the number = "))
 for i in range(Num, 0, - 1):
     print(i)
+
+# Q56. Ask start number and end number from user. Print all the numbers from start to end using while loop.
+
+start = int(input("Enter the first number "))
+end = int(input("Enter the last number "))
+for i in range(start, end + 1):
+    print(i)
