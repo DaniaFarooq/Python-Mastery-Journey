@@ -591,3 +591,9 @@ else:
 num = int(input("Enter the number = "))
 for i in range(1, num + 1):
     print(i)
+
+# Q55. Ask a number (N) from user. Print all the numbers from N to 1.
+
+Num = int(input("Enter the number = "))
+for i in range(Num, 0, - 1):
+    print(i)
