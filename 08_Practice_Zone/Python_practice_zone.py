@@ -611,3 +611,10 @@ count = 0
 for i in range(1, 10):
     count = count + 1
 print(count)
+
+# Q58. Calculate product of all the numbers from 1 to 10.
+
+count = 1
+for i in range(1, 11):
+    count = count * i
+print(f"the count is {count}")
