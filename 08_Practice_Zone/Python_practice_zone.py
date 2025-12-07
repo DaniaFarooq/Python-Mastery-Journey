@@ -650,3 +650,15 @@ for i in range(1, 201):
     if i % 6 == 0 and i % 7 == 0:
         count = count + 1
     print(f"Numbers divisible by 6 and 7 from 1 to 200 are {count} in total.")
+
+# Q 63 Ask a number from user. Print the multiplication table of that number.
+# Example
+# Enter a number = 8
+# 8 x 1 = 8
+# 8 x 2 = 16
+# 8 x 3 = 24
+
+table_of = int(input("Enter the number = "))
+for i in range(1, 11):
+    table = table_of * i
+    print(f"{table_of} * {i} = {table}")
