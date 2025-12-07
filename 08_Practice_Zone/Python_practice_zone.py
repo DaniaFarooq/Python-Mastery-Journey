@@ -676,3 +676,14 @@ factorial = 1
 for i in range(1, num + 1):
     factorial = factorial * i
 print(f"the value of the factorial is = {factorial}")
+
+# Q65. Ask to numbers x and y from the user. If x<y then print all the numbers from x to y, but if y<x then print all the numbers from y to x.
+
+x = int(input("Enter the first number: "))
+y = int(input("Enter the second number: "))
+if x < y:
+    for i in range(x, y + 1):
+        print(i)
+else:
+    for i in range(y, x + 1):
+        print(i)
