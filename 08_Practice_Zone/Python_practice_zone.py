@@ -627,7 +627,7 @@ for i in range(1, 101):
         count = count + 1
 print(f"Count is {count}")
 
-# Q60. Calculate how many numbers are divisible by both 6 and 7 between 1 to 200
+# Q60. Calculate how many numbers are divisible by both 6 and 7 between 1 to 200.
 
 count = 0
 for i in range(1, 201):
@@ -642,3 +642,11 @@ for num in range(20, 51):  # 51 because range end is exclusive
     if num % 4 == 0:
         total += num
 print(f"Sum of numbers divisible by 4 from 20 to 50: {total}")
+
+# Q62. Calculate how many numbers are divisible by 6 and 7 between 1 to 200.
+
+count = 0
+for i in range(1, 201):
+    if i % 6 == 0 and i % 7 == 0:
+        count = count + 1
+    print(f"Numbers divisible by 6 and 7 from 1 to 200 are {count} in total.")
