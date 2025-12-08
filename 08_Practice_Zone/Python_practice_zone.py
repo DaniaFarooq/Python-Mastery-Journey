@@ -698,9 +698,22 @@ else:
 # * * * * *
 # * * * * *
 # * * * * *
-for i in range(5):                         # Outer loop for 5 rows
-    for j in range(5):                     # Inner loop for 5 columns
-        print("*", end="")                 # Print star without new line
-    print()                                # Move to next line after each row
 
+for i in range(5):                        
+    for j in range(5):                     
+        print("*", end="")                 
+    print()                                
+print("\n" + "-"*20)
+
+# Q67: Create a pattern using nested loop
+# 1 2 3 4 5
+# 1 2 3 4 5
+# 1 2 3 4 5
+# 1 2 3 4 5
+# 1 2 3 4 5
+
+for i in range(5):                       
+    for j in range(1, 6):                  
+        print(j, end="")
+    print()
 print("\n" + "-"*20)
