@@ -691,3 +691,16 @@ else:
 # ======================================
 # Basic Nested Loops (patterns)
 # ======================================
+
+# Q66: Create a pattern using nested loop
+# * * * * *
+# * * * * *
+# * * * * *
+# * * * * *
+# * * * * *
+for i in range(5):                         # Outer loop for 5 rows
+    for j in range(5):                     # Inner loop for 5 columns
+        print("*", end="")                 # Print star without new line
+    print()                                # Move to next line after each row
+
+print("\n" + "-"*20)
