@@ -687,3 +687,7 @@ if x < y:
 else:
     for i in range(y, x + 1):
         print(i)
+
+# ======================================
+# Basic Nested Loops (patterns)
+# ======================================
