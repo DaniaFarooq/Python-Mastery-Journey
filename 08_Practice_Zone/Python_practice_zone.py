@@ -773,3 +773,21 @@ for i in range(1, n + 1):
         print(i, end="")
     print()
 print("\n" + "-"*20)
+
+# Q72: Ask N from user. Print pattern:
+# Example N=9
+# 8 8 8 8 8 8 8 8 8
+# 7 7 7 7 7 7 7 7 7
+# 6 6 6 6 6 6 6 6 6
+# 5 5 5 5 5 5 5 5 5
+# 4 4 4 4 4 4 4 4 4 
+# 3 3 3 3 3 3 3 3 3
+# 2 2 2 2 2 2 2 2 2
+# 1 1 1 1 1 1 1 1 1
+# 0 0 0 0 0 0 0 0 0
+
+n = int(input("Enter the number of lines: "))
+for i in range(n - 1, -1, -1):            
+    for j in range(n):                    
+        print(i, end="")
+    print()
