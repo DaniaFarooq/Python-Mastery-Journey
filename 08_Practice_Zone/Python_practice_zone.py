@@ -757,3 +757,19 @@ for i in range(5, 0, -1):
         print(i, end="")
     print()
 print("\n" + "-"*20)
+
+# Q71: Ask N from user. Print pattern:
+# Example N=6
+# 1 1 1 1 1 1
+# 2 2 2 2 2 2
+# 3 3 3 3 3 3
+# 4 4 4 4 4 4
+# 5 5 5 5 5 5
+# 6 6 6 6 6 6 
+
+n = int(input("Enter the number of lines: "))
+for i in range(1, n + 1):                 
+    for j in range(n):                    
+        print(i, end="")
+    print()
+print("\n" + "-"*20)
