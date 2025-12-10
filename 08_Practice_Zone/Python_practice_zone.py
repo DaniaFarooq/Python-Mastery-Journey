@@ -852,3 +852,15 @@ for i in range(1, 6):
     for j in range(i):
         print(6 - i, end="")               
     print()
+
+# Q78: Print the following pattern.
+# *
+# * *
+# * * *
+# * * * *
+# * * * * *
+
+for i in range(1, 6):
+    for j in range(i):
+        print("*", end="")
+    print()
