@@ -952,3 +952,17 @@ for i in range(1, 6):
     for k in range(i):
         print("*", end="")
     print()
+
+# Q86: Print the following pattern.
+#         1
+#       1 2
+#     1 2 3
+#   1 2 3 4
+# 1 2 3 4 5
+
+for i in range(1, 6):
+    for j in range(5 - i):
+        print(" ", end="")
+    for k in range(i):
+        print(k + 1, end="")
+    print()
