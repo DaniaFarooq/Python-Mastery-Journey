@@ -938,3 +938,17 @@ for i in range(1, 6):
     for j in range(i, 0, -1):             
         print(j, end="")
     print()
+
+# Q85: Print the following pattern.
+#         *
+#       * *
+#     * * *
+#   * * * *
+# * * * * *
+
+for i in range(1, 6):
+    for j in range(5 - i):
+        print(" ", end="")
+    for k in range(i):
+        print("*", end="")
+    print()
