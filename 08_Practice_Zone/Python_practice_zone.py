@@ -791,6 +791,10 @@ for i in range(n - 1, -1, -1):
     for j in range(n):                    
         print(i, end="")
     print()
+    
+# ======================================
+# Intermediate Nested Loops (patterns)
+# ======================================
 
 # Q73: Print the following pattern.
 # 1
