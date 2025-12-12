@@ -1097,3 +1097,12 @@ print(list_[0::2])
 
 list_ = [1,2,3,4,5,6,7,8,9,10]
 print(sum(list_))
+
+# Q97. Make your own list. Count the number of even numbers present in that list.
+
+list_ = [11,12,13,14,15,26,57,68,96,190]
+even = 0
+for a in list_:
+    if a % 2 == 0:
+        even = even + 1
+print(even)
