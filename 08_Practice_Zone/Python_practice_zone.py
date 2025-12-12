@@ -1071,47 +1071,56 @@ for i in range(2, 6):
 
 # Q92. Make your own list. Print the list in reverse.
 
-list_ = ["D", 89, "Python", False, 0.7]
-print(list_[::-1])
+list_r = ["D", 89, "Python", False, 0.7]
+print(list_r[::-1])
 
 # Q93. Make your own list. Print all the even numbers present in the list.
 
-list_ = [1,2,3,4,5,6,7,8,9,10]
-for var in list_:
+list_ev = [1,2,3,4,5,6,7,8,9,10]
+for var in list_ev:
     if var % 2 == 0:
         print(var, end = " ")
 
 # Q94. Make your own list. Print all the odd numbers present in the list.
 
-list_ = [1,2,3,4,5,6,7,8,9,10]
-for var in list_:
+list_odd = [1,2,3,4,5,6,7,8,9,10]
+for var in list_odd:
     if var % 3 == 0:
         print(var, end = " ")
 
 # Q95. Make your own list. Print all the elements present at even index position.
 
-list_ = ["Course", 90, "list", 0.98, 'hi']
-print(list_[0::2])
+list_e = ["Course", 90, "list", 0.98, 'hi']
+print(list_e[0::2])
 
 # Q96. Make your own list. Print the sum of all elements present in that list.
 
-list_ = [1,2,3,4,5,6,7,8,9,10]
-print(sum(list_))
+list_f = [1,2,3,4,5,6,7,8,9,10]
+print(sum(list_f))
 
 # Q97. Make your own list. Count the number of even numbers present in that list.
 
-list_ = [11,12,13,14,15,26,57,68,96,190]
+list_1 = [11,12,13,14,15,26,57,68,96,190]
 even = 0
-for a in list_:
+for a in list_1:
     if a % 2 == 0:
         even = even + 1
 print(even)
 
-#Q98. Make your own list. Count how many numbers are divisible by both 2 and 5 in that list. 
+# Q98. Make your own list. Count how many numbers are divisible by both 2 and 5 in that list. 
 
-list_ = [1,32,23,45,35,6,96,46,17,75,85,90,0,10,4,55,754,25,50, 60]
+list_5 = [1,32,23,45,35,6,96,46,17,75,85,90,0,10,4,55,754,25,50, 60]
 count = 0
-for i in list_:
+for i in list_5:
     if i % 2 == 0 and i % 5 == 0:
         count = count + 1
 print(count)
+
+# Q99. Make your own list. Find the sum of all even numbers present in that.
+
+list_2 = [1,32,23,45,35,6,96,46,17,75,85,90,0,10,4,55,754,25,50, 60]
+even = 0
+for a in list_2:
+    if a % 2 ==0:  
+        even += a
+print(even)
