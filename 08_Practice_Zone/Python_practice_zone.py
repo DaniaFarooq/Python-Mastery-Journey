@@ -1068,3 +1068,8 @@ for i in range(2, 6):
 # ====================================
 # Basic List iterations
 # ====================================
+
+# Q92. Make your own list. Print the list in reverse.
+
+list_ = ["yasir", 7, "Yasir Insights", False, 0.7]
+print(list_[::-1])
