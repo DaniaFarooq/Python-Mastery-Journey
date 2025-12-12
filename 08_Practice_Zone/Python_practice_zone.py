@@ -1073,3 +1073,10 @@ for i in range(2, 6):
 
 list_ = ["yasir", 7, "Yasir Insights", False, 0.7]
 print(list_[::-1])
+
+# Q93. Make your own list. Print all the even numbers present in the list.
+
+list_ = [1,2,3,4,5,6,7,8,9,10]
+for var in list_:
+    if var % 2 == 0:
+        print(var, end = " ")
