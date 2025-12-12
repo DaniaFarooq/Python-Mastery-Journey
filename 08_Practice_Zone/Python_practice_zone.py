@@ -1064,3 +1064,7 @@ for i in range(2, 6):
     for k in range(2 * i - 1):
         print("*", end="")
     print()
+
+# ====================================
+# Basic List iterations
+# ====================================
