@@ -1087,3 +1087,8 @@ list_ = [1,2,3,4,5,6,7,8,9,10]
 for var in list_:
     if var % 3 == 0:
         print(var, end = " ")
+
+# Q95. Make your own list. Print all the elements present at even index position.
+
+list_ = ["Course", 90, "list", 0.98, 'hi']
+print(list_[0::2])
