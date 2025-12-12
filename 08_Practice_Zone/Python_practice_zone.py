@@ -1071,7 +1071,7 @@ for i in range(2, 6):
 
 # Q92. Make your own list. Print the list in reverse.
 
-list_ = ["yasir", 7, "Yasir Insights", False, 0.7]
+list_ = ["D", 89, "Python", False, 0.7]
 print(list_[::-1])
 
 # Q93. Make your own list. Print all the even numbers present in the list.
@@ -1079,4 +1079,11 @@ print(list_[::-1])
 list_ = [1,2,3,4,5,6,7,8,9,10]
 for var in list_:
     if var % 2 == 0:
+        print(var, end = " ")
+
+# Q94. Make your own list. Print all the odd numbers present in the list.
+
+list_ = [1,2,3,4,5,6,7,8,9,10]
+for var in list_:
+    if var % 3 == 0:
         print(var, end = " ")
