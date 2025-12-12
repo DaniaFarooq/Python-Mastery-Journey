@@ -1092,3 +1092,8 @@ for var in list_:
 
 list_ = ["Course", 90, "list", 0.98, 'hi']
 print(list_[0::2])
+
+# Q96. Make your own list. Print the sum of all elements present in that list.
+
+list_ = [1,2,3,4,5,6,7,8,9,10]
+print(sum(list_))
