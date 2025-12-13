@@ -1149,12 +1149,12 @@ print(neg_)
 
 # Q102. Make your own list. Print the largest number present in that list.
 
-num = [1,2,4,5,6,67,4,-6,-4,-44,3,-3,2]
-largest = num[0]
-for i in num:
-    if i > largest:
+list_2 = [1, 4, 5, 6, 2, -6, -4, -44, 3, -3, 2, 6, -67, 4]
+largest = list_2[0]
+for i in list_2:
+    if i > largest:  
         largest = i
-print(largest) 
+print("Largest number:", largest) 
 
 # Q103. Make your own list. Print the largest number present in that list.
 
@@ -1164,3 +1164,7 @@ for i in list_2:
     if i < largest:
         largest = i
 print(largest)
+
+# ====================================
+# Basic List methods
+# ====================================
