@@ -1155,3 +1155,12 @@ for i in num:
     if i > largest:
         largest = i
 print(largest) 
+
+# Q103. Make your own list. Print the largest number present in that list.
+
+list_2 = [1,4,5,6,2,-6,-4,-44,3,-3,2,6,-67,4] 
+largest = list_2[0]
+for i in list_2:
+    if i < largest:
+        largest = i
+print(largest)
