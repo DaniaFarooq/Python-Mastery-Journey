@@ -1156,14 +1156,14 @@ for i in list_2:
         largest = i
 print("Largest number:", largest) 
 
-# Q103. Make your own list. Print the largest number present in that list.
+# Q103. Make your own list. Print the smallest number present in that list.
 
-list_2 = [1,4,5,6,2,-6,-4,-44,3,-3,2,6,-67,4] 
-largest = list_2[0]
+list_2 = [1, 4, 5, 6, 2, -6, -4, -44, 3, -3, 2, 6, -67, 4]
+smallest = list_2[0]
 for i in list_2:
-    if i < largest:
-        largest = i
-print(largest)
+    if i < smallest: 
+        smallest = i
+print("Smallest number:", smallest)  
 
 # ====================================
 # Basic List methods
