@@ -1214,7 +1214,7 @@ print("Filtered list:", numb)
 # 108. Generate a list of at least 10 numbers. Then, create two separate lists called 'odd' and 'even.'
 # Put all the odd numbers from the original list into the 'odd' list, and all the even numbers into the 'even' list.
 
-num = [34, 67, 12, 89, 45, 23, 78, 56, 91, 14, 33, 67]
+num = [34, 67, 12, 89, 12, 89, 45, 23, 78, 56, 91, 14, 33
 odd = []
 even = []
 for i in num:
@@ -1224,3 +1224,11 @@ for i in num:
         odd.append(i)
 print(odd)
 print(even)
+
+# Q109. Start by creating two separate lists with random numbers. 
+# Then, create a third list that merges the numbers from the first and second lists together.
+
+list1 = [12, 89, 45, 23, 78, 56, 91, 14, 33]
+list2 = [32, 88, 4, 55, 90, 34, 23, 78, 64]
+new_list= list1 + list2
+print(new_list)
