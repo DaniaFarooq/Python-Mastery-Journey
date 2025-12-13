@@ -1214,7 +1214,7 @@ print("Filtered list:", numb)
 # 108. Generate a list of at least 10 numbers. Then, create two separate lists called 'odd' and 'even.'
 # Put all the odd numbers from the original list into the 'odd' list, and all the even numbers into the 'even' list.
 
-num = [34, 67, 12, 89, 12, 89, 45, 23, 78, 56, 91, 14, 33
+num = [34, 67, 12, 89, 12, 89, 45, 23, 78, 56, 91, 14, 33]
 odd = []
 even = []
 for i in num:
@@ -1232,3 +1232,12 @@ list1 = [12, 89, 45, 23, 78, 56, 91, 14, 33]
 list2 = [32, 88, 4, 55, 90, 34, 23, 78, 64]
 new_list= list1 + list2
 print(new_list)
+
+# Q110. Make a list of your own. And remove all the duplicates element from that list.
+
+list1 = [67, 12, 67, 12, 89, 12, 14, 33, 89, 12, 14, 33]
+list2 = []
+for i in list1:
+    if i not in list2:
+        list2.append(i)
+print(list2)
