@@ -1133,3 +1133,16 @@ for i in list_s:
     if i % 3 == 0 or i % 4 == 0:
         sum_s = sum_s + i
 print(sum_s)
+
+# Q101: Make your own list. Print how many positive and negative numbers are there in that list.
+
+list_1 = [1,4,5,6,2,-6,-4,-44,3,-3,2,6,-67,4]
+positive = 0 
+neg= 0
+for i in list_1:
+    if i > 0:
+        positive = positive + 1
+    if i < 0:
+        neg = neg + 1
+print(positive)
+print(neg_)
