@@ -1178,3 +1178,20 @@ for i in range(value):
     num = int(input(f"Enter the number {i + 1}"))
     answer.append(num)
 print(answer)
+
+# Q105. Create a list and prompt the user for an 'old number' followed by a 'new number.' If the 'old number' exists in the list, replace it with the 'new number' provided by the user.
+
+numbers = [34, 67, 12, 89, 45, 23, 78, 56, 91, 14, 33, 67, 82, 19, 41, 55, 73, 28, 97, 60]
+num_odd = int(input("Enter the old number = "))
+if num_odd % 2 != 0:
+    print(f"{num_odd} is odd")
+else:
+    print(f"{num_odd} is not odd")
+if num_odd in list_:
+    new_num = int(input("Enter the new number = "))
+    index = list_.index(num_odd)  
+    list_[index] = new_num        
+else:
+    print("Number not found in the list.")
+print(list_)
+
