@@ -1200,3 +1200,14 @@ print(list_)
 numbers = [34, 67, 12, 89, 45, 23, 78, 56, 91, 14, 33, 67, 82, 19, 41, 55, 73, 28, 97, 60]
 number = [num for num in numbers if num % 2 != 0]
 print(number)
+
+# Q107. Ask the user for a number. Then, from a list of numbers, remove all the numbers that can be divided by the number the user entered.
+
+numb = [34, 67, 12, 89, 45, 23, 78, 56, 91, 14, 33, 67, 82, 19, 41, 55, 73, 28, 97, 60]
+numb = []
+num = int(input("Enter the number: "))
+for i in numb:
+    if i % num != 0:
+        numb.append(i) 
+print("Filtered list:", numb)
+ 
