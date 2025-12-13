@@ -1134,7 +1134,7 @@ for i in list_s:
         sum_s = sum_s + i
 print(sum_s)
 
-# Q101: Make your own list. Print how many positive and negative numbers are there in that list.
+# Q101. Make your own list. Print how many positive and negative numbers are there in that list.
 
 list_1 = [1,4,5,6,2,-6,-4,-44,3,-3,2,6,-67,4]
 positive = 0 
@@ -1146,3 +1146,12 @@ for i in list_1:
         neg = neg + 1
 print(positive)
 print(neg_)
+
+# Q102. Make your own list. Print the largest number present in that list.
+
+num = [1,2,4,5,6,67,4,-6,-4,-44,3,-3,2]
+largest = num[0]
+for i in num:
+    if i > largest:
+        largest = i
+print(largest) 
