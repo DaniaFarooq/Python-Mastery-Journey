@@ -1210,4 +1210,17 @@ for i in numb:
     if i % num != 0:
         numb.append(i) 
 print("Filtered list:", numb)
- 
+
+# 108. Generate a list of at least 10 numbers. Then, create two separate lists called 'odd' and 'even.'
+# Put all the odd numbers from the original list into the 'odd' list, and all the even numbers into the 'even' list.
+
+num = [34, 67, 12, 89, 45, 23, 78, 56, 91, 14, 33, 67]
+odd = []
+even = []
+for i in num:
+    if i % 2 == 0:
+        even.append(i)
+    else:
+        odd.append(i)
+print(odd)
+print(even)
