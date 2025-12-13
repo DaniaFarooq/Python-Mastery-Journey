@@ -13,8 +13,8 @@ print("C:\\Users\\John\\Desktop\\File.txt")
 # Q2: Write a Python program that prints a message with a double-quote character inside it.
 # For example: He said, "Hello!".
 
-msg = 'He said, "Hello!"'
-print(msg)
+msg1 = 'He said, "Hello!"'
+print(msg1)
 
 # Q3: Create a program that prints a message containing both single anddouble quotes, like this: She said, 'It's cold'.
 
@@ -1195,3 +1195,8 @@ else:
     print("Number not found in the list.")
 print(list_)
 
+# Q106. Remove all the even numbers from the list.
+
+numbers = [34, 67, 12, 89, 45, 23, 78, 56, 91, 14, 33, 67, 82, 19, 41, 55, 73, 28, 97, 60]
+number = [num for num in numbers if num % 2 != 0]
+print(number)
