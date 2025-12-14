@@ -1268,3 +1268,17 @@ list1 = [67, 12, 67, 12, 89, 12, 14, 33, 89, 12, 14, 33]
 for i in list1:
     list2 = (i / len(list1) ) * 100
 print(list2)
+
+# Q114: Find the occurrence of each element and print the one with highest occurrence.
+
+list1 = [67, 12, 67, 12, 89, 12, 14, 33, 89, 12, 14, 33]
+occurrence = {}
+for num in list1:
+    if num in occurrence:
+        occurrence[num] += 1
+    else:
+        occurrence[num] = 1
+max_element = max(occurrence, key=occurrence.get)
+max_count = occurrence[max_element]
+print("Occurrences:", occurrence)
+print(f"Element with highest occurrence: {max_element} (appears {max_count} times)")
