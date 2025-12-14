@@ -1342,3 +1342,9 @@ list_a = numbers[:mid]
 list_b = numbers[mid:] 
 print(list_a)
 print(list_b)
+
+# Q120. Write a program that swaps the first and last elements of a given list.
+
+lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 17, 19, 21]
+lst[0], lst[-1] = lst[-1], lst[0]
+print(lst)
