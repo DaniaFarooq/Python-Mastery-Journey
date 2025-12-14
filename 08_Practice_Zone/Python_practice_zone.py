@@ -1307,4 +1307,13 @@ def second_largest(lst):
     
     return second if second != float('-inf') else None
 
+# Q117. Make a program that takes a list of integers and returns the product of all the elements.
+
+def product_of_list(lst):
+    if not lst:
+        return 0
+    product = 1
+    for num in lst:
+        product *= num
+    return product
 
