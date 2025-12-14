@@ -1282,3 +1282,13 @@ max_element = max(occurrence, key=occurrence.get)
 max_count = occurrence[max_element]
 print("Occurrences:", occurrence)
 print(f"Element with highest occurrence: {max_element} (appears {max_count} times)")
+
+ # Q115. Write a program that has two lists and make a new list that contains only the common elements between them without duplicates.
+
+l1 = [1,  2, 67, 12, 89, 12, 3, 4, 4, 5, 56, 6, 7, 7]
+l2 = [67, 12, 67, 12, 89, 12, 14, 33, 89, 12, 14, 33]
+l3 = []
+for i in a:
+    if i in b and i not in c:
+        c.append(i)
+print(c)
