@@ -1317,7 +1317,7 @@ def product_of_list(lst):
         product *= num
     return product
 
-#Q118.  Write a program to find and print all prime numbers within a given list.
+# Q118.  Write a program to find and print all prime numbers within a given list.
 
 def is_prime(n):
     if n < 2:
@@ -1333,3 +1333,12 @@ def find_primes_in_list(lst):
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 17, 19, 21]
 prime_numbers = find_primes_in_list(numbers)
 print(f"Prime numbers in the list: {prime_numbers}")
+
+# Q119. Write a program to split a given list into two halves.
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 17, 19, 21]
+mid = len(numbers) // 2  
+list_a = numbers[:mid]  
+list_b = numbers[mid:] 
+print(list_a)
+print(list_b)
