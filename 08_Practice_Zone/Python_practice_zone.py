@@ -1257,7 +1257,14 @@ else:
 list_int = []
 for i in range(10):
     num = int(input("Enter ten integers = "))
-    list_.append(num)
+    list_int.append(num)
 list_rev = list_int[::-1]
 print(list_int)
 print(list_rev)
+
+# Q113. Write a program to find the average of all the numbers present in the list.
+
+list1 = [67, 12, 67, 12, 89, 12, 14, 33, 89, 12, 14, 33]
+for i in list1:
+    list2 = (i / len(list1) ) * 100
+print(list2)
