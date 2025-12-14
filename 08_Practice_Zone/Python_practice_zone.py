@@ -1251,3 +1251,13 @@ if num in list_:
     print(position)
 else:
     print(-1)
+
+# Q112. Take 10 integer inputs from user and store them in a list. Now, copy all the elements in another list but in reverse order.
+
+list_int = []
+for i in range(10):
+    num = int(input("Enter ten integers = "))
+    list_.append(num)
+list_rev = list_int[::-1]
+print(list_int)
+print(list_rev)
