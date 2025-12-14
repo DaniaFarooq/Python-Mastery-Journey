@@ -1241,3 +1241,13 @@ for i in list1:
     if i not in list2:
         list2.append(i)
 print(list2)
+
+# Q111. Make a list. Then ask a number from user. If number exists in that list then print the position of the element else print -1.
+
+list1 = [67, 12, 67, 12, 89, 12, 14, 33, 89, 12, 14, 33]
+num = int(input("Enter the value = "))
+if num in list_:
+    position = list_.index(num)
+    print(position)
+else:
+    print(-1)
