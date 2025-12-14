@@ -1317,3 +1317,19 @@ def product_of_list(lst):
         product *= num
     return product
 
+#Q118.  Write a program to find and print all prime numbers within a given list.
+
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+def find_primes_in_list(lst):
+    return [num for num in lst if is_prime(num)]
+    
+# Example usage
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 17, 19, 21]
+prime_numbers = find_primes_in_list(numbers)
+print(f"Prime numbers in the list: {prime_numbers}")
