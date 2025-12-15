@@ -1353,3 +1353,9 @@ print(lst)
 
 squares = [x**2 for x in range(1, 11)]
 print(squares)
+
+# Q122. Given a list of strings, create a new list containing the lengths of each string using list comprehension.
+
+lst = ["learning", "python", "with", "Dania"]
+len_list = [len(i) for i in lst]
+print(len_list)
