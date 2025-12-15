@@ -1359,3 +1359,9 @@ print(squares)
 lst = ["learning", "python", "with", "Dania"]
 len_list = [len(i) for i in lst]
 print(len_list)
+
+# Q123. Generate a list of strings where each string repeats itself three times, using list comprehension.
+
+lst = ["learning", "python", "with", "Dania"]
+rep_list = [i*3 for i in lst]
+print(rep_list)
