@@ -1385,3 +1385,9 @@ print(lst[::-1])
 
 list1 = ["learning", "python", "with", "Dania", 2, 3, 4, 5,]
 print(list1[::3])
+
+# Q127. Implement a python program to split a list into two equal parts using Slicing. 
+# One list should contain 1st half and another list should contain 2nd half.
+
+list1 = ["learning", "python", "with", "Dania", 2, 3, 4, 5,]
+splt = len(list1) // 2
