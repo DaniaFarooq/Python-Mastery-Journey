@@ -1402,3 +1402,18 @@ lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 17, 19, 21]
 n = int(input("Enter the nth value = "))
 last_n_elements = lst[-n:]
 print(last_n_elements)
+
+# Q129. Ask ‘n’ from user. Create a list of last n elements but in reverse order using slicing.
+
+lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 17, 19, 21]
+n = int(input("Enter the nth value = "))
+last_n_elements = lst[-n:][::-1]
+print(last_n_elements)
+
+# Q130. Ask start and end index from the user. Create a list from start index to end index using slicing.
+
+lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 17, 19, 21]
+start = int(input("Enter the start value: "))
+end = int(input("Enter the end value: "))
+new_lst = lst[start:end]
+print(new_lst)
