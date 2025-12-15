@@ -1365,3 +1365,9 @@ print(len_list)
 lst = ["learning", "python", "with", "Dania"]
 rep_list = [i*3 for i in lst]
 print(rep_list)
+
+# Q124. Generate a list of list using list comprehension where format should be [[1, ”ODD”], [2, “EVEN”], [3, ”ODD”]].
+
+lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 17, 19, 21]
+new_list = [[i, "ODD"] if i % 2 != 0 else [i, "EVEN"] for i in lst]
+print(new_list)
