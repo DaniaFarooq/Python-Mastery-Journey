@@ -1348,3 +1348,8 @@ print(list_b)
 lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 17, 19, 21]
 lst[0], lst[-1] = lst[-1], lst[0]
 print(lst)
+
+# Q121. Generate a list of squares of numbers from 1 to 10 using list comprehension.
+
+squares = [x**2 for x in range(1, 11)]
+print(squares)
