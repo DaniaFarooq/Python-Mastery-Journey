@@ -1371,3 +1371,7 @@ print(rep_list)
 lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 17, 19, 21]
 new_list = [[i, "ODD"] if i % 2 != 0 else [i, "EVEN"] for i in lst]
 print(new_list)
+
+# ================================
+# List Slicing Questions
+# ================================
