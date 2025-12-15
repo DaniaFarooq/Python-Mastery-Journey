@@ -1085,7 +1085,7 @@ for var in list_ev:
 
 list_odd = [1,2,3,4,5,6,7,8,9,10]
 for var in list_odd:
-    if var % 3 == 0:
+    if var % 2 != 0:
         print(var, end = " ")
 
 # Q95. Make your own list. Print all the elements present at even index position.
