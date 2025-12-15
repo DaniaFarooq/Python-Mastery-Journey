@@ -1389,5 +1389,16 @@ print(list1[::3])
 # Q127. Implement a python program to split a list into two equal parts using Slicing. 
 # One list should contain 1st half and another list should contain 2nd half.
 
-list1 = ["learning", "python", "with", "Dania", 2, 3, 4, 5,]
-splt = len(list1) // 2
+list_2 = ["learning", "python", "with", "Dania", 2, 3, 4, 5,]
+splt = len(list_2) // 2
+list_a = list_2[:splt]
+list_b = list_2[splt:]
+print(list_a)
+print(list_b)
+
+# Q128. Implement a python program to get the last 'n' elements from a list using slicing.
+
+lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 17, 19, 21]
+n = int(input("Enter the nth value = "))
+last_n_elements = lst[-n:]
+print(last_n_elements)
