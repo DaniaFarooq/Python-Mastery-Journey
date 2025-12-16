@@ -1451,3 +1451,10 @@ for ch in strg_1:
         lower_count += 1
 print("Uppercase letters:", upper_count)
 print("Lowercase letters:", lower_count)
+
+
+# Q134. Ask a string from user. Convert all the alphabets to uppercase.
+
+strg = input("Enter a string: ")
+strg_upper = strg_.upper()
+print(strg_upper)
