@@ -1429,3 +1429,12 @@ print(reversed_lst)
 # ==================================
 # String Methods (Part-1)
 # ==================================
+
+# Q132. Ask a string from user. Count how many alphabets are there in that string.
+
+strg = "HiMynameis"
+count = 0
+for ch in str_:
+    if ch.isalpha():
+        count = count + 1
+print(count)
