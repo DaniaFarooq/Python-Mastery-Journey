@@ -1417,3 +1417,11 @@ start = int(input("Enter the start value: "))
 end = int(input("Enter the end value: "))
 new_lst = lst[start:end]
 print(new_lst)
+
+# Q131. Ask start and end index from the user. Create a list of last n elements but in reverse order using slicing.
+
+lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 17, 19, 21]
+start = int(input("Enter start index: "))
+end = int(input("Enter end index: "))
+reversed_lst = lst[start:end][::-1]
+print(reversed_lst)
