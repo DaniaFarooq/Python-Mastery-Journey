@@ -1476,3 +1476,25 @@ print(result)
 
 strng = "Python     Mastery      Repo"
 print(strng.count(" "))
+
+# Q137. Ask a string from user. Print the count of how many alphabets, digits, spaces and symbols are there in that string.
+
+text = input("Enter the string: ")
+alphabets = 0
+digits = 0
+spaces = 0
+symbols = 0
+for char in text:
+    if char.isalpha():
+        alphabets += 1
+    elif char.isdigit():
+        digits += 1
+    elif char.isspace():
+        space += 1
+    else:
+        symbols += 1
+
+print("Alphabets:", alphabets)
+print("Digits:", digits)
+print("Spaces:", spaces)
+print("Symbols:", symbols)
