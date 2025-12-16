@@ -1471,3 +1471,8 @@ for char in text:
     else:
         result = result + char
 print(result)
+
+# Q136. Count the number of spaces in a string entered by user.
+
+strng = "Python     Mastery      Repo"
+print(strng.count(" "))
