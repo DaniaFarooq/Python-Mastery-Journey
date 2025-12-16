@@ -1425,3 +1425,7 @@ start = int(input("Enter start index: "))
 end = int(input("Enter end index: "))
 reversed_lst = lst[start:end][::-1]
 print(reversed_lst)
+
+# ==================================
+# String Methods (Part-1)
+# ==================================
