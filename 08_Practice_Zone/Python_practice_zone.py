@@ -1508,3 +1508,10 @@ print("Symbols:", symbols)
 strng = "Python  Mastery  Repo"
 reversed_str = " ".join(strng.split()[::-1])
 print(reversed_str)
+
+# Q139. Write a program that accepts a string and capitalizes the first letter of each word 
+# while converting all other letters to lowercase.
+
+str_1 = input("Enter a string: ")
+result = str_1.title()
+print("Formatted string:", result)
