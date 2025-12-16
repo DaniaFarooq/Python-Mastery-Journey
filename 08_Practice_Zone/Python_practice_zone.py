@@ -1169,7 +1169,7 @@ print("Smallest number:", smallest)
 # Basic List methods
 # ====================================
 
-# Q104. Write a program that prompts the user to specify the length o a list and then requests numbers to populate that list.
+# Q104. Write a program that prompts the user to specify the length of a list and then requests numbers to populate that list.
 # Display the final list as the output.
 
 value = int(input("Enter how many numbers you want in the list = "))
@@ -1232,6 +1232,10 @@ list1 = [12, 89, 45, 23, 78, 56, 91, 14, 33]
 list2 = [32, 88, 4, 55, 90, 34, 23, 78, 64]
 new_list= list1 + list2
 print(new_list)
+
+# ========================================
+# List Methods (Intermediate)
+# ========================================
 
 # Q110. Make a list of your own. And remove all the duplicates element from that list.
 
@@ -1348,6 +1352,10 @@ print(list_b)
 lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 15, 17, 19, 21]
 lst[0], lst[-1] = lst[-1], lst[0]
 print(lst)
+
+# ==================================
+# List Comprehension
+# ==================================
 
 # Q121. Generate a list of squares of numbers from 1 to 10 using list comprehension.
 
