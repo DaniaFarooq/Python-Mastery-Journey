@@ -1498,3 +1498,13 @@ print("Alphabets:", alphabets)
 print("Digits:", digits)
 print("Spaces:", spaces)
 print("Symbols:", symbols)
+
+# ==================================
+# String Methods (Part-2)
+# ==================================
+
+# Q138. Write a program to reverse the order of words.
+
+strng = "Python  Mastery  Repo"
+reversed_str = " ".join(strng.split()[::-1])
+print(reversed_str)
