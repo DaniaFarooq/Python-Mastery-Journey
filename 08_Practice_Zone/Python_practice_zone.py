@@ -1432,9 +1432,22 @@ print(reversed_lst)
 
 # Q132. Ask a string from user. Count how many alphabets are there in that string.
 
-strg = "HiMynameis"
+strg = input("Enter a string: ")
 count = 0
-for ch in str_:
+for ch in strg:
     if ch.isalpha():
         count = count + 1
 print(count)
+
+# Q133. Ask a string from user. Count the number of uppercase an lowercase characters in that String.
+
+strg_1 = input("Enter a string with some uppercase and lowercase characters: ")
+upper_count = 0
+lower_count = 0
+for ch in strg_1:
+    if ch.isupper():
+        upper_count += 1
+    elif ch.islower():
+        lower_count += 1
+print("Uppercase letters:", upper_count)
+print("Lowercase letters:", lower_count)
