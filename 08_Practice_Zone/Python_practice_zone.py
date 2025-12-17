@@ -1601,3 +1601,19 @@ for name, marks in students.items():
     total = sum(marks)
     percentage = total / (len(marks) * 100) * 100
     print(f"{name}: Total = {total}, Percentage = {percentage:.2f}%")
+
+# Q148. Store marks of 5 different subjects in a dictionary. Ask subject name as an input from the user.
+# Print the marks of that subject entered by user. If subject does not exist, print “Invalid”.
+
+marks = {
+    "Math": 82,
+    "English": 78,
+    "Science": 92,
+    "Computer": 95,
+    "Urdu": 74
+}
+subject = input("Enter subject name: ")
+if subject in marks:
+    print(f"Marks in {subject}: {marks[subject]}")
+else:
+    print("Invalid")
