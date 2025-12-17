@@ -1636,3 +1636,12 @@ for name, marks in students.items():
         highest_marks = total
         student_name = name
 print(f"Topper: {student_name} with {highest_marks} marks")
+
+# Q150. Write a Python program to combine two dictionary by adding values for common keys.
+
+dict_1 = {'highest': '28', 'total': 30, 'lowest': 10,}
+dict_2 = {"lowest": 15, "total": 35, "highest": 30}
+combined = dict_1.copy()
+for key, value in dict_2.items():
+    combined[key] = combined.get(key, 0) + value
+print("Combined Dictionary:", combined)
