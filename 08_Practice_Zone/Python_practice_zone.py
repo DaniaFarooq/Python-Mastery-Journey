@@ -1550,10 +1550,19 @@ def camel_to_snake(camel_str):
 # Q142. Ask subject name and marks from the user and keep adding it to the dictionary Ask total number of subjects.
 
 total_sub = int(input("Enter the total number of subjects: "))
-subjects = {}
+result = {}
 for i in range(total_sub):
     sub = input(f"Enter the name of subject {i+1}: ")
     marks = int(input(f"Enter the marks for {sub}: "))
-    subjects[sub] = marks  
+    result[sub] = marks  
 print("\nSubjects and Marks:")
-print(subjects)
+print(result)
+
+# Q143. Convert two lists into a dictionary. Make two list on your own of same length, and convert them to dictionary.
+
+list1 = ['subject', 'marks', 'total']
+list2 = ['math', 20, 30]
+dict_1 = {}
+for i in range(len(list1)):
+    dict_1[list1[i]] = list2[i]   
+print(dict_1)
