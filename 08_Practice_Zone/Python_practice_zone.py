@@ -1577,3 +1577,12 @@ total = 1
 for i in dict_2.values():
     total *= i
 print(total)
+
+# Q146. Ask a string from user. Display the dictionary where each key is a character and
+# value is the frequency of that character that comes in that string.
+
+string = input("Enter a string: ")
+freq = {}
+for char in string:
+    freq[char] = freq.get(char, 0) + 1
+print("Character Frequency in Dictionary:", freq)
