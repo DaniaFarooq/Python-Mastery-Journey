@@ -1566,3 +1566,7 @@ dict_1 = {}
 for i in range(len(list1)):
     dict_1[list1[i]] = list2[i]   
 print(dict_1)
+
+# Q144. Write a Python program to sum all the items in a dictionary. Dictionary with key-value pairs.
+dic_ = {'highest': '28', 'total': 30, 'lowest': 10,}
+print("Sum of all items:", sum(dic_.values()))
