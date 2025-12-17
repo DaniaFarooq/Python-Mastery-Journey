@@ -1591,11 +1591,11 @@ print("Character Frequency in Dictionary:", freq)
 # Print the sum and percentage of all the students.
 
 students = {
-    "Amna": [80, 75, 90, 85, 70],
-    "Bushra": [90, 95, 88, 92, 85],
-    "Carl": [60, 65, 70, 75, 80],
+    "Amna": [67, 75, 90, 85, 76],
+    "Bushra": [90, 89, 88, 92, 84],
+    "Carl": [70, 78, 70, 75, 90],
     "Danish": [100, 95, 98, 99, 97],
-    "Eman": [70, 72, 68, 74, 76]
+    "Eman": [80, 72, 68, 74, 76]
 }
 for name, marks in students.items():
     total = sum(marks)
@@ -1617,3 +1617,22 @@ if subject in marks:
     print(f"Marks in {subject}: {marks[subject]}")
 else:
     print("Invalid")
+
+# Q149. Store name as a Key, and 5 marks in a List as a value in dictionary.
+# Store details of at least 5 students. Print the name of the student who got highest marks.
+
+students = {
+    "Amna": [67, 75, 90, 85, 76],
+    "Bushra": [90, 89, 88, 92, 84],
+    "Carl": [70, 78, 70, 75, 90],
+    "Danish": [100, 95, 98, 99, 97],
+    "Eman": [80, 72, 68, 74, 76]
+}
+student_name = ""
+highest_marks = 0
+for name, marks in students.items():
+    total = sum(marks)
+    if total > highest_marks:
+        highest_marks = total
+        student_name = name
+print(f"Topper: {student_name} with {highest_marks} marks")
