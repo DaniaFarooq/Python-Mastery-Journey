@@ -1586,3 +1586,18 @@ freq = {}
 for char in string:
     freq[char] = freq.get(char, 0) + 1
 print("Character Frequency in Dictionary:", freq)
+
+# Q147. Store “name” of a student as Key, “list of 5 marks” of that student as a Value. Store atleast 5 student names.
+# Print the sum and percentage of all the students.
+
+students = {
+    "Amna": [80, 75, 90, 85, 70],
+    "Bushra": [90, 95, 88, 92, 85],
+    "Carl": [60, 65, 70, 75, 80],
+    "Danish": [100, 95, 98, 99, 97],
+    "Eman": [70, 72, 68, 74, 76]
+}
+for name, marks in students.items():
+    total = sum(marks)
+    percentage = total / (len(marks) * 100) * 100
+    print(f"{name}: Total = {total}, Percentage = {percentage:.2f}%")
