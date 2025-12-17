@@ -1542,3 +1542,18 @@ def camel_to_snake(camel_str):
         else:
             snake_str += char
     return snake_str
+
+# ====================================
+# Dictionary Iteration
+# ====================================
+
+# Q142. Ask subject name and marks from the user and keep adding it to the dictionary Ask total number of subjects.
+
+total_sub = int(input("Enter the total number of subjects: "))
+subjects = {}
+for i in range(total_sub):
+    sub = input(f"Enter the name of subject {i+1}: ")
+    marks = int(input(f"Enter the marks for {sub}: "))
+    subjects[sub] = marks  
+print("\nSubjects and Marks:")
+print(subjects)
