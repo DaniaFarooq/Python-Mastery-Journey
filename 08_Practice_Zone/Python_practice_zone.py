@@ -1568,5 +1568,12 @@ for i in range(len(list1)):
 print(dict_1)
 
 # Q144. Write a Python program to sum all the items in a dictionary. Dictionary with key-value pairs.
-dic_ = {'highest': '28', 'total': 30, 'lowest': 10,}
-print("Sum of all items:", sum(dic_.values()))
+dict_1 = {'highest': '28', 'total': 30, 'lowest': 10,}
+print("Sum of all items:", sum(dict_1.values()))
+
+# Q145. Write a Python program to multiply all the items in a dictionary. 
+dict_2 = {'highest': '28', 'total': 30, 'lowest': 10,}
+total = 1
+for i in dict_2.values():
+    total *= i
+print(total)
