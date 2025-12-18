@@ -1689,3 +1689,12 @@ if "apple" in set_5:
 # Valid - Immutable types can be set elements
 set_6 = {(1, 2), "apple", 10}
 print(set_6)
+
+# Q157 What is the difference between a list and a set?
+
+# Feature	                     List	               Set
+# Order	                        Ordered	              Unordered
+# Indexing	              Supports indexing      	No indexing
+# Duplicates	          Allows duplicates	        No duplicates
+# Mutable	                     Yes	            Yes (but elements must be immutable)
+# Syntax                     	[ ]	                    { }
