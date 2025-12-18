@@ -1675,3 +1675,9 @@ set_4 = {1, 2, 3, 4, 5, 6}
 set_4.remove(2)
 print(set_4)  
 set_4.discard(10)  
+
+# Q155. How do you check if "apple" is in a set?
+
+set_5 = {"apple", "banana", "orange"}
+if "apple" in set_5:
+    print("Yes, apple is in the set")
