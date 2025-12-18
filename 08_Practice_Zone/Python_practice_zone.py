@@ -1693,8 +1693,17 @@ print(set_6)
 # Q157 What is the difference between a list and a set?
 
 # Feature	                     List	               Set
+# --------------------------------------------------------------------------------------
 # Order	                        Ordered	              Unordered
 # Indexing	              Supports indexing      	No indexing
 # Duplicates	          Allows duplicates	        No duplicates
 # Mutable	                     Yes	            Yes (but elements must be immutable)
 # Syntax                     	[ ]	                    { }
+
+# Q158. Given two lists a, b. Check if two lists have at least one element common in them.
+
+list_1 = [1, 7, 9, 2, 3, 4, 5, 5]
+list_2 = [2, 9, 8, 7, 5, 3, 6]
+common = set(list_1).intersection(list_2)
+if common:
+    print("Yes, common elements found:", common)
