@@ -1661,3 +1661,10 @@ print(type(set_1))
 # In Python, sets cannot have duplicates. Adding a duplicate value has no effect. If you try to add a duplicate, it's ignored.
 set_2 = {1, 2, 2, 3, 4}
 print(set_2)  
+
+# Q153. What happens if you add the same element twice in a set?
+
+# Nothing changes — the element will still appear only once.
+set_3 = {1, 2, 3}
+set_3.add(2)   
+print(set_3)  
