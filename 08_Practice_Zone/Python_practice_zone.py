@@ -1655,3 +1655,9 @@ print("Combined Dictionary:", combined)
 set_1 = {1, 2, 3, 4, 5}
 print(set_1)        
 print(type(set_1))   
+
+# Q152. Can a set have duplicate values?
+
+# In Python, sets cannot have duplicates. Adding a duplicate value has no effect. If you try to add a duplicate, it's ignored.
+set_2 = {1, 2, 2, 3, 4}
+print(set_2)  
