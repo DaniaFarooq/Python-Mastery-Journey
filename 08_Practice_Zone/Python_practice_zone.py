@@ -1645,3 +1645,13 @@ combined = dict_1.copy()
 for key, value in dict_2.items():
     combined[key] = combined.get(key, 0) + value
 print("Combined Dictionary:", combined)
+
+# ====================================
+#         Sets in Python
+# ====================================
+
+# Q151. Create a set containing numbers from 1 to 5. Print the set and its type.
+
+set_1 = {1, 2, 3, 4, 5}
+print(set_1)        
+print(type(set_1))   
