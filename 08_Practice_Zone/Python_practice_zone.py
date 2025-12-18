@@ -1718,3 +1718,14 @@ print("List 1:", list1)
 print("List 2:", list2)
 print("List 3:", list3)
 print("\nCommon elements in all three lists:", sorted(common_elements))
+
+# Q160. Create 3 sets of your own, find the union of three sets.
+
+set1 = {"apple", "banana", "cherry"}
+set2 = {"banana", "orange", "grape"}
+set3 = {"cherry", "grape", "kiwi"}
+union_set = set1.union(set2, set3)
+print("Set 1:", set1)
+print("Set 2:", set2)
+print("Set 3:", set3)
+print("\nUnion of all three sets:", union_set)
