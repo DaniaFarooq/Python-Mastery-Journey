@@ -1681,3 +1681,11 @@ set_4.discard(10)
 set_5 = {"apple", "banana", "orange"}
 if "apple" in set_5:
     print("Yes, apple is in the set")
+
+# Q156. Which data type is not allowed inside a set?
+
+# Invalid - Mutable types cannot be set elements
+# set_6 = {[1,2,3], {"a":1}}  # TypeError: unhashable type: 'list'
+# Valid - Immutable types can be set elements
+set_6 = {(1, 2), "apple", 10}
+print(set_6)
