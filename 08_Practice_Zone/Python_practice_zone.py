@@ -1690,7 +1690,7 @@ if "apple" in set_5:
 set_6 = {(1, 2), "apple", 10}
 print(set_6)
 
-# Q157 What is the difference between a list and a set?
+# Q157. What is the difference between a list and a set?
 
 # Feature	                     List	               Set
 # --------------------------------------------------------------------------------------
@@ -1707,3 +1707,14 @@ list_2 = [2, 9, 8, 7, 5, 3, 6]
 common = set(list_1).intersection(list_2)
 if common:
     print("Yes, common elements found:", common)
+
+# Q159. Python program to find common elements in three lists using sets.
+
+list1 = [1, 2, 3, 4, 5, 6]
+list2 = [4, 5, 6, 7, 8, 9]
+list3 = [6, 7, 8, 9, 10, 11]
+common_elements = set(list1) & set(list2) & set(list3)
+print("List 1:", list1)
+print("List 2:", list2)
+print("List 3:", list3)
+print("\nCommon elements in all three lists:", sorted(common_elements))
