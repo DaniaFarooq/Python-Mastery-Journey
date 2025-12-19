@@ -1808,3 +1808,13 @@ def sum_and_average(nums):
     total = sum(nums)
     avg = total / len(nums)
     print(f"Sum = {total}, Average = {avg}")
+
+# Q171. Write a function that accepts a string and prints the frequency of each character in the string.
+
+def char_frequency(s):
+    freq = {}
+    for char in s:
+        freq[char] = freq.get(char, 0) + 1
+    print("Character Frequency:")
+    for k, v in freq.items():
+        print(f"{k}: {v}")
