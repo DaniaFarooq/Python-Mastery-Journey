@@ -1772,3 +1772,11 @@ print("String after removing duplicates:", unq_strg)
 def multiplication_table(n):
     for i in range(1, 11):
         print(f"{n} X {i} = {n * i}")
+
+# Q167. Write a function that accepts an integer and prints whether it is odd or even.
+
+def odd_or_even(n):
+    if n % 2 == 0:
+        print(f"{n} is Even")
+    else:
+        print(f"{n} is Odd")
