@@ -1750,3 +1750,9 @@ if set1.isdisjoint(set2):
 else:
     print("The sets have common elements.")
 
+# Q164. Write a Python program to find elements in a given set that are not in another set.
+
+set1 = {"apple", "banana", "cherry"}
+set2 = {"banana", "orange", "grape"}
+diff = set1 - set2
+print("Elements in set-1 but not in set-2:", diff)
