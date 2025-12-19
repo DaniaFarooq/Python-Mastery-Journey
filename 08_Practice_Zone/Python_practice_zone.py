@@ -1740,3 +1740,13 @@ print("After removing all elements:", set1)
 
 set2 = {10, 20, 30, 40, 50}
 print("Length of the set:", len(set2))
+
+# Q163. Write a Python program to check if two given sets have no elements in common.
+
+set1 = {"apple", "banana", "cherry"}
+set2 = {"kiwi", "orange", "grape"}
+if set1.isdisjoint(set2):
+    print("The sets have no elements in common.")
+else:
+    print("The sets have common elements.")
+
