@@ -1786,3 +1786,25 @@ def odd_or_even(n):
 def largest_of_three(num1, num2,num3):
     largest = max(num1, num2,num3)
     print(f"The largest number is: {largest}")
+
+# Q169. Write a function that takes an integer and prints whether it is a prime number.
+
+def is_prime(n):
+    if n <= 1:
+        print(f"{n} is not a Prime number")
+        return
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            print(f"{n} is not a Prime number")
+            return
+    print(f"{n} is a Prime number")
+
+# Q170. Write a function that takes a list of numbers and prints the sum and average of these numbers.
+
+def sum_and_average(nums):
+    if not nums:
+        print("List is empty!")
+        return
+    total = sum(nums)
+    avg = total / len(nums)
+    print(f"Sum = {total}, Average = {avg}")
