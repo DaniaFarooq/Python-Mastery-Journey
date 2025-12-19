@@ -1729,3 +1729,9 @@ print("Set 1:", set1)
 print("Set 2:", set2)
 print("Set 3:", set3)
 print("\nUnion of all three sets:", union_set)
+
+# Q161. Write a Python program to remove all elements from a given set.
+
+set1 = {"apple", "banana", "cherry"}
+set1.clear()
+print("After removing all elements:", set1)
