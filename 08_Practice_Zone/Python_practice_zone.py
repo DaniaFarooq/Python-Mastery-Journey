@@ -1780,3 +1780,9 @@ def odd_or_even(n):
         print(f"{n} is Even")
     else:
         print(f"{n} is Odd")
+
+# Q168. Write a function to find the largest of three numbers.
+
+def largest_of_three(num1, num2,num3):
+    largest = max(num1, num2,num3)
+    print(f"The largest number is: {largest}")
