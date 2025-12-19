@@ -1756,3 +1756,9 @@ set1 = {"apple", "banana", "cherry"}
 set2 = {"banana", "orange", "grape"}
 diff = set1 - set2
 print("Elements in set-1 but not in set-2:", diff)
+
+# Q165. Ask a string from user, remove all the duplicates from that string and print that string again (order doesn’t matter).
+
+string = input("Enter a string: ")
+unq_strg = "".join(set(string))
+print("String after removing duplicates:", unq_strg)
