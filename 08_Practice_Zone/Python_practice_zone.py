@@ -1762,3 +1762,13 @@ print("Elements in set-1 but not in set-2:", diff)
 string = input("Enter a string: ")
 unq_strg = "".join(set(string))
 print("String after removing duplicates:", unq_strg)
+
+# ===============================
+# Python Functions
+# ===============================
+
+# Q166. Write a function that accepts an integer and prints the multiplication table for that number up to 10.
+
+def multiplication_table(n):
+    for i in range(1, 11):
+        print(f"{n} X {i} = {n * i}")
