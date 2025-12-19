@@ -1811,10 +1811,18 @@ def sum_and_average(nums):
 
 # Q171. Write a function that accepts a string and prints the frequency of each character in the string.
 
-def char_frequency(s):
+def char_freq(s):
     freq = {}
     for char in s:
         freq[char] = freq.get(char, 0) + 1
     print("Character Frequency:")
     for k, v in freq.items():
         print(f"{k}: {v}")
+
+# Q172. Write a function that takes a string and prints whether it is a palindrome.
+
+def is_palindrome(string):
+    if string == string[::-1]:
+        print(f"'{string}' is a Palindrome")
+    else:
+        print(f"'{string}' is not a Palindrome")
