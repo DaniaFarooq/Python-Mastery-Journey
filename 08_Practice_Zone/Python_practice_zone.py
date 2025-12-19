@@ -1735,3 +1735,8 @@ print("\nUnion of all three sets:", union_set)
 set1 = {"apple", "banana", "cherry"}
 set1.clear()
 print("After removing all elements:", set1)
+
+# Q162. Write a Python program to find the length of a set.
+
+set2 = {10, 20, 30, 40, 50}
+print("Length of the set:", len(set2))
